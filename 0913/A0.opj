@@ -42,12 +42,24 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "C:\A_2012041067\a0.dsn")
-      (Path "Design Resources" "C:\A_2012041067\a0.dsn" "SCHEMATIC1")
-      (Select "Design Resources"))
+      (Path "Design Resources" ".\a0.dsn")
+      (Path "Design Resources" ".\a0.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\a0.dsn" "Design Cache")
+      (Select "Design Resources" ".\a0.dsn" "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -9 -38 0 200 0 375"))
-      (Tab 0))))
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 375"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1448 52 482")
+        (Scroll "278 772")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path "C:\A_2012041067\A0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "510-00"))
