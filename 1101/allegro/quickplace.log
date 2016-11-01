@@ -1,0 +1,31 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : DAY7_0.brd                                    )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Tue Nov 01 14:08:42 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+         Placed symbol:  Q1 / NPN ECB_TO92_NPN ECB / TO92 at (2054.00 1946.00)
+         Placed symbol:  Q2 / NPN ECB_TO92_NPN ECB / TO92 at (2054.00 1745.88)
+         Placed symbol:  C2 / CAP POL_CAP196_CAP POL / CAP196 at (2118.00 1441.76)
+         Placed symbol:  D2 / LED_CAP196_LED / CAP196 at (2118.00 1233.76)
+         Placed symbol:  D1 / LED_CAP196_LED / CAP196 at (2118.00 1025.76)
+         Placed symbol:  C1 / CAP POL_CAP196_CAP POL / CAP196 at (2118.00 817.76)
+         Placed symbol:  R1 / R_RES400_R / RES400 at (2081.00 313.26)
+         Placed symbol:  R2 / R_RES400_R / RES400 at (2309.00 1545.50)
+         Placed symbol:  R3 / R_RES400_R / RES400 at (2309.00 1044.50)
+         Placed symbol:  R4 / R_RES400_R / RES400 at (2309.00 543.50)
+         Placed symbol:  R5 / R_RES400_R / RES400 at (2440.00 1545.50)
+         Placed symbol:  R6 / R_RES400_R / RES400 at (2440.00 1044.50)
+
+
+Placed 12 of 12 applicable (12 total) symbols.
+
+-----------------------------------------------------------------------
+

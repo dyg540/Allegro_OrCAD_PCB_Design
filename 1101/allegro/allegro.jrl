@@ -1,0 +1,2878 @@
+\t (00:00:40) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:40)     Journal start - Tue Nov 01 14:06:38 2016
+\t (00:00:40)         Host=510-17-PC User=510-00 Pid=6692 CPUs=4
+\t (00:00:40) 
+\t (00:01:55) Opening existing design...
+\d (00:01:55) Database opened: C:/A_2012041067/1101/allegro/DAY7_0.brd
+\i (00:01:55) trapsize 12418
+\i (00:01:55) trapsize 12152
+\i (00:01:55) trapsize 12463
+\i (00:01:55) trapsize 10559
+\i (00:01:55) trapsize 14230
+\i (00:01:56) generaledit 
+\i (00:02:06) grid toggle 
+\t (00:02:06) Grids are drawn 400.00, 400.00 apart for enhanced viewability.
+\i (00:02:06) generaledit 
+\i (00:02:08) grid toggle 
+\i (00:02:08) generaledit 
+\i (00:02:09) place manual -h 
+\i (00:02:09) grid toggle 
+\i (00:02:19) board outline 
+   (00:02:19) Loading floor.cxt 
+   (00:02:19) Loading fputil.cxt 
+   (00:02:19) Loading axlcore.cxt 
+\i (00:02:22) setwindow form.fpbdoutline
+\i (00:02:22) FORM fpbdoutline fpboclearance '100.00 MIL' 
+\i (00:02:27) setwindow pcb
+\i (00:02:27) pick 0 0 
+\t (00:02:27) last pick:  0.00  0.00
+\i (00:02:30) pick 2000 2000 
+\t (00:02:30) last pick:  2000.00  2000.00
+\i (00:02:32) setwindow form.fpbdoutline
+\i (00:02:32) FORM fpbdoutline done  
+\i (00:02:32) setwindow pcb
+\i (00:02:32) generaledit 
+\i (00:02:34) zoom fit 
+\i (00:02:34) trapsize 1307
+\i (00:02:36) save 
+\i (00:02:37) fillin yes 
+\i (00:02:37) generaledit 
+\i (00:02:44) quickplace 
+\i (00:02:46) setwindow form.quickplc
+\i (00:02:46) FORM quickplc right_edge YES 
+\i (00:02:48) FORM quickplc top_edge NO 
+\i (00:02:50) FORM quickplc place  
+\i (00:02:51) FORM quickplc done  
+\i (00:02:51) setwindow pcb
+\i (00:02:51) generaledit 
+\i (00:02:54) prmed 
+\i (00:02:59) setwindow form.prmedit
+\i (00:02:59) FORM prmedit design  
+\i (00:03:02) FORM prmedit lock_direction 45 
+\i (00:03:04) FORM prmedit apply  
+\i (00:03:05) FORM prmedit done  
+\i (00:03:05) setwindow pcb
+\i (00:03:05) generaledit 
+\i (00:03:15) color192 
+\i (00:03:15) setwindow cvf.dialog
+\i (00:03:15) cvf layer_mode
+\i (00:03:15) setwindow pcb
+\i (00:03:15) generaledit 
+\i (00:03:16) setwindow cvf.dialog
+\i (00:03:16) cvf layers_visible board_geometry/all_row TRUE
+\i (00:03:16) cvf layers_visible board_geometry/all_row FALSE
+\i (00:03:19) cvf layers_visible board_geometry/silkscreen_top TRUE
+\i (00:03:21) cvf apply
+\i (00:03:22) cvf layer_tree_item 'Package Geometry'
+\i (00:03:23) cvf layers_visible package_geometry/all_row TRUE
+\i (00:03:23) cvf layers_visible package_geometry/all_row FALSE
+\i (00:03:25) cvf layers_visible package_geometry/silkscreen_top TRUE
+\i (00:03:27) cvf layer_tree_item 'Embedded Geomerty'
+\i (00:03:28) cvf layer_tree_item 'Package Geometry'
+\i (00:03:30) cvf apply
+\i (00:03:33) cvf layer_tree_item 'Embedded Geomerty'
+\i (00:03:34) cvf layer_tree_item 'Components'
+\i (00:03:35) cvf layers_visible components components/all_row TRUE
+\i (00:03:35) cvf layers_visible components components/all_row FALSE
+\i (00:03:36) cvf layers_visible components ref_des/silkscreen_top TRUE
+\i (00:03:38) cvf apply
+\i (00:03:39) cvf okay
+\i (00:03:40) setwindow pcb
+\i (00:03:40) save 
+\i (00:03:41) fillin yes 
+\i (00:03:41) generaledit 
+\i (00:03:46) move 
+\t (00:03:46) Select element(s) to move.
+\i (00:03:50) pick grid 2438.95 1931.82
+\t (00:03:50) last pick:  2400.00  1900.00
+\t (00:03:50) last pick:  2440.00  1545.50
+\t (00:03:50) Moving R5 / R_RES400_R / RES400.
+\t (00:03:50) Pick new location for the element(s).
+\i (00:03:51) prepopup 1542.32 1406.39
+\i (00:03:52) rotate 
+\t (00:03:52) Spin the element(s).
+\i (00:03:53) iangle 180.000
+\t (00:03:53) last angle:  180.000 Degrees
+\i (00:03:58) pick grid 1547.55 1761.90
+\t (00:03:58) last pick:  1500.00  1800.00
+\i (00:03:59) pick grid 2300.41 1942.28
+\t (00:03:59) last pick:  2300.00  1900.00
+\t (00:03:59) last pick:  2309.00  1545.50
+\t (00:03:59) Moving R2 / R_RES400_R / RES400.
+\t (00:03:59) Pick new location for the element(s).
+\i (00:04:00) prepopup 922.78 1377.63
+\i (00:04:01) rotate 
+\t (00:04:01) Spin the element(s).
+\i (00:04:02) iangle 180.000
+\t (00:04:02) last angle:  180.000 Degrees
+\i (00:04:04) pick grid 648.30 1769.75
+\t (00:04:04) last pick:  600.00  1800.00
+\i (00:04:05) pick grid 2452.03 1414.23
+\t (00:04:05) last pick:  2500.00  1400.00
+\t (00:04:05) last pick:  2440.00  1044.50
+\t (00:04:05) Moving R6 / R_RES400_R / RES400.
+\t (00:04:05) Pick new location for the element(s).
+\i (00:04:06) prepopup 1299.21 1001.20
+\i (00:04:07) rotate 
+\t (00:04:07) Spin the element(s).
+\i (00:04:08) iangle 180.000
+\t (00:04:08) last angle:  180.000 Degrees
+\i (00:04:11) pick grid 1725.31 1751.45
+\t (00:04:11) last pick:  1700.00  1800.00
+\i (00:04:13) pick grid 2329.16 1429.91
+\t (00:04:13) last pick:  2300.00  1400.00
+\t (00:04:13) last pick:  2309.00  1044.50
+\t (00:04:13) Moving R3 / R_RES400_R / RES400.
+\t (00:04:13) Pick new location for the element(s).
+\i (00:04:14) prepopup 888.79 951.53
+\i (00:04:15) rotate 
+\t (00:04:15) Spin the element(s).
+\i (00:04:16) iangle 180.000
+\t (00:04:16) last angle:  180.000 Degrees
+\i (00:04:21) pick grid 1212.94 1751.45
+\t (00:04:21) last pick:  1200.00  1800.00
+\i (00:04:26) prmed 
+\i (00:04:31) setwindow form.prmedit
+\i (00:04:31) FORM prmedit display  
+\i (00:04:38) FORM prmedit cancel  
+\i (00:04:38) setwindow pcb
+\i (00:04:38) generaledit 
+\i (00:04:47) setwindow form.mini
+\i (00:04:47) FORM mini subcolor 1 
+\i (00:04:53) setwindow pcb
+\i (00:04:53) pick grid 2295.18 928.01
+\t (00:04:53) last pick:  2300.00  900.00
+\i (00:04:55) move 
+\t (00:04:55) Cannot edit Pin "R4.2". Symbol or drawing must have UNFIXED_PINS property.
+\t (00:04:55) No valid items selected for the current operation, exiting.
+\i (00:04:55) generaledit 
+\i (00:04:56) pick grid 2326.55 925.39
+\t (00:04:56) last pick:  2300.00  900.00
+\i (00:04:57) Esc 
+\i (00:04:57) Esc 
+\i (00:04:58) pick grid 2318.71 894.02
+\t (00:04:58) last pick:  2300.00  900.00
+\i (00:05:00) move 
+\t (00:05:00) Cannot edit Pin "R4.2". Symbol or drawing must have UNFIXED_PINS property.
+\t (00:05:00) No valid items selected for the current operation, exiting.
+\i (00:05:00) generaledit 
+\i (00:05:01) pick grid 2316.09 943.69
+\t (00:05:01) last pick:  2300.00  900.00
+\i (00:05:03) place manual 
+\t (00:05:03) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:05:03) No valid items selected for the current operation, exiting.
+\i (00:05:03) generaledit 
+\i (00:05:05) move 
+\t (00:05:05) Cannot edit Pin "R4.2". Symbol or drawing must have UNFIXED_PINS property.
+\t (00:05:05) No valid items selected for the current operation, exiting.
+\i (00:05:05) generaledit 
+\i (00:05:05) pick grid 2323.93 951.53
+\t (00:05:05) last pick:  2300.00  1000.00
+\i (00:05:06) pick grid 2300.41 891.41
+\t (00:05:06) last pick:  2300.00  900.00
+\i (00:05:07) pick grid 2088.67 355.52
+\t (00:05:07) last pick:  2100.00  400.00
+\i (00:05:08) pick grid 2088.67 339.83
+\t (00:05:08) last pick:  2100.00  300.00
+\i (00:05:08) pick grid dbl 2088.67 339.83
+\t (00:05:08) last pick:  2100.00  300.00
+\i (00:05:08) pick grid 2080.82 308.46
+\t (00:05:08) last pick:  2100.00  300.00
+\i (00:05:10) move 
+\t (00:05:10) Cannot edit Pin "R1.1". Symbol or drawing must have UNFIXED_PINS property.
+\t (00:05:10) No valid items selected for the current operation, exiting.
+\i (00:05:10) generaledit 
+\i (00:05:11) pick grid 2080.82 290.17
+\t (00:05:11) last pick:  2100.00  300.00
+\i (00:05:11) drag_start grid 2180.16 216.97
+\i (00:05:12) drag_stop 2049.45 747.63
+\i (00:05:13) pick grid 2083.44 695.35
+\t (00:05:13) last pick:  2100.00  700.00
+\i (00:05:14) pick grid 2093.89 690.12
+\t (00:05:14) last pick:  2100.00  700.00
+\i (00:05:15) add connect 
+\t (00:05:15) Pick first element.
+\t (00:05:15) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:05:15) last pick:  2081.00  713.26
+\i (00:05:18) place manual -h 
+\t (00:05:18) Selected item not valid for current operation, ignored: Pin "R1.2 (N00304)"
+\t (00:05:18) No valid items selected for the current operation, exiting.
+\i (00:05:18) generaledit 
+\i (00:05:20) place manual -h 
+\t (00:05:20) Selected item not valid for current operation, ignored: Pin "R1.2 (N00304)"
+\t (00:05:20) No valid items selected for the current operation, exiting.
+\i (00:05:20) generaledit 
+\i (00:05:20) place manual -h 
+\t (00:05:20) Selected item not valid for current operation, ignored: Pin "R1.2 (N00304)"
+\t (00:05:20) No valid items selected for the current operation, exiting.
+\i (00:05:20) generaledit 
+\i (00:05:20) place manual -h 
+\t (00:05:20) Selected item not valid for current operation, ignored: Pin "R1.2 (N00304)"
+\t (00:05:20) No valid items selected for the current operation, exiting.
+\i (00:05:20) generaledit 
+\i (00:05:21) move 
+\t (00:05:21) Cannot edit Pin "R1.2". Symbol or drawing must have UNFIXED_PINS property.
+\t (00:05:21) No valid items selected for the current operation, exiting.
+\i (00:05:21) generaledit 
+\i (00:05:24) pick grid 2117.42 705.81
+\t (00:05:24) last pick:  2125.00  700.00
+\i (00:05:26) place manual -h 
+\t (00:05:26) Selected item not valid for current operation, ignored: Pin "R1.2 (N00304)"
+\t (00:05:26) No valid items selected for the current operation, exiting.
+\i (00:05:26) generaledit 
+\i (00:05:27) place manual 
+\t (00:05:27) Selected item not valid for current operation, ignored: Pin "R1.2 (N00304)"
+\t (00:05:27) No valid items selected for the current operation, exiting.
+\i (00:05:27) generaledit 
+\i (00:05:27) place manual 
+\t (00:05:27) Selected item not valid for current operation, ignored: Pin "R1.2 (N00304)"
+\t (00:05:27) No valid items selected for the current operation, exiting.
+\i (00:05:28) generaledit 
+\i (00:05:34) zoom fit 
+\i (00:05:34) trapsize 1307
+\i (00:05:34) zoom fit 
+\i (00:05:34) trapsize 1307
+\i (00:05:34) zoom fit 
+\i (00:05:34) trapsize 1307
+\i (00:05:35) unrats all 
+\i (00:05:35) generaledit 
+\i (00:05:35) rats all 
+\i (00:05:35) generaledit 
+\i (00:05:37) pick grid 2350.08 943.69
+\t (00:05:37) last pick:  2350.00  950.00
+\i (00:05:38) move 
+\t (00:05:38) Cannot edit Pin "R4.2". Symbol or drawing must have UNFIXED_PINS property.
+\t (00:05:38) No valid items selected for the current operation, exiting.
+\i (00:05:38) generaledit 
+\i (00:05:39) pick grid 2323.93 933.23
+\t (00:05:39) last pick:  2325.00  925.00
+\i (00:05:40) pick grid 2276.88 933.23
+\t (00:05:40) last pick:  2275.00  925.00
+\i (00:05:40) pick grid dbl 2276.88 933.23
+\t (00:05:40) last pick:  2275.00  925.00
+\i (00:05:40) pick grid 2297.79 935.85
+\t (00:05:40) last pick:  2300.00  925.00
+\i (00:05:40) pick grid dbl 2297.79 935.85
+\t (00:05:40) last pick:  2300.00  925.00
+\i (00:05:41) pick grid 2297.79 935.85
+\t (00:05:41) last pick:  2300.00  925.00
+\i (00:05:41) prepopup 2303.02 938.46
+\i (00:05:42) pick grid 2397.13 1040.41
+\t (00:05:42) last pick:  2400.00  1050.00
+\i (00:05:42) drag_start grid 2480.78 1037.80
+\i (00:05:43) drag_stop 2297.79 512.36
+\i (00:05:43) pick grid 2305.64 533.28
+\t (00:05:43) last pick:  2300.00  525.00
+\i (00:05:44) pick grid 2347.46 669.21
+\t (00:05:44) last pick:  2350.00  675.00
+\i (00:05:44) pick grid 2363.15 677.05
+\t (00:05:44) last pick:  2375.00  675.00
+\i (00:05:45) pick grid 2344.85 677.05
+\t (00:05:45) last pick:  2350.00  675.00
+\i (00:05:45) pick grid 2363.15 674.44
+\t (00:05:45) last pick:  2375.00  675.00
+\i (00:05:46) move 
+\t (00:05:46) last pick:  2375.00  675.00
+\t (00:05:46) Element has no origin, using pick.
+\t (00:05:46) Pick new location for the element(s).
+\i (00:05:48) Esc 
+\i (00:05:49) undo 
+\i (00:05:49) trapsize 1307
+\i (00:05:49) generaledit 
+\i (00:05:59) prmed 
+\i (00:06:00) setwindow form.prmedit
+\i (00:06:00) FORM prmedit design  
+\i (00:06:01) FORM prmedit cancel  
+\i (00:06:01) setwindow pcb
+\i (00:06:01) generaledit 
+\i (00:06:05) shadow toggle 
+\i (00:06:06) shadow toggle 
+\i (00:06:06) color192 
+\i (00:06:06) setwindow cvf.dialog
+\i (00:06:06) cvf layer_mode
+\i (00:06:06) setwindow pcb
+\i (00:06:06) generaledit 
+\i (00:06:08) setwindow cvf.dialog
+\i (00:06:08) cvf layer_tree_item 'Areas'
+\i (00:06:09) cvf layer_tree_item 'Board Geometry'
+\i (00:06:09) cvf layer_tree_item 'Package Geometry'
+\i (00:06:10) cvf layer_tree_item 'Embedded Geomerty'
+\i (00:06:11) cvf cancel
+\i (00:06:14) setwindow pcb
+\i (00:06:14) define grid 
+\t (00:06:14) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:06:14) generaledit 
+\i (00:06:16) setwindow form.grid
+\i (00:06:16) FORM grid done  
+\i (00:06:17) setwindow pcb
+\i (00:06:17) place manual -h 
+\t (00:06:17) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:06:17) No valid items selected for the current operation, exiting.
+\i (00:06:17) generaledit 
+\i (00:06:18) place manual -h 
+\t (00:06:18) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:06:18) No valid items selected for the current operation, exiting.
+\i (00:06:18) generaledit 
+\i (00:06:18) place manual -h 
+\t (00:06:18) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:06:18) No valid items selected for the current operation, exiting.
+\i (00:06:18) generaledit 
+\i (00:06:20) save 
+\i (00:06:21) fillin yes 
+\i (00:06:21) generaledit 
+\i (00:06:22) pick grid 2318.71 930.62
+\t (00:06:22) last pick:  2325.00  925.00
+\i (00:06:23) drag_start grid 2488.62 431.33
+\i (00:06:23) drag_stop 2279.49 1043.03
+\i (00:06:24) prepopup 2323.93 920.16
+\i (00:06:27) move 
+\t (00:06:27) last pick:  2309.00  543.50
+\t (00:06:27) Moving R4 / R_RES400_R / RES400.
+\t (00:06:27) Pick new location for the element(s).
+\i (00:06:30) Esc 
+\i (00:06:30) Esc 
+\i (00:06:31) pick grid 928.01 1286.14
+\t (00:06:31) last pick:  925.00  1275.00
+\i (00:06:31) generaledit 
+\i (00:06:33) place manual -h 
+\t (00:06:33) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:06:33) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:06:33) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:06:33) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:06:33) No valid items selected for the current operation, exiting.
+\i (00:06:33) generaledit 
+\i (00:06:33) place manual -h 
+\t (00:06:33) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:06:33) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:06:33) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:06:33) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:06:33) No valid items selected for the current operation, exiting.
+\i (00:06:33) generaledit 
+\i (00:06:33) place manual -h 
+\t (00:06:33) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:06:33) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:06:33) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:06:33) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:06:33) No valid items selected for the current operation, exiting.
+\i (00:06:34) generaledit 
+\i (00:06:34) place manual -h 
+\t (00:06:34) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:06:34) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:06:34) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:06:34) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:06:34) No valid items selected for the current operation, exiting.
+\i (00:06:34) generaledit 
+\i (00:06:34) place manual -h 
+\t (00:06:34) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:06:34) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:06:34) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:06:34) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:06:34) No valid items selected for the current operation, exiting.
+\i (00:06:34) generaledit 
+\i (00:06:34) place manual -h 
+\t (00:06:34) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:06:34) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:06:34) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:06:34) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:06:34) No valid items selected for the current operation, exiting.
+\i (00:06:34) generaledit 
+\i (00:06:35) place manual -h 
+\t (00:06:35) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:06:35) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:06:35) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:06:35) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:06:35) No valid items selected for the current operation, exiting.
+\i (00:06:35) generaledit 
+\i (00:06:35) place manual -h 
+\t (00:06:35) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:06:35) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:06:35) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:06:35) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:06:35) No valid items selected for the current operation, exiting.
+\i (00:06:35) generaledit 
+\i (00:06:35) place manual -h 
+\t (00:06:35) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:06:35) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:06:35) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:06:35) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:06:35) No valid items selected for the current operation, exiting.
+\i (00:06:35) generaledit 
+\i (00:06:35) place manual -h 
+\t (00:06:35) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:06:35) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:06:35) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:06:35) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:06:35) No valid items selected for the current operation, exiting.
+\i (00:06:35) generaledit 
+\i (00:06:36) place manual -h 
+\t (00:06:36) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:06:36) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:06:36) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:06:36) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:06:36) No valid items selected for the current operation, exiting.
+\i (00:06:36) generaledit 
+\i (00:06:36) place manual -h 
+\t (00:06:36) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:06:36) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:06:36) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:06:36) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:06:36) No valid items selected for the current operation, exiting.
+\i (00:06:36) generaledit 
+\i (00:06:38) pick grid 941.08 1254.77
+\t (00:06:38) last pick:  950.00  1250.00
+\i (00:06:39) place manual -h 
+\t (00:06:39) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:06:39) No valid items selected for the current operation, exiting.
+\i (00:06:39) generaledit 
+\i (00:06:40) drag_start grid 1103.15 1032.57
+\i (00:06:41) drag_stop 831.28 1751.45
+\i (00:06:42) place manual -h 
+\t (00:06:42) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:06:42) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:06:42) Selected item not valid for current operation, ignored: Ratsnest "N00407, Q2.3:R2.2"
+\t (00:06:42) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:06:42) Selected item not valid for current operation, ignored: Ratsnest "N00253, R4.1:R6.1"
+\t (00:06:42) Selected item not valid for current operation, ignored: Ratsnest "N00297, R4.2:C2.1"
+\t (00:06:42) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:06:42) Selected item not valid for current operation, ignored: Text "R3"
+\t (00:06:42) No valid items selected for the current operation, exiting.
+\i (00:06:42) generaledit 
+\i (00:06:44) place manual -h 
+\t (00:06:44) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:06:44) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:06:44) Selected item not valid for current operation, ignored: Ratsnest "N00407, Q2.3:R2.2"
+\t (00:06:44) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:06:44) Selected item not valid for current operation, ignored: Ratsnest "N00253, R4.1:R6.1"
+\t (00:06:44) Selected item not valid for current operation, ignored: Ratsnest "N00297, R4.2:C2.1"
+\t (00:06:44) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:06:44) Selected item not valid for current operation, ignored: Text "R3"
+\t (00:06:44) No valid items selected for the current operation, exiting.
+\i (00:06:44) generaledit 
+\i (00:06:44) place manual -h 
+\t (00:06:44) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:06:44) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:06:44) Selected item not valid for current operation, ignored: Ratsnest "N00407, Q2.3:R2.2"
+\t (00:06:44) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:06:44) Selected item not valid for current operation, ignored: Ratsnest "N00253, R4.1:R6.1"
+\t (00:06:44) Selected item not valid for current operation, ignored: Ratsnest "N00297, R4.2:C2.1"
+\t (00:06:44) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:06:44) Selected item not valid for current operation, ignored: Text "R3"
+\t (00:06:44) No valid items selected for the current operation, exiting.
+\i (00:06:44) generaledit 
+\i (00:06:45) pick grid 2059.91 697.96
+\t (00:06:45) last pick:  2050.00  700.00
+\i (00:06:47) place manual 
+\t (00:06:47) Selected item not valid for current operation, ignored: Pin "R1.2 (N00304)"
+\t (00:06:47) No valid items selected for the current operation, exiting.
+\i (00:06:47) generaledit 
+\i (00:06:48) place manual 
+\t (00:06:48) Selected item not valid for current operation, ignored: Pin "R1.2 (N00304)"
+\t (00:06:48) No valid items selected for the current operation, exiting.
+\i (00:06:48) generaledit 
+\i (00:06:59) define grid 
+\t (00:06:59) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:06:59) generaledit 
+\i (00:07:01) setwindow form.grid
+\i (00:07:01) FORM grid done  
+\i (00:07:05) setwindow pcb
+\i (00:07:05) color192 
+\i (00:07:05) setwindow cvf.dialog
+\i (00:07:05) cvf layer_mode
+\i (00:07:05) setwindow pcb
+\i (00:07:05) generaledit 
+\i (00:07:06) setwindow cvf.dialog
+\i (00:07:06) cvf cancel
+\i (00:07:07) setwindow pcb
+\i (00:07:07) grid toggle 
+\i (00:07:07) generaledit 
+\i (00:07:08) grid toggle 
+\i (00:07:08) generaledit 
+\i (00:07:08) grid toggle 
+\i (00:07:08) generaledit 
+\i (00:07:09) grid toggle 
+\i (00:07:09) generaledit 
+\i (00:07:12) unrats all 
+\i (00:07:12) generaledit 
+\i (00:07:12) rats all 
+\i (00:07:12) generaledit 
+\i (00:07:14) zoom fit 
+\i (00:07:14) trapsize 1307
+\i (00:07:16) place manual 
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "R1.2 (N00304)"
+\t (00:07:16) No valid items selected for the current operation, exiting.
+\i (00:07:16) generaledit 
+\i (00:07:20) pick grid 875.72 1273.07
+\t (00:07:20) last pick:  875.00  1275.00
+\i (00:07:21) pick grid 904.48 1278.29
+\t (00:07:21) last pick:  900.00  1275.00
+\i (00:07:21) drag_start grid 1084.85 1087.47
+\i (00:07:22) drag_stop 833.90 1822.03
+\i (00:07:23) move 
+\t (00:07:23) last pick:  925.00  1275.00
+\t (00:07:23) Moving R4 / R_RES400_R / RES400.
+\t (00:07:23) Pick new location for the element(s).
+\i (00:07:29) prepopup 870.50 1393.31
+\i (00:07:31) rotate 
+\t (00:07:31) Spin the element(s).
+\i (00:07:31) iangle 270.000
+\t (00:07:31) last angle:  270.000 Degrees
+\i (00:07:33) prepopup 823.44 1409.00
+\i (00:07:34) rotate 
+\t (00:07:34) Spin the element(s).
+\i (00:07:35) iangle -180.000
+\t (00:07:35) last angle:  180.000 Degrees
+\i (00:07:37) pick grid 854.81 1761.90
+\t (00:07:37) last pick:  850.00  1750.00
+\i (00:07:37) generaledit 
+\i (00:07:38) place manual -h 
+\t (00:07:38) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:07:38) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:07:38) Selected item not valid for current operation, ignored: Ratsnest "N00407, Q2.3:R2.2"
+\t (00:07:38) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:07:38) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:07:38) No valid items selected for the current operation, exiting.
+\i (00:07:38) generaledit 
+\i (00:07:38) place manual -h 
+\t (00:07:38) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:07:38) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:07:38) Selected item not valid for current operation, ignored: Ratsnest "N00407, Q2.3:R2.2"
+\t (00:07:38) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:07:38) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:07:38) No valid items selected for the current operation, exiting.
+\i (00:07:38) generaledit 
+\i (00:07:38) place manual -h 
+\t (00:07:38) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:07:38) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:07:38) Selected item not valid for current operation, ignored: Ratsnest "N00407, Q2.3:R2.2"
+\t (00:07:38) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:07:38) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:07:38) No valid items selected for the current operation, exiting.
+\i (00:07:38) generaledit 
+\i (00:07:38) place manual -h 
+\t (00:07:38) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:07:38) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:07:38) Selected item not valid for current operation, ignored: Ratsnest "N00407, Q2.3:R2.2"
+\t (00:07:38) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:07:38) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:07:38) No valid items selected for the current operation, exiting.
+\i (00:07:38) generaledit 
+\i (00:07:39) place manual -h 
+\t (00:07:39) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:07:39) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:07:39) Selected item not valid for current operation, ignored: Ratsnest "N00407, Q2.3:R2.2"
+\t (00:07:39) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:07:39) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:07:39) No valid items selected for the current operation, exiting.
+\i (00:07:39) generaledit 
+\i (00:07:39) place manual -h 
+\t (00:07:39) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:07:39) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:07:39) Selected item not valid for current operation, ignored: Ratsnest "N00407, Q2.3:R2.2"
+\t (00:07:39) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:07:39) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:07:39) No valid items selected for the current operation, exiting.
+\i (00:07:39) generaledit 
+\i (00:07:39) place manual -h 
+\t (00:07:39) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:07:39) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:07:39) Selected item not valid for current operation, ignored: Ratsnest "N00407, Q2.3:R2.2"
+\t (00:07:39) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:07:39) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:07:39) No valid items selected for the current operation, exiting.
+\i (00:07:39) generaledit 
+\i (00:07:39) place manual -h 
+\t (00:07:39) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:07:39) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:07:39) Selected item not valid for current operation, ignored: Ratsnest "N00407, Q2.3:R2.2"
+\t (00:07:39) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:07:39) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:07:39) No valid items selected for the current operation, exiting.
+\i (00:07:39) generaledit 
+\i (00:07:39) place manual -h 
+\t (00:07:39) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:07:39) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:07:39) Selected item not valid for current operation, ignored: Ratsnest "N00407, Q2.3:R2.2"
+\t (00:07:39) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:07:39) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:07:39) No valid items selected for the current operation, exiting.
+\i (00:07:39) generaledit 
+\i (00:07:40) place manual -h 
+\t (00:07:40) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:07:40) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:07:40) Selected item not valid for current operation, ignored: Ratsnest "N00407, Q2.3:R2.2"
+\t (00:07:40) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:07:40) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:07:40) No valid items selected for the current operation, exiting.
+\i (00:07:40) generaledit 
+\i (00:07:40) place manual -h 
+\t (00:07:40) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:07:40) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:07:40) Selected item not valid for current operation, ignored: Ratsnest "N00407, Q2.3:R2.2"
+\t (00:07:40) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:07:40) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:07:40) No valid items selected for the current operation, exiting.
+\i (00:07:40) generaledit 
+\i (00:07:40) place manual -h 
+\t (00:07:40) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:07:40) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:07:40) Selected item not valid for current operation, ignored: Ratsnest "N00407, Q2.3:R2.2"
+\t (00:07:40) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:07:40) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:07:40) No valid items selected for the current operation, exiting.
+\i (00:07:40) generaledit 
+\i (00:07:40) place manual -h 
+\t (00:07:40) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:07:40) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:07:40) Selected item not valid for current operation, ignored: Ratsnest "N00407, Q2.3:R2.2"
+\t (00:07:40) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:07:40) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:07:40) No valid items selected for the current operation, exiting.
+\i (00:07:40) generaledit 
+\i (00:07:40) place manual -h 
+\t (00:07:40) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:07:40) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:07:40) Selected item not valid for current operation, ignored: Ratsnest "N00407, Q2.3:R2.2"
+\t (00:07:40) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:07:40) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:07:40) No valid items selected for the current operation, exiting.
+\i (00:07:40) generaledit 
+\i (00:07:40) place manual -h 
+\t (00:07:40) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:07:40) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:07:40) Selected item not valid for current operation, ignored: Ratsnest "N00407, Q2.3:R2.2"
+\t (00:07:40) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:07:40) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:07:40) No valid items selected for the current operation, exiting.
+\i (00:07:40) generaledit 
+\i (00:07:41) place manual -h 
+\t (00:07:41) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:07:41) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:07:41) Selected item not valid for current operation, ignored: Ratsnest "N00407, Q2.3:R2.2"
+\t (00:07:41) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:07:41) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:07:41) No valid items selected for the current operation, exiting.
+\i (00:07:41) generaledit 
+\i (00:07:41) place manual -h 
+\t (00:07:41) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:07:41) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:07:41) Selected item not valid for current operation, ignored: Ratsnest "N00407, Q2.3:R2.2"
+\t (00:07:41) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:07:41) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:07:41) No valid items selected for the current operation, exiting.
+\i (00:07:41) generaledit 
+\i (00:07:41) place manual -h 
+\t (00:07:41) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:07:41) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:07:41) Selected item not valid for current operation, ignored: Ratsnest "N00407, Q2.3:R2.2"
+\t (00:07:41) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:07:41) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:07:41) No valid items selected for the current operation, exiting.
+\i (00:07:41) generaledit 
+\i (00:07:41) place manual -h 
+\t (00:07:41) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:07:41) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:07:41) Selected item not valid for current operation, ignored: Ratsnest "N00407, Q2.3:R2.2"
+\t (00:07:41) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:07:41) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:07:41) No valid items selected for the current operation, exiting.
+\i (00:07:41) generaledit 
+\i (00:07:41) place manual -h 
+\t (00:07:41) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:07:41) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:07:41) Selected item not valid for current operation, ignored: Ratsnest "N00407, Q2.3:R2.2"
+\t (00:07:41) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:07:41) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:07:41) No valid items selected for the current operation, exiting.
+\i (00:07:41) generaledit 
+\i (00:07:47) define grid 
+\t (00:07:47) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:07:47) generaledit 
+\i (00:07:52) setwindow form.grid
+\i (00:07:52) FORM grid done  
+\i (00:08:01) setwindow pcb
+\i (00:08:01) grid toggle 
+\i (00:08:01) generaledit 
+\i (00:08:02) grid toggle 
+\i (00:08:02) generaledit 
+\i (00:08:04) add connect 
+\t (00:08:04) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:08:04) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:08:04) Pick first element.
+\t (00:08:04) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:08:04) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:08:04) last pick:  850.00  1750.00
+\i (00:08:05) add connect 
+\t (00:08:05) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:08:05) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:08:05) Pick first element.
+\t (00:08:05) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:08:05) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:08:05) last pick:  850.00  1750.00
+\i (00:08:06) add connect 
+\t (00:08:06) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:08:06) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:08:06) Pick first element.
+\t (00:08:06) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:08:06) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:08:06) last pick:  850.00  1750.00
+\i (00:08:08) place manual 
+\t (00:08:08) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:08:08) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:08:08) Selected item not valid for current operation, ignored: Ratsnest "N00407, Q2.3:R2.2"
+\t (00:08:08) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:08:08) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:08:08) No valid items selected for the current operation, exiting.
+\i (00:08:08) generaledit 
+\i (00:08:08) place manual -h 
+\t (00:08:08) Selected item not valid for current operation, ignored: Rectangle "Package Geometry/Silkscreen_Top"
+\t (00:08:08) Selected item not valid for current operation, ignored: Pin "R4.1 (N00253)"
+\t (00:08:08) Selected item not valid for current operation, ignored: Ratsnest "N00407, Q2.3:R2.2"
+\t (00:08:08) Selected item not valid for current operation, ignored: Pin "R4.2 (N00297)"
+\t (00:08:08) Selected item not valid for current operation, ignored: Text "R4"
+\t (00:08:08) No valid items selected for the current operation, exiting.
+\i (00:08:08) generaledit 
+\i (00:08:09) pick grid 841.74 1743.60
+\t (00:08:09) last pick:  850.00  1750.00
+\i (00:08:11) move 
+\t (00:08:11) Cannot edit Pin "R4.1". Symbol or drawing must have UNFIXED_PINS property.
+\t (00:08:11) No valid items selected for the current operation, exiting.
+\i (00:08:11) generaledit 
+\i (00:08:11) pick grid 836.51 1756.67
+\t (00:08:11) last pick:  825.00  1750.00
+\i (00:08:12) pick grid 846.97 1754.06
+\t (00:08:12) last pick:  850.00  1750.00
+\i (00:08:13) drag_start grid 980.29 1129.29
+\i (00:08:13) drag_stop 771.16 1785.43
+\i (00:08:15) move 
+\t (00:08:15) last pick:  850.00  1750.00
+\t (00:08:15) Moving R4 / R_RES400_R / RES400.
+\t (00:08:15) Pick new location for the element(s).
+\i (00:08:19) pick grid 1835.10 1790.66
+\t (00:08:19) last pick:  1825.00  1800.00
+\i (00:08:19) generaledit 
+\i (00:08:20) pick grid 1199.87 1806.34
+\t (00:08:20) last pick:  1200.00  1800.00
+\i (00:08:22) pick grid 1181.57 1806.34
+\t (00:08:22) last pick:  1175.00  1800.00
+\i (00:08:23) move 
+\t (00:08:23) Cannot edit Pin "R3.1". Symbol or drawing must have UNFIXED_PINS property.
+\t (00:08:23) No valid items selected for the current operation, exiting.
+\i (00:08:23) generaledit 
+\i (00:08:24) pick grid 1197.26 1795.89
+\t (00:08:24) last pick:  1200.00  1800.00
+\i (00:08:26) Esc 
+\i (00:08:26) Esc 
+\i (00:08:26) Esc 
+\i (00:08:26) Esc 
+\i (00:08:27) pick grid 1184.19 1176.34
+\t (00:08:27) last pick:  1175.00  1175.00
+\i (00:08:27) Esc 
+\i (00:08:27) Esc 
+\i (00:08:27) Esc 
+\i (00:08:27) Esc 
+\i (00:08:28) pick grid 2072.98 313.69
+\t (00:08:28) last pick:  2075.00  325.00
+\i (00:08:28) pick grid 2078.21 311.08
+\t (00:08:28) last pick:  2075.00  300.00
+\i (00:08:28) pick grid dbl 2078.21 311.08
+\t (00:08:28) last pick:  2075.00  300.00
+\i (00:08:29) pick grid 2078.21 311.08
+\t (00:08:29) last pick:  2075.00  300.00
+\i (00:08:29) pick grid dbl 2078.21 311.08
+\t (00:08:29) last pick:  2075.00  300.00
+\i (00:08:29) drag_start grid 2078.21 311.08
+\i (00:08:29) move 
+\t (00:08:29) last pick:  2081.00  313.26
+\t (00:08:29) Moving R1 / R_RES400_R / RES400.
+\t (00:08:29) Pick new location for the element(s).
+\i (00:08:30) drag_stop grid 899.25 674.44
+\i (00:08:30) generaledit 
+\i (00:08:30) pick grid 899.25 674.44
+\t (00:08:30) last pick:  900.00  675.00
+\i (00:08:30) pick grid dbl 899.25 674.44
+\t (00:08:30) last pick:  900.00  675.00
+\i (00:08:32) move 
+\t (00:08:32) last pick:  900.00  675.00
+\t (00:08:32) Moving R1 / R_RES400_R / RES400.
+\t (00:08:32) Pick new location for the element(s).
+\i (00:08:37) pick grid 266.64 1411.61
+\t (00:08:37) last pick:  275.00  1400.00
+\i (00:08:37) generaledit 
+\i (00:08:39) pick grid 1205.10 1793.27
+\t (00:08:39) last pick:  1200.00  1800.00
+\i (00:08:40) pick grid 1197.26 1793.27
+\t (00:08:40) last pick:  1200.00  1800.00
+\i (00:08:44) move 
+\t (00:08:44) Cannot edit Pin "R3.1". Symbol or drawing must have UNFIXED_PINS property.
+\t (00:08:44) No valid items selected for the current operation, exiting.
+\i (00:08:44) generaledit 
+\i (00:08:45) pick grid 1186.80 1793.27
+\t (00:08:45) last pick:  1175.00  1800.00
+\i (00:08:45) pick grid 1176.34 1803.73
+\t (00:08:45) last pick:  1175.00  1800.00
+\i (00:08:46) pick grid 1186.80 1811.57
+\t (00:08:46) last pick:  1175.00  1800.00
+\i (00:08:46) pick grid dbl 1186.80 1811.57
+\t (00:08:46) last pick:  1175.00  1800.00
+\i (00:08:47) drag_start grid 1194.64 1801.11
+\i (00:08:47) move 
+\t (00:08:47) last pick:  1200.00  1800.00
+\t (00:08:47) Moving R3 / R_RES400_R / RES400.
+\t (00:08:47) Pick new location for the element(s).
+\i (00:08:48) drag_stop grid 977.67 1806.34
+\i (00:08:48) generaledit 
+\i (00:08:49) drag_start grid 1495.26 1814.18
+\i (00:08:49) move 
+\t (00:08:49) last pick:  1500.00  1800.00
+\t (00:08:49) Moving R5 / R_RES400_R / RES400.
+\t (00:08:49) Pick new location for the element(s).
+\i (00:08:50) drag_stop grid 1314.89 1814.18
+\i (00:08:50) generaledit 
+\i (00:08:52) pick grid 1688.71 1416.84
+\t (00:08:52) last pick:  1700.00  1425.00
+\i (00:08:52) prepopup 1688.71 1416.84
+\i (00:08:54) pick grid 1652.11 1393.31
+\t (00:08:54) last pick:  1650.00  1400.00
+\i (00:08:54) pick grid 1691.32 1414.23
+\t (00:08:54) last pick:  1700.00  1425.00
+\i (00:08:55) pick grid 1691.32 1414.23
+\t (00:08:55) last pick:  1700.00  1425.00
+\i (00:08:55) pick grid dbl 1691.32 1414.23
+\t (00:08:55) last pick:  1700.00  1425.00
+\i (00:09:07) place manual -h 
+\t (00:09:07) Selected item not valid for current operation, ignored: Pin "R6.2 (Vcc)"
+\t (00:09:07) No valid items selected for the current operation, exiting.
+\i (00:09:07) generaledit 
+\i (00:09:08) place manual -h 
+\t (00:09:08) Selected item not valid for current operation, ignored: Pin "R6.2 (Vcc)"
+\t (00:09:08) No valid items selected for the current operation, exiting.
+\i (00:09:08) generaledit 
+\i (00:09:08) place manual -h 
+\t (00:09:08) Selected item not valid for current operation, ignored: Pin "R6.2 (Vcc)"
+\t (00:09:08) No valid items selected for the current operation, exiting.
+\i (00:09:08) generaledit 
+\i (00:09:08) place manual -h 
+\t (00:09:08) Selected item not valid for current operation, ignored: Pin "R6.2 (Vcc)"
+\t (00:09:08) No valid items selected for the current operation, exiting.
+\i (00:09:08) generaledit 
+\i (00:09:08) place manual -h 
+\t (00:09:08) Selected item not valid for current operation, ignored: Pin "R6.2 (Vcc)"
+\t (00:09:08) No valid items selected for the current operation, exiting.
+\i (00:09:08) generaledit 
+\i (00:09:08) place manual -h 
+\t (00:09:08) Selected item not valid for current operation, ignored: Pin "R6.2 (Vcc)"
+\t (00:09:08) No valid items selected for the current operation, exiting.
+\i (00:09:08) generaledit 
+\i (00:09:09) place manual -h 
+\t (00:09:09) Selected item not valid for current operation, ignored: Pin "R6.2 (Vcc)"
+\t (00:09:09) No valid items selected for the current operation, exiting.
+\i (00:09:09) generaledit 
+\i (00:09:09) place manual -h 
+\t (00:09:09) Selected item not valid for current operation, ignored: Pin "R6.2 (Vcc)"
+\t (00:09:09) No valid items selected for the current operation, exiting.
+\i (00:09:09) generaledit 
+\i (00:09:12) move 
+\t (00:09:12) Cannot edit Pin "R6.2". Symbol or drawing must have UNFIXED_PINS property.
+\t (00:09:12) No valid items selected for the current operation, exiting.
+\i (00:09:12) generaledit 
+\i (00:09:13) pick grid 946.30 1785.43
+\t (00:09:13) last pick:  950.00  1775.00
+\i (00:09:13) drag_start grid 1082.24 1199.87
+\i (00:09:14) drag_stop 920.16 1874.31
+\i (00:09:14) drag_start grid 982.90 1827.26
+\i (00:09:15) drag_stop grid 972.44 1680.87
+\i (00:09:15) pick grid 969.83 1782.82
+\t (00:09:15) last pick:  975.00  1775.00
+\i (00:09:16) move 
+\t (00:09:16) Cannot edit Pin "R3.1". Symbol or drawing must have UNFIXED_PINS property.
+\t (00:09:16) No valid items selected for the current operation, exiting.
+\i (00:09:16) generaledit 
+\i (00:09:23) setwindow form.find
+\i (00:09:23) FORM find all_on  
+\i (00:09:26) FORM find all_off  
+\i (00:09:27) FORM find symbols YES 
+\i (00:09:29) setwindow pcb
+\i (00:09:29) pick grid 980.29 1806.34
+\t (00:09:29) last pick:  975.00  1800.00
+\i (00:09:30) move 
+\t (00:09:30) last pick:  975.00  1800.00
+\t (00:09:30) Moving R3 / R_RES400_R / RES400.
+\t (00:09:30) Pick new location for the element(s).
+\i (00:09:31) pick grid 904.48 1814.18
+\t (00:09:31) last pick:  900.00  1825.00
+\i (00:09:31) generaledit 
+\i (00:09:32) place manual -h 
+\t (00:09:32) Moving R3 / R_RES400_R / RES400.
+\t (00:09:32) last pick:  900.00  1825.00
+\i (00:09:36) pick grid 948.92 1769.75
+\t (00:09:36) last pick:  900.00  1800.00
+\i (00:09:36) generaledit 
+\i (00:09:37) pick grid 277.09 1785.43
+\t (00:09:37) last pick:  300.00  1800.00
+\i (00:09:39) move 
+\t (00:09:39) last pick:  275.00  1400.00
+\t (00:09:39) Moving R1 / R_RES400_R / RES400.
+\t (00:09:39) Pick new location for the element(s).
+\i (00:09:41) pick grid 1045.64 880.95
+\t (00:09:41) last pick:  1000.00  900.00
+\i (00:09:41) generaledit 
+\i (00:09:42) pick grid 606.47 1808.96
+\t (00:09:42) last pick:  600.00  1800.00
+\i (00:09:44) move 
+\t (00:09:44) last pick:  600.00  1800.00
+\t (00:09:44) Moving R2 / R_RES400_R / RES400.
+\t (00:09:44) Pick new location for the element(s).
+\i (00:09:47) pick grid 347.68 1793.27
+\t (00:09:47) last pick:  300.00  1800.00
+\i (00:09:47) generaledit 
+\i (00:09:48) drag_start grid 896.64 1801.11
+\i (00:09:48) move 
+\t (00:09:48) last pick:  900.00  1800.00
+\t (00:09:48) Moving R3 / R_RES400_R / RES400.
+\t (00:09:48) Pick new location for the element(s).
+\i (00:09:48) drag_stop grid 609.09 1795.89
+\i (00:09:48) generaledit 
+\i (00:09:49) drag_start grid 1317.51 1811.57
+\i (00:09:49) move 
+\t (00:09:49) last pick:  1325.00  1825.00
+\t (00:09:49) Moving R5 / R_RES400_R / RES400.
+\t (00:09:49) Pick new location for the element(s).
+\i (00:09:50) drag_stop grid 909.71 1772.36
+\i (00:09:50) generaledit 
+\i (00:09:51) drag_start grid 1696.55 1785.43
+\i (00:09:51) move 
+\t (00:09:51) last pick:  1700.00  1800.00
+\t (00:09:51) Moving R6 / R_RES400_R / RES400.
+\t (00:09:51) Pick new location for the element(s).
+\i (00:09:52) drag_stop grid 1322.73 1777.59
+\i (00:09:52) generaledit 
+\i (00:09:53) prepopup 1301.82 1409.00
+\i (00:09:55) pick grid 1270.45 1790.66
+\t (00:09:55) last pick:  1300.00  1800.00
+\i (00:09:55) move 
+\t (00:09:55) last pick:  1300.00  1800.00
+\t (00:09:55) Moving R6 / R_RES400_R / RES400.
+\t (00:09:55) Pick new location for the element(s).
+\i (00:09:57) prepopup 1346.26 1772.36
+\i (00:09:57) rotate 
+\t (00:09:57) Spin the element(s).
+\i (00:09:59) iangle -270.000
+\t (00:09:59) last angle:  270.000 Degrees
+\i (00:10:00) pick grid 1299.21 1801.11
+\t (00:10:00) last pick:  1300.00  1800.00
+\i (00:10:00) generaledit 
+\i (00:10:02) move 
+\t (00:10:02) last pick:  1300.00  1800.00
+\t (00:10:02) Moving R6 / R_RES400_R / RES400.
+\t (00:10:02) Pick new location for the element(s).
+\i (00:10:03) prepopup 1254.77 1424.68
+\i (00:10:04) rotate 
+\t (00:10:04) Spin the element(s).
+\i (00:10:05) iangle 90.000
+\t (00:10:05) last angle:  0.000 Degrees
+\i (00:10:11) pick grid 1246.93 1440.37
+\t (00:10:11) last pick:  1200.00  1400.00
+\i (00:10:11) generaledit 
+\i (00:10:12) pick grid 1824.64 1401.16
+\t (00:10:12) last pick:  1800.00  1400.00
+\i (00:10:13) prepopup 1824.64 1401.16
+\i (00:10:14) pick grid 1814.18 1432.53
+\t (00:10:14) last pick:  1800.00  1400.00
+\i (00:10:15) move 
+\t (00:10:15) last pick:  1825.00  1800.00
+\t (00:10:15) Moving R4 / R_RES400_R / RES400.
+\t (00:10:15) Pick new location for the element(s).
+\i (00:10:16) prepopup 1610.29 1544.93
+\i (00:10:17) rotate 
+\t (00:10:17) Spin the element(s).
+\i (00:10:17) iangle 180.000
+\t (00:10:17) last angle:  0.000 Degrees
+\i (00:10:18) pick grid 1490.04 1445.60
+\t (00:10:18) last pick:  1500.00  1400.00
+\i (00:10:18) generaledit 
+\i (00:10:19) pick grid 1024.73 1286.14
+\t (00:10:19) last pick:  1000.00  1300.00
+\i (00:10:20) drag_start grid 1035.18 1296.59
+\i (00:10:20) move 
+\t (00:10:20) last pick:  1000.00  900.00
+\t (00:10:20) Moving R1 / R_RES400_R / RES400.
+\t (00:10:20) Pick new location for the element(s).
+\i (00:10:23) drag_stop grid 1652.11 1312.28
+\i (00:10:23) generaledit 
+\i (00:10:23) prepopup 1704.39 1296.59
+\i (00:10:25) pick grid 1699.16 1304.44
+\t (00:10:25) last pick:  1700.00  1300.00
+\i (00:10:26) move 
+\t (00:10:26) last pick:  1700.00  1300.00
+\t (00:10:26) Moving R1 / R_RES400_R / RES400.
+\t (00:10:26) Pick new location for the element(s).
+\i (00:10:27) prepopup 1722.69 1236.47
+\i (00:10:28) rotate 
+\t (00:10:28) Spin the element(s).
+\i (00:10:30) iangle -180.000
+\t (00:10:30) last angle:  180.000 Degrees
+\i (00:10:43) pick grid 854.81 1152.82
+\t (00:10:43) last pick:  900.00  1200.00
+\i (00:10:43) generaledit 
+\i (00:10:46) prepopup 1508.34 1798.50
+\i (00:10:48) pick grid 1474.35 1793.27
+\t (00:10:48) last pick:  1500.00  1800.00
+\i (00:10:49) move 
+\t (00:10:49) last pick:  1500.00  1400.00
+\t (00:10:49) Moving R4 / R_RES400_R / RES400.
+\t (00:10:49) Pick new location for the element(s).
+\i (00:10:50) prepopup 1484.81 1427.30
+\i (00:10:51) rotate 
+\t (00:10:51) Spin the element(s).
+\i (00:10:54) iangle -180.000
+\t (00:10:54) last angle:  180.000 Degrees
+\i (00:10:56) pick grid 1249.54 1202.49
+\t (00:10:56) last pick:  1200.00  1200.00
+\i (00:10:56) generaledit 
+\i (00:10:57) pick grid 1210.33 1788.04
+\t (00:10:57) last pick:  1200.00  1800.00
+\i (00:10:57) move 
+\t (00:10:58) last pick:  1200.00  1400.00
+\t (00:10:58) Moving R6 / R_RES400_R / RES400.
+\t (00:10:58) Pick new location for the element(s).
+\i (00:11:00) pick grid 1652.11 1432.53
+\t (00:11:00) last pick:  1700.00  1400.00
+\i (00:11:00) generaledit 
+\i (00:11:01) pick grid 880.95 1395.93
+\t (00:11:01) last pick:  900.00  1400.00
+\i (00:11:01) move 
+\t (00:11:01) last pick:  900.00  1800.00
+\t (00:11:01) Moving R5 / R_RES400_R / RES400.
+\t (00:11:01) Pick new location for the element(s).
+\i (00:11:03) pick grid 1351.49 1761.90
+\t (00:11:03) last pick:  1400.00  1800.00
+\i (00:11:03) generaledit 
+\i (00:11:04) pick grid 635.23 1414.23
+\t (00:11:04) last pick:  600.00  1400.00
+\i (00:11:05) move 
+\t (00:11:05) last pick:  600.00  1800.00
+\t (00:11:05) Moving R3 / R_RES400_R / RES400.
+\t (00:11:05) Pick new location for the element(s).
+\i (00:11:09) pick grid 752.86 1754.06
+\t (00:11:09) last pick:  800.00  1800.00
+\i (00:11:09) generaledit 
+\i (00:11:16) drag_start grid 799.91 1398.54
+\i (00:11:16) move 
+\t (00:11:16) last pick:  800.00  1800.00
+\t (00:11:16) Moving R3 / R_RES400_R / RES400.
+\t (00:11:16) Pick new location for the element(s).
+\i (00:11:18) drag_stop grid 627.38 1777.59
+\i (00:11:18) generaledit 
+\i (00:11:19) drag_start grid 1395.93 1403.77
+\i (00:11:19) move 
+\t (00:11:19) last pick:  1400.00  1800.00
+\t (00:11:19) Moving R5 / R_RES400_R / RES400.
+\t (00:11:19) Pick new location for the element(s).
+\i (00:11:21) drag_stop grid 925.39 1788.04
+\i (00:11:21) generaledit 
+\i (00:11:22) pick grid 1707.01 1388.09
+\t (00:11:22) last pick:  1700.00  1400.00
+\i (00:11:23) move 
+\t (00:11:23) last pick:  1700.00  1400.00
+\t (00:11:23) Moving R6 / R_RES400_R / RES400.
+\t (00:11:23) Pick new location for the element(s).
+\i (00:11:24) pick grid 1246.93 1448.21
+\t (00:11:24) last pick:  1200.00  1400.00
+\i (00:11:24) generaledit 
+\i (00:11:29) pick grid 2078.21 1701.78
+\t (00:11:29) last pick:  2100.00  1700.00
+\i (00:11:29) move 
+\t (00:11:29) last pick:  2054.00  1745.88
+\t (00:11:29) Moving Q2 / NPN ECB_TO92_NPN ECB / TO92.
+\t (00:11:29) Pick new location for the element(s).
+\i (00:11:38) pick grid 1320.12 449.63
+\t (00:11:38) last pick:  1300.00  400.00
+\i (00:11:38) generaledit 
+\i (00:11:40) pick grid 2104.35 1863.85
+\t (00:11:40) last pick:  2100.00  1900.00
+\i (00:11:40) pick grid 2070.37 1861.24
+\t (00:11:40) last pick:  2100.00  1900.00
+\i (00:11:42) move 
+\t (00:11:42) last pick:  2054.00  1946.00
+\t (00:11:42) Moving Q1 / NPN ECB_TO92_NPN ECB / TO92.
+\t (00:11:42) Pick new location for the element(s).
+\i (00:11:44) prepopup 530.66 360.75
+\i (00:11:45) rotate 
+\t (00:11:45) Spin the element(s).
+\i (00:11:46) iangle 180.000
+\t (00:11:46) last angle:  180.000 Degrees
+\i (00:11:48) pick grid 650.91 298.01
+\t (00:11:48) last pick:  700.00  300.00
+\i (00:11:48) generaledit 
+\i (00:11:50) pick grid 2127.88 1435.14
+\t (00:11:50) last pick:  2100.00  1400.00
+\i (00:11:51) move 
+\t (00:11:51) last pick:  2118.00  1441.76
+\t (00:11:51) Moving C2 / CAP POL_CAP196_CAP POL / CAP196.
+\t (00:11:51) Pick new location for the element(s).
+\w (00:11:55) Save Pending
+\i (00:11:57) pick grid 582.94 948.92
+\t (00:11:57) last pick:  600.00  900.00
+\t (00:11:57) Performing autosave...
+\t (00:11:57) Autosave successful
+\i (00:11:57) generaledit 
+\i (00:11:58) pick grid 2146.18 1233.85
+\t (00:11:58) last pick:  2100.00  1200.00
+\i (00:12:00) move 
+\t (00:12:00) last pick:  2118.00  1233.76
+\t (00:12:00) Moving D2 / LED_CAP196_LED / CAP196.
+\t (00:12:00) Pick new location for the element(s).
+\i (00:12:02) pick grid 1152.82 470.54
+\t (00:12:02) last pick:  1200.00  500.00
+\i (00:12:02) generaledit 
+\i (00:12:04) pick grid 1205.10 797.30
+\t (00:12:04) last pick:  1200.00  800.00
+\i (00:12:05) move 
+\t (00:12:05) last pick:  1200.00  1200.00
+\t (00:12:05) Moving R4 / R_RES400_R / RES400.
+\t (00:12:05) Pick new location for the element(s).
+\i (00:12:06) prepopup 1236.47 1176.34
+\i (00:12:07) rotate 
+\t (00:12:07) Spin the element(s).
+\i (00:12:09) iangle -270.000
+\t (00:12:09) last angle:  270.000 Degrees
+\i (00:12:13) pick grid 1359.33 1220.78
+\t (00:12:13) last pick:  1400.00  1200.00
+\i (00:12:13) generaledit 
+\i (00:12:14) pick grid 1184.19 1409.00
+\t (00:12:14) last pick:  1200.00  1400.00
+\i (00:12:14) move 
+\t (00:12:14) last pick:  1200.00  1400.00
+\t (00:12:14) Moving R6 / R_RES400_R / RES400.
+\t (00:12:14) Pick new location for the element(s).
+\i (00:12:16) pick grid 1359.33 1411.61
+\t (00:12:16) last pick:  1400.00  1400.00
+\i (00:12:16) generaledit 
+\i (00:12:17) pick grid 888.79 794.69
+\t (00:12:17) last pick:  900.00  800.00
+\i (00:12:17) move 
+\t (00:12:17) last pick:  900.00  1200.00
+\t (00:12:17) Moving R1 / R_RES400_R / RES400.
+\t (00:12:17) Pick new location for the element(s).
+\i (00:12:18) prepopup 930.62 975.06
+\i (00:12:19) rotate 
+\t (00:12:19) Spin the element(s).
+\i (00:12:20) iangle 90.000
+\t (00:12:20) last angle:  270.000 Degrees
+\i (00:12:23) pick grid 922.78 1152.82
+\t (00:12:23) last pick:  900.00  1200.00
+\i (00:12:23) generaledit 
+\i (00:12:25) pick grid 2109.58 1142.36
+\t (00:12:25) last pick:  2100.00  1100.00
+\i (00:12:25) move 
+\t (00:12:25) last pick:  2118.00  1025.76
+\t (00:12:25) Moving D1 / LED_CAP196_LED / CAP196.
+\t (00:12:25) Pick new location for the element(s).
+\i (00:12:28) pick grid 1322.73 948.92
+\t (00:12:28) last pick:  1300.00  900.00
+\i (00:12:28) generaledit 
+\i (00:12:29) pick grid 2112.19 815.60
+\t (00:12:29) last pick:  2100.00  800.00
+\i (00:12:30) move 
+\t (00:12:30) last pick:  2118.00  817.76
+\t (00:12:30) Moving C1 / CAP POL_CAP196_CAP POL / CAP196.
+\t (00:12:30) Pick new location for the element(s).
+\i (00:12:30) prepopup 1623.36 695.35
+\i (00:12:31) rotate 
+\t (00:12:31) Spin the element(s).
+\i (00:12:32) iangle 180.000
+\t (00:12:32) last angle:  180.000 Degrees
+\i (00:12:38) pick grid 1299.21 750.25
+\t (00:12:38) last pick:  1300.00  800.00
+\i (00:12:38) generaledit 
+\i (00:12:40) pick grid 1194.64 598.63
+\t (00:12:40) last pick:  1200.00  600.00
+\i (00:12:41) move 
+\t (00:12:41) last pick:  1200.00  500.00
+\t (00:12:41) Moving D2 / LED_CAP196_LED / CAP196.
+\t (00:12:41) Pick new location for the element(s).
+\i (00:12:51) pick grid 946.30 687.51
+\t (00:12:51) last pick:  900.00  700.00
+\i (00:12:51) generaledit 
+\i (00:12:53) drag_start grid 1780.20 1066.55
+\i (00:12:54) drag_stop 1393.31 1759.29
+\i (00:12:55) drag_start grid 1414.23 1803.73
+\i (00:12:55) drag_stop grid 1126.68 1733.15
+\i (00:12:56) move 
+\i (00:12:57) pick grid 1401.16 1795.89
+\t (00:12:57) last pick:  1400.00  1800.00
+\t (00:12:57) Moving R4 / R_RES400_R / RES400.
+\t (00:12:57) Moving R6 / R_RES400_R / RES400.
+\t (00:12:57) Pick new location for the element(s).
+\i (00:13:01) pick grid 1542.32 1244.31
+\t (00:13:01) last pick:  1500.00  1200.00
+\i (00:13:01) generaledit 
+\i (00:13:03) drag_start grid 1144.98 967.22
+\i (00:13:04) drag_stop 862.65 1735.76
+\i (00:13:05) move 
+\i (00:13:06) pick grid 899.25 1806.34
+\t (00:13:06) last pick:  900.00  1800.00
+\t (00:13:06) Moving R1 / R_RES400_R / RES400.
+\t (00:13:06) Moving R5 / R_RES400_R / RES400.
+\t (00:13:06) Moving D1 / LED_CAP196_LED / CAP196.
+\t (00:13:06) Pick new location for the element(s).
+\i (00:13:11) pick grid 1390.70 1848.17
+\t (00:13:11) last pick:  1400.00  1800.00
+\i (00:13:11) generaledit 
+\i (00:13:12) pick grid 1534.48 572.49
+\t (00:13:12) last pick:  1500.00  600.00
+\i (00:13:13) pick grid 1461.28 1069.17
+\t (00:13:13) last pick:  1500.00  1100.00
+\i (00:13:14) move 
+\t (00:13:14) last pick:  1500.00  800.00
+\t (00:13:14) Moving R6 / R_RES400_R / RES400.
+\t (00:13:14) Pick new location for the element(s).
+\i (00:13:19) pick grid 951.53 1409.00
+\t (00:13:19) last pick:  1000.00  1400.00
+\i (00:13:19) generaledit 
+\i (00:13:20) pick grid 1544.93 582.94
+\t (00:13:20) last pick:  1500.00  600.00
+\i (00:13:21) move 
+\t (00:13:21) last pick:  1500.00  600.00
+\t (00:13:21) Moving R4 / R_RES400_R / RES400.
+\t (00:13:21) Pick new location for the element(s).
+\i (00:13:23) pick grid 948.92 1205.10
+\t (00:13:23) last pick:  900.00  1200.00
+\i (00:13:23) generaledit 
+\i (00:13:29) pick grid 1795.89 1197.26
+\t (00:13:29) last pick:  1800.00  1200.00
+\i (00:13:30) move 
+\t (00:13:30) last pick:  1400.00  1200.00
+\t (00:13:30) Moving R1 / R_RES400_R / RES400.
+\t (00:13:30) Pick new location for the element(s).
+\i (00:13:31) prepopup 1620.74 1226.01
+\i (00:13:32) rotate 
+\t (00:13:32) Spin the element(s).
+\i (00:13:32) iangle 90.000
+\t (00:13:32) last angle:  0.000 Degrees
+\i (00:13:33) pick grid 1751.45 1354.10
+\t (00:13:33) last pick:  1800.00  1400.00
+\i (00:13:33) generaledit 
+\i (00:13:35) pick grid 1780.20 1411.61
+\t (00:13:35) last pick:  1800.00  1400.00
+\i (00:13:36) move 
+\t (00:13:36) last pick:  1800.00  1400.00
+\t (00:13:36) Moving R1 / R_RES400_R / RES400.
+\t (00:13:36) Pick new location for the element(s).
+\i (00:13:36) pick grid 1746.22 1409.00
+\t (00:13:36) last pick:  1700.00  1400.00
+\i (00:13:36) generaledit 
+\i (00:13:38) pick grid 1406.39 1393.31
+\t (00:13:38) last pick:  1400.00  1400.00
+\i (00:13:38) move 
+\t (00:13:38) last pick:  1400.00  1800.00
+\t (00:13:38) Moving R5 / R_RES400_R / RES400.
+\t (00:13:38) Pick new location for the element(s).
+\i (00:13:39) pick grid 1490.04 1751.45
+\t (00:13:39) last pick:  1500.00  1800.00
+\i (00:13:39) generaledit 
+\i (00:13:40) pick grid 1299.21 1228.63
+\t (00:13:40) last pick:  1300.00  1200.00
+\i (00:13:41) move 
+\t (00:13:41) last pick:  900.00  1200.00
+\t (00:13:41) Moving R4 / R_RES400_R / RES400.
+\t (00:13:41) Pick new location for the element(s).
+\i (00:13:42) prepopup 1029.96 1252.15
+\i (00:13:43) rotate 
+\t (00:13:43) Spin the element(s).
+\i (00:13:45) iangle -270.000
+\t (00:13:45) last angle:  0.000 Degrees
+\i (00:13:46) pick grid 873.11 1448.21
+\t (00:13:46) last pick:  900.00  1400.00
+\i (00:13:46) generaledit 
+\i (00:13:47) pick grid 990.74 1406.39
+\t (00:13:47) last pick:  1000.00  1400.00
+\i (00:13:47) move 
+\t (00:13:47) last pick:  1000.00  1400.00
+\t (00:13:47) Moving R6 / R_RES400_R / RES400.
+\t (00:13:47) Pick new location for the element(s).
+\i (00:13:49) pick grid 1176.34 1409.00
+\t (00:13:49) last pick:  1200.00  1400.00
+\i (00:13:49) generaledit 
+\i (00:13:53) drag_start grid 904.48 1401.16
+\i (00:13:53) move 
+\t (00:13:53) last pick:  900.00  1400.00
+\t (00:13:53) Moving R4 / R_RES400_R / RES400.
+\t (00:13:53) Pick new location for the element(s).
+\i (00:13:55) drag_stop grid 909.71 1409.00
+\i (00:13:55) generaledit 
+\i (00:13:58) drag_start grid 1505.72 1411.61
+\i (00:13:58) move 
+\t (00:13:58) last pick:  1500.00  1800.00
+\t (00:13:58) Moving R5 / R_RES400_R / RES400.
+\t (00:13:58) Pick new location for the element(s).
+\i (00:13:59) drag_stop grid 1416.84 1767.13
+\i (00:13:59) generaledit 
+\i (00:14:00) save 
+\i (00:14:00) fillin yes 
+\i (00:14:00) generaledit 
+\i (00:14:03) drag_start grid 1806.34 985.52
+\i (00:14:03) move 
+\t (00:14:03) last pick:  1800.00  900.00
+\t (00:14:03) Moving D1 / LED_CAP196_LED / CAP196.
+\t (00:14:03) Pick new location for the element(s).
+\i (00:14:07) drag_stop grid 1725.31 1168.50
+\i (00:14:07) generaledit 
+\i (00:14:08) drag_start grid 1314.89 802.53
+\i (00:14:08) move 
+\t (00:14:08) last pick:  1300.00  800.00
+\t (00:14:08) Moving C1 / CAP POL_CAP196_CAP POL / CAP196.
+\t (00:14:08) Pick new location for the element(s).
+\i (00:14:14) drag_stop grid 1712.24 985.52
+\i (00:14:14) generaledit 
+\i (00:14:17) drag_start grid 909.71 797.30
+\i (00:14:17) move 
+\t (00:14:17) last pick:  900.00  700.00
+\t (00:14:17) Moving D2 / LED_CAP196_LED / CAP196.
+\t (00:14:17) Pick new location for the element(s).
+\i (00:14:20) drag_stop grid 928.01 904.48
+\i (00:14:20) generaledit 
+\i (00:14:24) pick grid 601.24 878.34
+\t (00:14:24) last pick:  600.00  900.00
+\i (00:14:25) move 
+\t (00:14:25) last pick:  600.00  900.00
+\t (00:14:25) Moving C2 / CAP POL_CAP196_CAP POL / CAP196.
+\t (00:14:25) Pick new location for the element(s).
+\i (00:14:25) prepopup 601.24 878.34
+\i (00:14:26) rotate 
+\t (00:14:26) Spin the element(s).
+\i (00:14:27) iangle 180.000
+\t (00:14:27) last angle:  180.000 Degrees
+\i (00:14:29) pick grid 577.72 1048.25
+\t (00:14:29) last pick:  600.00  1000.00
+\i (00:14:29) generaledit 
+\i (00:14:34) drag_start grid 603.86 899.25
+\i (00:14:34) move 
+\t (00:14:34) last pick:  600.00  1000.00
+\t (00:14:34) Moving C2 / CAP POL_CAP196_CAP POL / CAP196.
+\t (00:14:34) Pick new location for the element(s).
+\i (00:14:36) drag_stop grid 402.57 1022.11
+\i (00:14:36) generaledit 
+\i (00:14:41) pick grid 1293.98 303.24
+\t (00:14:41) last pick:  1300.00  300.00
+\i (00:14:42) move 
+\t (00:14:42) last pick:  1300.00  400.00
+\t (00:14:42) Moving Q2 / NPN ECB_TO92_NPN ECB / TO92.
+\t (00:14:42) Pick new location for the element(s).
+\i (00:14:50) pick grid 1348.88 418.26
+\t (00:14:50) last pick:  1300.00  400.00
+\i (00:14:50) generaledit 
+\i (00:14:51) pick grid 716.26 316.31
+\t (00:14:51) last pick:  700.00  300.00
+\i (00:14:51) move 
+\t (00:14:51) last pick:  700.00  300.00
+\t (00:14:51) Moving Q1 / NPN ECB_TO92_NPN ECB / TO92.
+\t (00:14:51) Pick new location for the element(s).
+\i (00:14:58) pick grid 656.14 331.99
+\t (00:14:58) last pick:  700.00  300.00
+\i (00:14:59) generaledit 
+\i (00:15:01) drag_start grid 917.55 891.41
+\i (00:15:01) move 
+\t (00:15:01) last pick:  900.00  900.00
+\t (00:15:01) Moving D2 / LED_CAP196_LED / CAP196.
+\t (00:15:01) Pick new location for the element(s).
+\i (00:15:03) drag_stop grid 726.72 624.77
+\i (00:15:03) generaledit 
+\i (00:15:04) drag_start grid 423.48 993.36
+\i (00:15:04) move 
+\t (00:15:04) last pick:  400.00  1000.00
+\t (00:15:04) Moving C2 / CAP POL_CAP196_CAP POL / CAP196.
+\t (00:15:04) Pick new location for the element(s).
+\i (00:15:05) drag_stop grid 716.26 1037.80
+\i (00:15:05) generaledit 
+\i (00:15:07) pick grid 697.96 988.13
+\t (00:15:07) last pick:  700.00  1000.00
+\i (00:15:07) move 
+\t (00:15:08) last pick:  700.00  1000.00
+\t (00:15:08) Moving C2 / CAP POL_CAP196_CAP POL / CAP196.
+\t (00:15:08) Pick new location for the element(s).
+\i (00:15:08) prepopup 697.96 988.13
+\i (00:15:09) rotate 
+\t (00:15:09) Spin the element(s).
+\i (00:15:10) iangle 180.000
+\t (00:15:10) last angle:  0.000 Degrees
+\i (00:15:19) prepopup 360.75 928.01
+\i (00:15:20) rotate 
+\t (00:15:20) Spin the element(s).
+\i (00:15:22) iangle 90.000
+\t (00:15:22) last angle:  270.000 Degrees
+\i (00:15:25) prepopup 671.82 1027.34
+\i (00:15:26) rotate 
+\t (00:15:26) Spin the element(s).
+\i (00:15:27) iangle 90.000
+\t (00:15:27) last angle:  270.000 Degrees
+\i (00:15:29) prepopup 661.37 1050.87
+\i (00:15:30) rotate 
+\t (00:15:30) Spin the element(s).
+\i (00:15:34) iangle -180.000
+\t (00:15:34) last angle:  0.000 Degrees
+\i (00:15:42) pick grid 546.35 1077.01
+\t (00:15:42) last pick:  500.00  1100.00
+\i (00:15:42) generaledit 
+\i (00:15:44) pick grid 682.28 708.42
+\t (00:15:44) last pick:  700.00  700.00
+\i (00:15:45) move 
+\t (00:15:45) last pick:  700.00  600.00
+\t (00:15:45) Moving D2 / LED_CAP196_LED / CAP196.
+\t (00:15:45) Pick new location for the element(s).
+\i (00:15:52) pick grid 452.24 624.77
+\t (00:15:52) last pick:  500.00  600.00
+\i (00:15:52) generaledit 
+\i (00:15:53) pick grid 1717.46 901.86
+\t (00:15:53) last pick:  1700.00  900.00
+\i (00:15:53) move 
+\t (00:15:53) last pick:  1700.00  1000.00
+\t (00:15:53) Moving C1 / CAP POL_CAP196_CAP POL / CAP196.
+\t (00:15:53) Pick new location for the element(s).
+\i (00:15:55) pick grid 1696.55 650.91
+\t (00:15:55) last pick:  1700.00  700.00
+\i (00:15:55) generaledit 
+\i (00:15:56) pick grid 1717.46 1194.64
+\t (00:15:56) last pick:  1700.00  1200.00
+\i (00:15:57) move 
+\t (00:15:57) last pick:  1700.00  1200.00
+\t (00:15:57) Moving D1 / LED_CAP196_LED / CAP196.
+\t (00:15:57) Pick new location for the element(s).
+\i (00:15:58) pick grid 1722.69 1147.59
+\t (00:15:58) last pick:  1700.00  1100.00
+\i (00:15:58) generaledit 
+\i (00:16:00) save 
+\i (00:16:01) fillin yes 
+\i (00:16:01) generaledit 
+\i (00:16:24) pick grid 514.98 588.17
+\t (00:16:24) last pick:  500.00  600.00
+\i (00:16:25) move 
+\t (00:16:25) last pick:  500.00  600.00
+\t (00:16:25) Moving D2 / LED_CAP196_LED / CAP196.
+\t (00:16:25) Pick new location for the element(s).
+\i (00:16:43) pick grid 480.99 548.96
+\t (00:16:43) last pick:  500.00  500.00
+\i (00:16:43) generaledit 
+\i (00:16:44) pick grid 703.19 334.60
+\t (00:16:44) last pick:  700.00  300.00
+\i (00:16:45) move 
+\t (00:16:45) last pick:  700.00  300.00
+\t (00:16:45) Moving Q1 / NPN ECB_TO92_NPN ECB / TO92.
+\t (00:16:45) Pick new location for the element(s).
+\i (00:16:46) pick grid 1610.29 248.34
+\t (00:16:46) last pick:  1600.00  200.00
+\i (00:16:46) generaledit 
+\i (00:16:47) pick grid 1322.73 274.48
+\t (00:16:47) last pick:  1300.00  300.00
+\i (00:16:48) move 
+\t (00:16:48) last pick:  1300.00  400.00
+\t (00:16:48) Moving Q2 / NPN ECB_TO92_NPN ECB / TO92.
+\t (00:16:48) Pick new location for the element(s).
+\i (00:16:50) prepopup 773.77 352.90
+\i (00:16:51) rotate 
+\t (00:16:51) Spin the element(s).
+\i (00:16:52) iangle 180.000
+\t (00:16:52) last angle:  180.000 Degrees
+\i (00:16:54) pick grid 799.91 345.06
+\t (00:16:54) last pick:  800.00  300.00
+\i (00:16:54) generaledit 
+\i (00:16:55) pick grid 1602.44 237.88
+\t (00:16:55) last pick:  1600.00  200.00
+\i (00:16:57) move 
+\t (00:16:57) last pick:  1600.00  200.00
+\t (00:16:57) Moving Q1 / NPN ECB_TO92_NPN ECB / TO92.
+\t (00:16:57) Pick new location for the element(s).
+\i (00:17:03) prepopup 1301.82 337.22
+\i (00:17:04) rotate 
+\t (00:17:04) Spin the element(s).
+\i (00:17:05) iangle 180.000
+\t (00:17:05) last angle:  0.000 Degrees
+\i (00:17:07) pick grid 1314.89 350.29
+\t (00:17:07) last pick:  1300.00  400.00
+\i (00:17:07) generaledit 
+\i (00:17:19) pick grid 627.38 1401.16
+\t (00:17:19) last pick:  600.00  1400.00
+\i (00:17:20) move 
+\t (00:17:20) last pick:  600.00  1800.00
+\t (00:17:20) Moving R3 / R_RES400_R / RES400.
+\t (00:17:20) Pick new location for the element(s).
+\i (00:17:21) pick grid 185.60 1754.06
+\t (00:17:21) last pick:  200.00  1800.00
+\i (00:17:21) generaledit 
+\i (00:17:22) pick grid 316.31 1411.61
+\t (00:17:22) last pick:  300.00  1400.00
+\i (00:17:22) move 
+\t (00:17:22) last pick:  300.00  1800.00
+\t (00:17:22) Moving R2 / R_RES400_R / RES400.
+\t (00:17:22) Pick new location for the element(s).
+\i (00:17:25) pick grid 551.57 1772.36
+\t (00:17:25) last pick:  600.00  1800.00
+\i (00:17:26) generaledit 
+\i (00:17:26) pick grid 219.58 1416.84
+\t (00:17:26) last pick:  200.00  1400.00
+\i (00:17:27) move 
+\t (00:17:27) last pick:  200.00  1800.00
+\t (00:17:27) Moving R3 / R_RES400_R / RES400.
+\t (00:17:27) Pick new location for the element(s).
+\i (00:17:28) pick grid 298.01 1751.45
+\t (00:17:28) last pick:  300.00  1800.00
+\i (00:17:28) generaledit 
+\i (00:17:30) pick grid 528.05 1071.78
+\t (00:17:30) last pick:  500.00  1100.00
+\i (00:17:31) move 
+\t (00:17:31) last pick:  500.00  1100.00
+\t (00:17:31) Moving C2 / CAP POL_CAP196_CAP POL / CAP196.
+\t (00:17:31) Pick new location for the element(s).
+\i (00:17:33) prepopup 460.08 1084.85
+\i (00:17:33) rotate 
+\t (00:17:33) Spin the element(s).
+\i (00:17:36) iangle 90.000
+\t (00:17:36) last angle:  90.000 Degrees
+\i (00:18:01) pick grid 444.40 1139.75
+\t (00:18:01) last pick:  400.00  1100.00
+\i (00:18:01) generaledit 
+\i (00:18:26) pick grid 588.17 1395.93
+\t (00:18:26) last pick:  600.00  1400.00
+\i (00:18:28) move 
+\t (00:18:28) last pick:  600.00  1800.00
+\t (00:18:28) Moving R2 / R_RES400_R / RES400.
+\t (00:18:28) Pick new location for the element(s).
+\i (00:18:31) pick grid 1048.25 1767.13
+\t (00:18:31) last pick:  1000.00  1800.00
+\i (00:18:31) generaledit 
+\i (00:18:32) pick grid 914.93 1780.20
+\t (00:18:32) last pick:  900.00  1800.00
+\i (00:18:32) move 
+\t (00:18:32) last pick:  900.00  1400.00
+\t (00:18:32) Moving R4 / R_RES400_R / RES400.
+\t (00:18:32) Pick new location for the element(s).
+\i (00:18:35) pick grid 588.17 1448.21
+\t (00:18:35) last pick:  600.00  1400.00
+\i (00:18:35) generaledit 
+\i (00:18:38) pick grid 1024.73 1780.20
+\t (00:18:38) last pick:  1000.00  1800.00
+\i (00:18:39) move 
+\t (00:18:39) last pick:  1000.00  1800.00
+\t (00:18:39) Moving R2 / R_RES400_R / RES400.
+\t (00:18:39) Pick new location for the element(s).
+\i (00:18:40) pick grid 1252.15 1798.50
+\t (00:18:40) last pick:  1300.00  1800.00
+\i (00:18:40) generaledit 
+\i (00:18:41) pick grid 1205.10 1793.27
+\t (00:18:41) last pick:  1200.00  1800.00
+\i (00:18:41) move 
+\t (00:18:41) last pick:  1200.00  1400.00
+\t (00:18:41) Moving R6 / R_RES400_R / RES400.
+\t (00:18:41) Pick new location for the element(s).
+\i (00:18:43) pick grid 948.92 1448.21
+\t (00:18:43) last pick:  900.00  1400.00
+\i (00:18:43) generaledit 
+\i (00:18:53) pick grid 1304.44 1782.82
+\t (00:18:53) last pick:  1300.00  1800.00
+\i (00:18:54) move 
+\t (00:18:54) last pick:  1300.00  1800.00
+\t (00:18:54) Moving R2 / R_RES400_R / RES400.
+\t (00:18:54) Pick new location for the element(s).
+\i (00:18:55) pick grid 1249.54 1785.43
+\t (00:18:55) last pick:  1200.00  1800.00
+\i (00:18:55) generaledit 
+\i (00:19:04) pick grid 1416.84 1291.37
+\t (00:19:04) last pick:  1400.00  1300.00
+\i (00:19:25) pick grid 329.38 1074.39
+\t (00:19:25) last pick:  300.00  1100.00
+\i (00:19:26) move 
+\t (00:19:26) last pick:  400.00  1100.00
+\t (00:19:26) Moving C2 / CAP POL_CAP196_CAP POL / CAP196.
+\t (00:19:26) Pick new location for the element(s).
+\i (00:19:26) prepopup 329.38 1074.39
+\i (00:19:27) rotate 
+\t (00:19:27) Spin the element(s).
+\i (00:19:29) iangle -90.000
+\t (00:19:29) last angle:  0.000 Degrees
+\i (00:19:31) prepopup 373.82 1121.45
+\i (00:19:32) rotate 
+\t (00:19:32) Spin the element(s).
+\i (00:19:36) iangle -90.000
+\t (00:19:36) last angle:  0.000 Degrees
+\i (00:19:37) pick grid 444.40 1095.31
+\t (00:19:37) last pick:  400.00  1100.00
+\i (00:19:37) generaledit 
+\i (00:19:39) pick grid 483.61 614.31
+\t (00:19:39) last pick:  500.00  600.00
+\i (00:19:39) move 
+\t (00:19:39) last pick:  500.00  500.00
+\t (00:19:39) Moving D2 / LED_CAP196_LED / CAP196.
+\t (00:19:39) Pick new location for the element(s).
+\i (00:19:41) pick grid 449.63 643.07
+\t (00:19:41) last pick:  400.00  600.00
+\i (00:19:41) generaledit 
+\i (00:19:56) pick grid 428.71 1194.64
+\t (00:19:56) last pick:  400.00  1200.00
+\i (00:19:57) move 
+\t (00:19:57) last pick:  400.00  1100.00
+\t (00:19:57) Moving C2 / CAP POL_CAP196_CAP POL / CAP196.
+\t (00:19:57) Pick new location for the element(s).
+\i (00:19:59) pick grid 316.31 1144.98
+\t (00:19:59) last pick:  300.00  1100.00
+\e (00:19:59) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:20:00) pick grid 342.45 1053.48
+\t (00:20:00) last pick:  300.00  1100.00
+\e (00:20:00) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:20:01) pick grid 331.99 1053.48
+\t (00:20:01) last pick:  300.00  1100.00
+\e (00:20:01) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:20:01) pick grid dbl 300.62 1137.13
+\t (00:20:01) last pick:  300.00  1100.00
+\e (00:20:01) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:20:02) prepopup 303.24 1147.59
+\i (00:20:04) done 
+\i (00:20:04) generaledit 
+\i (00:20:05) drag_start grid 389.50 1105.76
+\i (00:20:05) move 
+\t (00:20:05) last pick:  400.00  1100.00
+\t (00:20:05) Moving C2 / CAP POL_CAP196_CAP POL / CAP196.
+\t (00:20:05) Pick new location for the element(s).
+\i (00:20:05) drag_stop grid 298.01 1116.22
+\e (00:20:05) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:20:06) pick grid 339.83 1116.22
+\t (00:20:06) last pick:  300.00  1100.00
+\e (00:20:06) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:20:07) pick grid dbl 295.39 1129.29
+\t (00:20:07) last pick:  300.00  1100.00
+\e (00:20:07) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:20:08) Esc 
+\i (00:20:08) Esc 
+\i (00:20:10) oops 
+\t (00:20:10) last pick:  300.00  1100.00
+\i (00:20:10) generaledit 
+\i (00:20:11) move 
+\t (00:20:11) last pick:  400.00  1100.00
+\t (00:20:11) Moving C2 / CAP POL_CAP196_CAP POL / CAP196.
+\t (00:20:11) Pick new location for the element(s).
+\i (00:20:13) pick grid 347.68 1077.01
+\t (00:20:13) last pick:  300.00  1100.00
+\e (00:20:13) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:20:14) pick grid 345.06 1069.17
+\t (00:20:14) last pick:  300.00  1100.00
+\e (00:20:14) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:20:14) pick grid dbl 308.46 1108.38
+\t (00:20:14) last pick:  300.00  1100.00
+\e (00:20:14) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:20:15) pick grid 308.46 1108.38
+\t (00:20:15) last pick:  300.00  1100.00
+\e (00:20:15) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:20:16) pick grid 345.06 1134.52
+\t (00:20:16) last pick:  300.00  1100.00
+\e (00:20:16) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:20:16) prepopup 318.92 1137.13
+\i (00:20:19) rotate 
+\t (00:20:19) Spin the element(s).
+\i (00:20:22) iangle 0.000
+\t (00:20:22) last angle:  0.000 Degrees
+\i (00:20:23) pick grid 261.41 1139.75
+\t (00:20:23) last pick:  300.00  1100.00
+\e (00:20:23) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:20:23) prepopup 415.64 1121.45
+\i (00:20:24) done 
+\i (00:20:24) generaledit 
+\i (00:20:26) drag_start grid 405.19 1087.47
+\i (00:20:26) move 
+\t (00:20:26) last pick:  400.00  1100.00
+\t (00:20:26) Moving C2 / CAP POL_CAP196_CAP POL / CAP196.
+\t (00:20:26) Pick new location for the element(s).
+\i (00:20:26) drag_stop grid 331.99 1090.08
+\e (00:20:26) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:20:27) pick grid 347.68 1084.85
+\t (00:20:27) last pick:  300.00  1100.00
+\e (00:20:27) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:20:27) pick grid dbl 326.76 1090.08
+\t (00:20:27) last pick:  300.00  1100.00
+\e (00:20:27) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:20:28) Esc 
+\i (00:20:28) Esc 
+\i (00:20:28) Esc 
+\i (00:20:29) done 
+\i (00:20:29) generaledit 
+\i (00:20:30) pick grid 781.62 1108.38
+\t (00:20:30) last pick:  800.00  1100.00
+\i (00:20:32) move 
+\t (00:20:32) Select element(s) to move.
+\i (00:20:33) pick grid 410.41 1090.08
+\t (00:20:33) last pick:  400.00  1100.00
+\t (00:20:33) last pick:  400.00  1100.00
+\t (00:20:33) Moving C2 / CAP POL_CAP196_CAP POL / CAP196.
+\t (00:20:33) Pick new location for the element(s).
+\i (00:20:35) pick grid 250.95 1079.62
+\t (00:20:35) last pick:  300.00  1100.00
+\e (00:20:35) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:20:36) pick grid 290.17 1056.10
+\t (00:20:36) last pick:  300.00  1100.00
+\e (00:20:36) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:20:36) pick grid dbl 290.17 1124.06
+\t (00:20:36) last pick:  300.00  1100.00
+\e (00:20:36) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:20:37) Esc 
+\i (00:20:37) Esc 
+\i (00:20:37) Esc 
+\i (00:20:37) Esc 
+\i (00:20:38) prepopup 290.17 1124.06
+\i (00:20:39) oops 
+\t (00:20:39) last pick:  300.00  1100.00
+\i (00:20:40) pick grid 907.09 1071.78
+\t (00:20:40) last pick:  900.00  1100.00
+\i (00:20:42) drag_start grid 862.65 969.83
+\i (00:20:42) drag_stop 287.55 1267.84
+\t (00:20:42) last pick:  400.00  1100.00
+\t (00:20:42) Moving C2 / CAP POL_CAP196_CAP POL / CAP196.
+\t (00:20:42) Pick new location for the element(s).
+\i (00:20:43) pick grid 269.25 1142.36
+\t (00:20:43) last pick:  300.00  1100.00
+\e (00:20:43) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:20:44) Esc 
+\i (00:20:44) Esc 
+\i (00:20:44) Esc 
+\i (00:20:45) Esc 
+\i (00:20:45) pick grid 266.64 1053.48
+\t (00:20:45) last pick:  300.00  1100.00
+\e (00:20:45) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:20:45) pick grid dbl 266.64 1053.48
+\t (00:20:45) last pick:  300.00  1100.00
+\e (00:20:45) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:20:46) pick grid 266.64 1053.48
+\t (00:20:46) last pick:  300.00  1100.00
+\e (00:20:46) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:20:46) pick grid dbl 266.64 1053.48
+\t (00:20:46) last pick:  300.00  1100.00
+\e (00:20:46) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:20:46) Esc 
+\i (00:20:46) Esc 
+\i (00:20:46) Esc 
+\i (00:20:47) done 
+\i (00:20:47) generaledit 
+\i (00:20:48) pick grid 679.67 823.44
+\t (00:20:48) last pick:  700.00  800.00
+\i (00:20:54) save 
+\i (00:20:55) fillin yes 
+\i (00:20:55) generaledit 
+\i (00:20:56) move 
+\t (00:20:56) Select element(s) to move.
+\i (00:20:57) pick grid 415.64 1110.99
+\t (00:20:57) last pick:  400.00  1100.00
+\t (00:20:57) last pick:  400.00  1100.00
+\t (00:20:57) Moving C2 / CAP POL_CAP196_CAP POL / CAP196.
+\t (00:20:57) Pick new location for the element(s).
+\i (00:21:00) pick grid 300.62 1050.87
+\t (00:21:00) last pick:  300.00  1100.00
+\e (00:21:00) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:21:00) pick grid dbl 305.85 1105.76
+\t (00:21:00) last pick:  300.00  1100.00
+\e (00:21:00) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:21:03) prepopup 305.85 1105.76
+\i (00:21:10) done 
+\i (00:21:10) generaledit 
+\i (00:21:11) pick grid 823.44 1077.01
+\t (00:21:11) last pick:  800.00  1100.00
+\i (00:21:20) pick grid 423.48 1212.94
+\t (00:21:20) last pick:  400.00  1200.00
+\i (00:21:22) pick grid 410.41 1110.99
+\t (00:21:22) last pick:  400.00  1100.00
+\i (00:21:26) pick grid 402.57 1108.38
+\t (00:21:26) last pick:  400.00  1100.00
+\i (00:21:26) pick grid 407.80 1108.38
+\t (00:21:26) last pick:  400.00  1100.00
+\i (00:21:29) drag_start grid 389.50 1108.38
+\i (00:21:29) move 
+\t (00:21:29) last pick:  400.00  1100.00
+\t (00:21:29) Moving C2 / CAP POL_CAP196_CAP POL / CAP196.
+\t (00:21:29) Pick new location for the element(s).
+\i (00:21:29) drag_stop grid 308.46 1110.99
+\e (00:21:29) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:21:32) pick grid 342.45 1061.32
+\t (00:21:32) last pick:  300.00  1100.00
+\e (00:21:32) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:21:32) pick grid dbl 292.78 1126.68
+\t (00:21:32) last pick:  300.00  1100.00
+\e (00:21:32) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:21:32) prepopup 292.78 1126.68
+\i (00:21:33) done 
+\i (00:21:33) generaledit 
+\i (00:21:33) pick grid 679.67 1095.31
+\t (00:21:33) last pick:  700.00  1100.00
+\i (00:21:42) pick grid 303.24 1795.89
+\t (00:21:42) last pick:  300.00  1800.00
+\i (00:21:48) add connect 
+\t (00:21:48) Selected item not valid for current operation, ignored: Symbol "R3"
+\t (00:21:48) No valid items selected for the current operation, exiting.
+\i (00:21:48) generaledit 
+\i (00:21:48) pick grid 287.55 1808.96
+\t (00:21:48) last pick:  300.00  1800.00
+\i (00:21:51) add connect 
+\t (00:21:51) Selected item not valid for current operation, ignored: Symbol "R3"
+\t (00:21:51) No valid items selected for the current operation, exiting.
+\i (00:21:51) generaledit 
+\i (00:21:53) pick grid 290.17 1801.11
+\t (00:21:53) last pick:  300.00  1800.00
+\w (00:21:57) Save Pending
+\i (00:22:00) setwindow form.find
+\i (00:22:00) FORM find all_on  
+\i (00:22:02) setwindow pcb
+\i (00:22:02) pick grid 342.45 1777.59
+\t (00:22:02) last pick:  350.00  1775.00
+\i (00:22:03) pick grid 326.76 1803.73
+\t (00:22:03) last pick:  325.00  1800.00
+\i (00:22:04) add connect 
+\t (00:22:04) Selected item not valid for current operation, ignored: Symbol "R3"
+\t (00:22:04) No valid items selected for the current operation, exiting.
+\t (00:22:04) Performing autosave...
+\t (00:22:04) Autosave successful
+\i (00:22:04) generaledit 
+\i (00:22:04) pick grid 329.38 1829.87
+\t (00:22:04) last pick:  325.00  1825.00
+\i (00:22:05) pick grid 622.16 1777.59
+\t (00:22:05) last pick:  625.00  1775.00
+\i (00:22:07) pick grid 598.63 1414.23
+\t (00:22:07) last pick:  600.00  1425.00
+\i (00:22:08) add connect 
+\t (00:22:08) Pick first element.
+\t (00:22:08) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:22:08) last pick:  600.00  1400.00
+\i (00:22:08) add connect 
+\t (00:22:08) Pick first element.
+\t (00:22:08) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:22:08) last pick:  600.00  1400.00
+\i (00:22:08) add connect 
+\t (00:22:08) Pick first element.
+\t (00:22:08) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:22:08) last pick:  600.00  1400.00
+\i (00:22:08) add connect 
+\t (00:22:08) Pick first element.
+\t (00:22:08) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:22:08) last pick:  600.00  1400.00
+\i (00:22:09) add connect 
+\t (00:22:09) Pick first element.
+\t (00:22:09) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:22:09) last pick:  600.00  1400.00
+\i (00:22:09) add connect 
+\t (00:22:09) Pick first element.
+\t (00:22:09) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:22:09) last pick:  600.00  1400.00
+\i (00:22:10) mouse_pos 901.86 1414.23
+\i (00:22:10) mouse_pos 1006.43 1414.23
+\i (00:22:13) setwindow form.mini
+\i (00:22:13) FORM mini acon_line_width 25 
+\i (00:22:14) setwindow pcb
+\i (00:22:14) mouse_pos 907.09 1341.03
+\i (00:22:14) mouse_pos 781.62 1359.33
+\i (00:22:15) pick grid 614.31 1398.54
+\t (00:22:15) last pick:  625.00  1400.00
+\t (00:22:15) No DRC errors detected.
+\i (00:22:16) mouse_pos 839.13 1398.54
+\i (00:22:16) pick grid 912.32 1409.00
+\t (00:22:16) last pick:  900.00  1400.00
+\t (00:22:16) No DRC errors detected.
+\t (00:22:16) Pick first element.
+\i (00:22:16) generaledit 
+\i (00:22:17) pick grid 329.38 1790.66
+\t (00:22:17) last pick:  325.00  1800.00
+\i (00:22:19) pick grid 365.97 1856.01
+\t (00:22:19) last pick:  375.00  1850.00
+\i (00:22:20) pick grid 907.09 1803.73
+\t (00:22:20) last pick:  900.00  1800.00
+\i (00:22:22) add connect 
+\t (00:22:22) Pick first element.
+\t (00:22:22) last pick:  900.00  1800.00
+\i (00:22:22) mouse_pos 324.15 1803.73
+\i (00:22:23) mouse_pos 350.29 1863.85
+\i (00:22:26) pick grid 833.90 1842.94
+\t (00:22:26) last pick:  825.00  1850.00
+\t (00:22:26) No DRC errors detected.
+\i (00:22:27) mouse_pos 360.75 1853.40
+\i (00:22:27) pick grid 337.22 1853.40
+\t (00:22:27) last pick:  325.00  1850.00
+\t (00:22:27) No DRC errors detected.
+\t (00:22:27) Pick first element.
+\i (00:22:27) generaledit 
+\i (00:22:28) pick grid 292.78 1819.41
+\t (00:22:28) last pick:  300.00  1825.00
+\i (00:22:30) pick grid 609.09 1785.43
+\t (00:22:30) last pick:  600.00  1775.00
+\i (00:22:32) pick grid 394.73 1090.08
+\t (00:22:32) last pick:  400.00  1100.00
+\i (00:22:35) pick grid 331.99 1367.17
+\t (00:22:35) last pick:  325.00  1375.00
+\i (00:22:35) add connect 
+\t (00:22:35) Pick first element.
+\t (00:22:35) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:22:35) last pick:  300.00  1400.00
+\i (00:22:37) pick grid 402.57 1335.80
+\t (00:22:37) last pick:  400.00  1325.00
+\t (00:22:37) No DRC errors detected.
+\i (00:22:37) mouse_pos 402.57 1335.80
+\i (00:22:37) mouse_pos 402.57 1312.28
+\i (00:22:38) mouse_pos 405.19 1314.89
+\i (00:22:40) pick grid 389.50 1307.05
+\t (00:22:40) last pick:  400.00  1300.00
+\t (00:22:40) No DRC errors detected.
+\t (00:22:40) last pick:  375.00  1325.00
+\i (00:22:40) mouse_pos 394.73 1260.00
+\i (00:22:41) pick grid 394.73 1236.47
+\t (00:22:41) last pick:  400.00  1225.00
+\t (00:22:41) No DRC errors detected.
+\t (00:22:41) Pick first element.
+\i (00:22:41) generaledit 
+\i (00:22:50) pick grid 399.96 1100.54
+\t (00:22:50) last pick:  400.00  1100.00
+\i (00:22:51) add connect 
+\t (00:22:51) Pick first element.
+\t (00:22:51) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:22:51) last pick:  400.00  1100.00
+\i (00:22:51) mouse_pos 601.24 1759.29
+\i (00:22:51) mouse_pos 554.19 1735.76
+\i (00:22:54) pick grid 512.36 1215.56
+\t (00:22:54) last pick:  500.00  1225.00
+\t (00:22:54) No DRC errors detected.
+\i (00:22:54) mouse_pos 499.29 1220.78
+\i (00:22:54) mouse_pos 494.06 1239.08
+\i (00:22:56) pick grid 520.21 1764.52
+\t (00:22:56) last pick:  525.00  1775.00
+\t (00:22:56) No DRC errors detected.
+\i (00:22:56) mouse_pos 564.65 1780.20
+\i (00:22:57) mouse_pos 533.28 1782.82
+\i (00:22:57) mouse_pos 564.65 1798.50
+\i (00:22:58) pick grid 564.65 1798.50
+\t (00:22:58) last pick:  575.00  1800.00
+\t (00:22:58) No DRC errors detected.
+\t (00:22:58) Pick first element.
+\i (00:22:58) generaledit 
+\i (00:23:00) pick grid 914.93 1808.96
+\t (00:23:00) last pick:  925.00  1800.00
+\i (00:23:01) add connect 
+\t (00:23:01) Pick first element.
+\t (00:23:01) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:23:01) last pick:  900.00  1800.00
+\i (00:23:02) mouse_pos 1147.59 1832.48
+\i (00:23:02) pick grid 1207.71 1811.57
+\t (00:23:02) last pick:  1200.00  1800.00
+\t (00:23:02) No DRC errors detected.
+\t (00:23:02) Pick first element.
+\i (00:23:02) generaledit 
+\i (00:23:04) pick grid 1202.49 1803.73
+\t (00:23:04) last pick:  1200.00  1800.00
+\i (00:23:04) add connect 
+\t (00:23:04) Pick first element.
+\t (00:23:04) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:23:04) last pick:  1200.00  1800.00
+\i (00:23:05) mouse_pos 1338.42 1811.57
+\i (00:23:05) pick grid 1388.09 1811.57
+\t (00:23:05) last pick:  1400.00  1800.00
+\t (00:23:05) No DRC errors detected.
+\t (00:23:05) Pick first element.
+\i (00:23:05) generaledit 
+\i (00:23:06) pick grid 1406.39 1409.00
+\t (00:23:06) last pick:  1400.00  1400.00
+\i (00:23:06) add connect 
+\t (00:23:06) Pick first element.
+\t (00:23:06) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:23:06) last pick:  1400.00  1400.00
+\i (00:23:06) mouse_pos 1641.65 1398.54
+\i (00:23:07) pick grid 1714.85 1401.16
+\t (00:23:07) last pick:  1725.00  1400.00
+\t (00:23:07) No DRC errors detected.
+\t (00:23:07) Pick first element.
+\i (00:23:07) generaledit 
+\i (00:23:07) pick grid 1688.71 1808.96
+\t (00:23:07) last pick:  1700.00  1800.00
+\i (00:23:08) add connect 
+\t (00:23:08) Pick first element.
+\t (00:23:08) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:23:08) last pick:  1700.00  1800.00
+\i (00:23:10) pick grid 1814.18 1764.52
+\t (00:23:10) last pick:  1825.00  1775.00
+\t (00:23:10) No DRC errors detected.
+\i (00:23:11) pick grid 1774.97 1207.71
+\t (00:23:11) last pick:  1775.00  1200.00
+\t (00:23:11) No DRC errors detected.
+\i (00:23:12) mouse_pos 1735.76 1202.49
+\i (00:23:12) pick grid 1712.24 1199.87
+\t (00:23:12) last pick:  1700.00  1200.00
+\t (00:23:12) No DRC errors detected.
+\t (00:23:12) Pick first element.
+\i (00:23:12) generaledit 
+\i (00:23:13) pick grid 1699.16 1186.80
+\t (00:23:13) last pick:  1700.00  1175.00
+\i (00:23:13) add connect 
+\t (00:23:13) Pick first element.
+\t (00:23:13) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:23:13) last pick:  1700.00  1200.00
+\i (00:23:16) mouse_pos 1769.75 1163.27
+\i (00:23:16) mouse_pos 1738.38 1168.50
+\i (00:23:16) mouse_pos 1764.52 1168.50
+\i (00:23:17) mouse_pos 1774.97 1160.66
+\i (00:23:17) mouse_pos 1793.27 1163.27
+\i (00:23:17) mouse_pos 1798.50 1160.66
+\i (00:23:20) pick grid 1829.87 1087.47
+\t (00:23:20) last pick:  1825.00  1075.00
+\t (00:23:20) No DRC errors detected.
+\i (00:23:22) pick grid 1788.04 711.04
+\t (00:23:22) last pick:  1800.00  700.00
+\t (00:23:22) No DRC errors detected.
+\i (00:23:22) mouse_pos 1761.90 697.96
+\i (00:23:22) pick grid 1735.76 697.96
+\t (00:23:22) last pick:  1725.00  700.00
+\t (00:23:22) No DRC errors detected.
+\t (00:23:22) Pick first element.
+\i (00:23:22) generaledit 
+\i (00:23:27) pick grid 389.50 582.94
+\t (00:23:27) last pick:  400.00  575.00
+\i (00:23:27) add connect 
+\t (00:23:27) Pick first element.
+\t (00:23:27) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:23:27) last pick:  400.00  600.00
+\i (00:23:29) pick grid 452.24 360.75
+\t (00:23:29) last pick:  450.00  350.00
+\t (00:23:29) No DRC errors detected.
+\i (00:23:29) mouse_pos 765.93 352.90
+\i (00:23:30) pick grid 789.46 350.29
+\t (00:23:30) last pick:  800.00  350.00
+\t (00:23:30) No DRC errors detected.
+\t (00:23:30) Pick first element.
+\i (00:23:30) generaledit 
+\i (00:23:33) pick grid 810.37 295.39
+\t (00:23:33) last pick:  800.00  300.00
+\i (00:23:33) add connect 
+\t (00:23:33) Pick first element.
+\t (00:23:33) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:23:33) last pick:  800.00  300.00
+\i (00:23:35) pick grid 1100.54 389.50
+\t (00:23:35) last pick:  1100.00  400.00
+\t (00:23:35) No DRC errors detected.
+\i (00:23:36) mouse_pos 1262.61 394.73
+\i (00:23:36) pick grid 1288.75 397.34
+\t (00:23:36) last pick:  1300.00  400.00
+\t (00:23:36) No DRC errors detected.
+\t (00:23:36) Pick first element.
+\i (00:23:36) generaledit 
+\i (00:23:40) pick grid 807.76 402.57
+\t (00:23:40) last pick:  800.00  400.00
+\i (00:23:40) add connect 
+\t (00:23:40) Pick first element.
+\t (00:23:40) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:23:40) last pick:  800.00  400.00
+\i (00:23:42) pick grid 1124.06 588.17
+\t (00:23:42) last pick:  1125.00  600.00
+\t (00:23:42) No DRC errors detected.
+\i (00:23:43) mouse_pos 1639.04 609.09
+\i (00:23:43) pick grid 1688.71 596.01
+\t (00:23:43) last pick:  1700.00  600.00
+\t (00:23:43) No DRC errors detected.
+\t (00:23:43) Pick first element.
+\i (00:23:43) generaledit 
+\i (00:23:47) pick grid 1822.03 912.32
+\t (00:23:47) last pick:  1825.00  900.00
+\i (00:23:47) pick grid dbl 1822.03 912.32
+\t (00:23:47) last pick:  1825.00  900.00
+\i (00:23:48) delete 
+\i (00:23:48) generaledit 
+\i (00:23:49) pick grid 1793.27 1087.47
+\t (00:23:49) last pick:  1800.00  1075.00
+\i (00:23:49) pick grid dbl 1793.27 1087.47
+\t (00:23:49) last pick:  1800.00  1075.00
+\i (00:23:50) delete 
+\i (00:23:50) generaledit 
+\i (00:23:50) pick grid 1811.57 716.26
+\t (00:23:50) last pick:  1800.00  725.00
+\i (00:23:50) pick grid dbl 1811.57 716.26
+\t (00:23:50) last pick:  1800.00  725.00
+\i (00:23:51) delete 
+\i (00:23:51) generaledit 
+\i (00:23:52) pick grid 1764.52 708.42
+\t (00:23:52) last pick:  1775.00  700.00
+\i (00:23:52) pick grid dbl 1764.52 708.42
+\t (00:23:52) last pick:  1775.00  700.00
+\i (00:23:52) delete 
+\i (00:23:52) generaledit 
+\i (00:23:54) pick grid 1707.01 1095.31
+\t (00:23:54) last pick:  1700.00  1100.00
+\i (00:23:56) pick grid 1707.01 1199.87
+\t (00:23:56) last pick:  1700.00  1200.00
+\i (00:23:57) add connect 
+\t (00:23:57) Pick first element.
+\t (00:23:57) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:23:57) last pick:  1700.00  1200.00
+\i (00:23:59) pick grid 1560.62 1144.98
+\t (00:23:59) last pick:  1550.00  1150.00
+\t (00:23:59) No DRC errors detected.
+\i (00:24:01) pick grid 1576.30 687.51
+\t (00:24:01) last pick:  1575.00  700.00
+\t (00:24:01) No DRC errors detected.
+\i (00:24:01) mouse_pos 1639.04 695.35
+\i (00:24:02) pick grid 1688.71 695.35
+\t (00:24:02) last pick:  1700.00  700.00
+\t (00:24:02) No DRC errors detected.
+\t (00:24:02) Pick first element.
+\i (00:24:02) generaledit 
+\i (00:24:06) pick grid 1696.55 1100.54
+\t (00:24:06) last pick:  1700.00  1100.00
+\i (00:24:07) add connect 
+\t (00:24:07) Pick first element.
+\t (00:24:07) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:24:07) last pick:  1700.00  1100.00
+\i (00:24:10) pick grid 1814.18 1045.64
+\t (00:24:10) last pick:  1825.00  1050.00
+\t (00:24:10) No DRC errors detected.
+\i (00:24:12) pick grid 1782.82 339.83
+\t (00:24:12) last pick:  1775.00  350.00
+\t (00:24:12) No DRC errors detected.
+\i (00:24:13) mouse_pos 1335.80 350.29
+\i (00:24:13) pick grid 1309.66 350.29
+\t (00:24:13) last pick:  1300.00  350.00
+\t (00:24:13) No DRC errors detected.
+\t (00:24:13) Pick first element.
+\i (00:24:14) generaledit 
+\i (00:24:16) pick grid 1223.40 1380.24
+\t (00:24:16) last pick:  1225.00  1375.00
+\i (00:24:16) add connect 
+\t (00:24:16) Pick first element.
+\t (00:24:16) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:24:16) last pick:  1200.00  1400.00
+\i (00:24:20) pick grid 1265.22 663.98
+\t (00:24:20) last pick:  1275.00  675.00
+\t (00:24:20) No DRC errors detected.
+\i (00:24:20) mouse_pos 1612.90 635.23
+\i (00:24:20) mouse_pos 1657.34 637.84
+\i (00:24:22) pick grid 1688.71 609.09
+\t (00:24:22) last pick:  1700.00  600.00
+\t (00:24:22) No DRC errors detected.
+\t (00:24:22) Pick first element.
+\i (00:24:22) generaledit 
+\i (00:24:26) pick grid 386.89 1087.47
+\t (00:24:26) last pick:  375.00  1075.00
+\i (00:24:27) add connect 
+\t (00:24:27) Pick first element.
+\t (00:24:27) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:24:27) last pick:  400.00  1100.00
+\i (00:24:28) mouse_pos 410.41 758.09
+\i (00:24:28) pick grid 394.73 708.42
+\t (00:24:28) last pick:  400.00  700.00
+\t (00:24:28) No DRC errors detected.
+\t (00:24:28) Pick first element.
+\i (00:24:28) generaledit 
+\i (00:24:29) pick grid 399.96 1202.49
+\t (00:24:29) last pick:  400.00  1200.00
+\i (00:24:30) add connect 
+\t (00:24:30) Pick first element.
+\t (00:24:30) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:24:30) last pick:  400.00  1200.00
+\i (00:24:33) pick grid 284.94 1108.38
+\t (00:24:33) last pick:  275.00  1100.00
+\t (00:24:33) No DRC errors detected.
+\i (00:24:33) mouse_pos 279.71 1097.92
+\i (00:24:33) mouse_pos 277.09 1056.10
+\i (00:24:38) mouse_pos 287.55 1063.94
+\i (00:24:39) mouse_pos 261.41 1079.62
+\i (00:24:40) pick grid 261.41 1050.87
+\t (00:24:40) last pick:  250.00  1050.00
+\t (00:24:40) No DRC errors detected.
+\i (00:24:43) pick grid 264.02 206.51
+\t (00:24:43) last pick:  275.00  200.00
+\t (00:24:43) No DRC errors detected.
+\i (00:24:47) mouse_pos 1262.61 308.46
+\i (00:24:47) mouse_pos 1260.00 305.85
+\i (00:24:48) pick grid 1210.33 305.85
+\t (00:24:48) last pick:  1200.00  300.00
+\t (00:24:48) No DRC errors detected.
+\i (00:24:48) mouse_pos 1265.22 300.62
+\i (00:24:48) pick grid 1288.75 300.62
+\t (00:24:48) last pick:  1300.00  300.00
+\t (00:24:48) No DRC errors detected.
+\t (00:24:48) Pick first element.
+\i (00:24:48) generaledit 
+\i (00:24:50) place manual 
+\t (00:24:50) Selected item not valid for current operation, ignored: Pin "C2.2 (N00290)"
+\t (00:24:50) No valid items selected for the current operation, exiting.
+\i (00:24:50) generaledit 
+\i (00:24:51) save 
+\i (00:24:52) fillin yes 
+\i (00:24:52) generaledit 
+\i (00:24:54) place manual -h 
+\t (00:24:54) Selected item not valid for current operation, ignored: Pin "C2.2 (N00290)"
+\t (00:24:54) No valid items selected for the current operation, exiting.
+\i (00:24:54) generaledit 
+\i (00:24:54) place manual 
+\t (00:24:54) Selected item not valid for current operation, ignored: Pin "C2.2 (N00290)"
+\t (00:24:54) No valid items selected for the current operation, exiting.
+\i (00:24:54) generaledit 
+\i (00:24:58) setwindow form.find
+\i (00:24:58) FORM find all_off  
+\i (00:24:59) FORM find symbols YES 
+\i (00:25:00) FORM find all_on  
+\i (00:25:00) FORM find all_off  
+\i (00:25:01) FORM find symbols YES 
+\i (00:25:02) setwindow pcb
+\i (00:25:02) place manual -h 
+\t (00:25:02) Selected item not valid for current operation, ignored: Pin "C2.2 (N00290)"
+\t (00:25:02) No valid items selected for the current operation, exiting.
+\i (00:25:02) generaledit 
+\i (00:25:03) place manual 
+\t (00:25:03) Selected item not valid for current operation, ignored: Pin "C2.2 (N00290)"
+\t (00:25:03) No valid items selected for the current operation, exiting.
+\i (00:25:03) generaledit 
+\i (00:25:09) place manual 
+\t (00:25:09) Selected item not valid for current operation, ignored: Pin "C2.2 (N00290)"
+\t (00:25:09) No valid items selected for the current operation, exiting.
+\i (00:25:09) generaledit 
+\i (00:25:09) move 
+\t (00:25:09) Cannot edit Pin "C2.2". Symbol or drawing must have UNFIXED_PINS property.
+\t (00:25:09) No valid items selected for the current operation, exiting.
+\i (00:25:10) generaledit 
+\i (00:25:10) place manual 
+\t (00:25:10) Selected item not valid for current operation, ignored: Pin "C2.2 (N00290)"
+\t (00:25:10) No valid items selected for the current operation, exiting.
+\i (00:25:10) generaledit 
+\i (00:25:11) place manual -h 
+\t (00:25:11) Selected item not valid for current operation, ignored: Pin "C2.2 (N00290)"
+\t (00:25:11) No valid items selected for the current operation, exiting.
+\i (00:25:11) generaledit 
+\i (00:25:24) setwindow form.find
+\i (00:25:24) FORM find groups YES 
+\i (00:25:25) setwindow pcb
+\i (00:25:25) place manual -h 
+\t (00:25:25) Selected item not valid for current operation, ignored: Pin "C2.2 (N00290)"
+\t (00:25:25) No valid items selected for the current operation, exiting.
+\i (00:25:25) generaledit 
+\i (00:25:26) place manual 
+\t (00:25:26) Selected item not valid for current operation, ignored: Pin "C2.2 (N00290)"
+\t (00:25:26) No valid items selected for the current operation, exiting.
+\i (00:25:26) generaledit 
+\i (00:25:26) place manual -h 
+\t (00:25:26) Selected item not valid for current operation, ignored: Pin "C2.2 (N00290)"
+\t (00:25:26) No valid items selected for the current operation, exiting.
+\i (00:25:26) generaledit 
+\i (00:25:27) place manual 
+\t (00:25:27) Selected item not valid for current operation, ignored: Pin "C2.2 (N00290)"
+\t (00:25:27) No valid items selected for the current operation, exiting.
+\i (00:25:27) generaledit 
+\i (00:25:28) move 
+\t (00:25:28) Cannot edit Pin "C2.2". Symbol or drawing must have UNFIXED_PINS property.
+\t (00:25:28) No valid items selected for the current operation, exiting.
+\i (00:25:28) generaledit 
+\i (00:25:29) place manual 
+\t (00:25:29) Selected item not valid for current operation, ignored: Pin "C2.2 (N00290)"
+\t (00:25:29) No valid items selected for the current operation, exiting.
+\i (00:25:29) generaledit 
+\i (00:25:29) place manual -h 
+\t (00:25:29) Selected item not valid for current operation, ignored: Pin "C2.2 (N00290)"
+\t (00:25:29) No valid items selected for the current operation, exiting.
+\i (00:25:29) generaledit 
+\i (00:25:30) add connect 
+\t (00:25:31) Pick first element.
+\t (00:25:31) last pick:  400.00  1200.00
+\i (00:25:31) slide 
+\t (00:25:31) Selected item not valid for current operation, ignored: Pin "C2.2 (N00290)"
+\t (00:25:31) No valid items selected for the current operation, exiting.
+\i (00:25:31) generaledit 
+\i (00:25:32) place manual -h 
+\t (00:25:32) Selected item not valid for current operation, ignored: Pin "C2.2 (N00290)"
+\t (00:25:32) No valid items selected for the current operation, exiting.
+\i (00:25:32) generaledit 
+\i (00:25:32) place manual 
+\t (00:25:32) Selected item not valid for current operation, ignored: Pin "C2.2 (N00290)"
+\t (00:25:32) No valid items selected for the current operation, exiting.
+\i (00:25:32) generaledit 
+\i (00:25:36) prmed 
+\i (00:25:40) setwindow form.prmedit
+\i (00:25:40) FORM prmedit done  
+\i (00:25:40) setwindow pcb
+\i (00:25:40) generaledit 
+\i (00:25:41) save 
+\i (00:25:42) fillin yes 
+\i (00:25:42) generaledit 
+\i (00:25:46) grid toggle 
+\i (00:25:46) generaledit 
+\i (00:25:46) grid toggle 
+\i (00:25:46) generaledit 
+\i (00:25:59) prmed 
+\i (00:26:00) setwindow form.prmedit
+\i (00:26:00) FORM prmedit display  
+\i (00:26:05) FORM prmedit done  
+\i (00:26:05) setwindow pcb
+\i (00:26:05) generaledit 
+\i (00:26:08) move 
+\t (00:26:08) Cannot edit Pin "C2.2". Symbol or drawing must have UNFIXED_PINS property.
+\t (00:26:08) No valid items selected for the current operation, exiting.
+\i (00:26:08) generaledit 
+\i (00:26:14) setwindow form.find
+\i (00:26:14) FORM find all_on  
+\i (00:26:18) FORM find all_off  
+\i (00:26:19) FORM find symbols YES 
+\i (00:26:22) setwindow pcb
+\i (00:26:22) place manual 
+\t (00:26:22) Selected item not valid for current operation, ignored: Pin "C2.2 (N00290)"
+\t (00:26:22) No valid items selected for the current operation, exiting.
+\i (00:26:22) generaledit 
+\i (00:26:27) define grid 
+\t (00:26:27) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:26:27) generaledit 
+\i (00:26:28) setwindow form.grid
+\i (00:26:28) FORM grid done  
+\i (00:26:31) setwindow pcb
+\i (00:26:31) zoom points 
+\t (00:26:31) Pick 1st corner of the new window.
+\i (00:26:43) pick 290.17 1801.11
+\t (00:26:43) last pick:  290.17  1801.11
+\t (00:26:43) Pick to complete the window.
+\i (00:26:44) pick 292.78 1769.75
+\t (00:26:44) last pick:  292.78  1769.75
+\i (00:26:44) trapsize 20
+\i (00:26:44) generaledit 
+\i (00:26:45) zoom out 1 
+\i (00:26:45) setwindow pcb
+\i (00:26:45) zoom out 301.04 1784.40
+\i (00:26:45) trapsize 41
+\i (00:26:45) zoom out 1 
+\i (00:26:45) setwindow pcb
+\i (00:26:45) zoom out 301.05 1784.39
+\i (00:26:45) trapsize 81
+\i (00:26:45) zoom out 1 
+\i (00:26:45) setwindow pcb
+\i (00:26:45) zoom out 301.03 1784.40
+\i (00:26:45) trapsize 162
+\i (00:26:45) zoom out 1 
+\i (00:26:45) setwindow pcb
+\i (00:26:45) zoom out 301.04 1784.39
+\i (00:26:45) trapsize 325
+\i (00:26:45) zoom out 1 
+\i (00:26:45) setwindow pcb
+\i (00:26:45) zoom out 272.46 1794.14
+\i (00:26:45) trapsize 649
+\i (00:26:45) zoom out 1 
+\i (00:26:45) setwindow pcb
+\i (00:26:45) zoom out 290.83 1794.14
+\i (00:26:45) trapsize 1298
+\i (00:26:46) zoom out 1 
+\i (00:26:46) setwindow pcb
+\i (00:26:46) zoom out 581.66 1794.14
+\i (00:26:46) trapsize 2597
+\i (00:26:46) zoom in 1 
+\i (00:26:46) setwindow pcb
+\i (00:26:46) zoom in 1158.13 1952.72
+\i (00:26:46) trapsize 1298
+\i (00:26:46) zoom in 1 
+\i (00:26:46) setwindow pcb
+\i (00:26:46) zoom in 1155.54 1952.72
+\i (00:26:46) trapsize 649
+\i (00:26:49) zoom fit 
+\i (00:26:49) trapsize 1307
+\i (00:26:52) move 
+\t (00:26:52) Cannot edit Pin "C2.2". Symbol or drawing must have UNFIXED_PINS property.
+\t (00:26:52) No valid items selected for the current operation, exiting.
+\i (00:26:52) generaledit 
+\i (00:26:53) pick grid 300.62 1816.80
+\t (00:26:53) last pick:  300.00  1825.00
+\i (00:26:54) place manual 
+\t (00:26:54) Moving R3 / R_RES400_R / RES400.
+\t (00:26:54) last pick:  300.00  1800.00
+\i (00:26:56) pick grid 253.57 1782.82
+\t (00:26:56) last pick:  300.00  1800.00
+\i (00:26:56) generaledit 
+\i (00:26:57) place manual 
+\t (00:26:57) Moving R3 / R_RES400_R / RES400.
+\t (00:26:57) last pick:  300.00  1800.00
+\i (00:27:00) oops 
+\i (00:27:02) save 
+\i (00:27:03) fillin yes 
+\i (00:27:03) generaledit 
+\i (00:27:05) oops 
+\i (00:27:07) place manual 
+\i (00:27:08) setwindow form.plc_manual
+\i (00:27:08) FORM plc_manual done  
+\i (00:27:09) setwindow pcb
+\i (00:27:09) generaledit 
+\i (00:27:09) place manual -h 
+\i (00:27:11) save 
+\i (00:27:12) fillin yes 
+\i (00:27:12) generaledit 
+\i (00:27:13) place manual -h 
+\i (00:27:15) move 
+\t (00:27:15) Select element(s) to move.
+\i (00:27:20) setwindow form.find
+\i (00:27:20) FORM find all_off  
+\i (00:27:21) FORM find symbols YES 
+\i (00:27:22) setwindow pcb
+\i (00:27:22) place manual 
+\i (00:27:22) place manual -h 
+\i (00:27:25) move 
+\t (00:27:25) Select element(s) to move.
+\i (00:27:26) pick grid 216.97 1534.48
+\t (00:27:26) last pick:  225.00  1525.00
+\t (00:27:26) last pick:  300.00  1800.00
+\t (00:27:26) Moving R3 / R_RES400_R / RES400.
+\t (00:27:26) Pick new location for the element(s).
+\i (00:27:28) Esc 
+\i (00:27:28) Esc 
+\i (00:27:30) oops 
+\t (00:27:30) last pick:  225.00  1525.00
+\i (00:27:34) setwindow form.find
+\i (00:27:34) FORM find text YES 
+\i (00:27:34) FORM find symbols NO 
+\i (00:27:36) setwindow pcb
+\i (00:27:36) place manual -h 
+\i (00:27:37) pick grid 209.13 1529.25
+\t (00:27:37) last pick:  200.00  1500.00
+\t (00:27:37) Moving R3 / R_RES400_R / RES400.
+\t (00:27:37) last pick:  300.00  1800.00
+\i (00:27:38) pick grid 253.57 1759.29
+\t (00:27:38) last pick:  300.00  1800.00
+\i (00:27:43) pick grid 203.90 1544.93
+\t (00:27:43) last pick:  200.00  1500.00
+\t (00:27:43) Moving R3 / R_RES400_R / RES400.
+\t (00:27:43) last pick:  300.00  1800.00
+\i (00:27:45) pick grid 284.94 1764.52
+\t (00:27:45) last pick:  300.00  1800.00
+\i (00:27:45) pick grid dbl 295.39 1819.41
+\t (00:27:45) last pick:  300.00  1800.00
+\t (00:27:45) Moving R3 / R_RES400_R / RES400.
+\t (00:27:45) last pick:  300.00  1800.00
+\i (00:27:46) prepopup 292.78 1761.90
+\i (00:27:48) done 
+\i (00:27:48) generaledit 
+\i (00:27:50) pick grid 222.20 1539.70
+\t (00:27:50) last pick:  225.00  1550.00
+\i (00:27:52) setwindow form.find
+\i (00:27:52) FORM find text YES 
+\i (00:27:53) FORM find symbols NO 
+\i (00:27:54) setwindow pcb
+\i (00:27:54) prepopup 193.44 1542.32
+\i (00:27:55) move 
+\t (00:27:56) last pick:  300.00  1800.00
+\t (00:27:56) Moving R3 / R_RES400_R / RES400.
+\t (00:27:56) Pick new location for the element(s).
+\i (00:27:57) pick grid 303.24 1788.04
+\t (00:27:57) last pick:  300.00  1800.00
+\i (00:27:57) generaledit 
+\i (00:27:57) pick grid 303.24 1795.89
+\t (00:27:57) last pick:  300.00  1800.00
+\i (00:27:57) pick grid dbl 303.24 1795.89
+\t (00:27:57) last pick:  300.00  1800.00
+\i (00:27:58) Esc 
+\i (00:28:00) save 
+\i (00:28:01) fillin yes 
+\i (00:28:01) generaledit 
+\i (00:28:04) drag_start grid 141.16 1618.13
+\i (00:28:04) drag_stop 240.50 1466.51
+\i (00:28:05) prepopup 190.83 1547.55
+\i (00:28:06) move 
+\t (00:28:06) last pick:  218.00  1555.00
+\t (00:28:06) Pick new location for the element(s).
+\i (00:28:08) prepopup 219.58 1521.41
+\i (00:28:09) rotate 
+\t (00:28:09) Spin the element(s).
+\i (00:28:10) iangle -180.000
+\t (00:28:10) last angle:  0.000 Degrees
+\i (00:28:11) pick grid 214.36 1508.34
+\t (00:28:11) last pick:  225.00  1500.00
+\i (00:28:11) generaledit 
+\i (00:28:12) place manual -h 
+\t (00:28:12) Selected item not valid for current operation, ignored: Text "R3"
+\t (00:28:12) No valid items selected for the current operation, exiting.
+\i (00:28:12) generaledit 
+\i (00:28:13) place manual 
+\t (00:28:13) Selected item not valid for current operation, ignored: Text "R3"
+\t (00:28:13) No valid items selected for the current operation, exiting.
+\i (00:28:13) generaledit 
+\i (00:28:13) place manual -h 
+\t (00:28:13) Selected item not valid for current operation, ignored: Text "R3"
+\t (00:28:13) No valid items selected for the current operation, exiting.
+\i (00:28:13) generaledit 
+\i (00:28:16) pick grid 214.36 1505.72
+\t (00:28:16) last pick:  225.00  1500.00
+\i (00:28:18) move 
+\t (00:28:18) last pick:  225.00  1500.00
+\t (00:28:18) Pick new location for the element(s).
+\i (00:28:21) pick grid 214.36 1505.72
+\t (00:28:21) last pick:  225.00  1500.00
+\i (00:28:21) generaledit 
+\i (00:28:22) pick grid 684.89 1659.95
+\t (00:28:22) last pick:  675.00  1650.00
+\i (00:28:23) move 
+\t (00:28:23) last pick:  682.00  1645.00
+\t (00:28:23) Pick new location for the element(s).
+\i (00:28:24) pick grid 684.89 1508.34
+\t (00:28:24) last pick:  675.00  1500.00
+\i (00:28:24) generaledit 
+\i (00:28:25) pick grid 993.36 1657.34
+\t (00:28:25) last pick:  1000.00  1650.00
+\i (00:28:26) move 
+\t (00:28:26) last pick:  982.00  1645.00
+\t (00:28:26) Pick new location for the element(s).
+\i (00:28:27) pick grid 964.60 1510.95
+\t (00:28:27) last pick:  975.00  1500.00
+\i (00:28:28) generaledit 
+\i (00:28:28) pick grid 1110.99 1529.25
+\t (00:28:28) last pick:  1100.00  1525.00
+\i (00:28:28) prepopup 1110.99 1529.25
+\i (00:28:29) pick grid 1103.15 1539.70
+\t (00:28:29) last pick:  1100.00  1550.00
+\i (00:28:30) move 
+\t (00:28:30) last pick:  1118.00  1555.00
+\t (00:28:30) Pick new location for the element(s).
+\i (00:28:30) prepopup 1103.15 1539.70
+\i (00:28:31) rotate 
+\t (00:28:31) Spin the element(s).
+\i (00:28:32) iangle 180.000
+\t (00:28:32) last angle:  0.000 Degrees
+\i (00:28:34) pick grid 1121.45 1510.95
+\t (00:28:34) last pick:  1125.00  1500.00
+\i (00:28:34) generaledit 
+\i (00:28:34) pick grid 1307.05 1516.18
+\t (00:28:34) last pick:  1300.00  1525.00
+\i (00:28:35) move 
+\t (00:28:35) last pick:  1318.00  1555.00
+\t (00:28:35) Pick new location for the element(s).
+\i (00:28:36) pick grid 1314.89 1526.63
+\t (00:28:36) last pick:  1325.00  1525.00
+\i (00:28:36) generaledit 
+\i (00:28:36) prepopup 1320.12 1526.63
+\i (00:28:38) pick grid 1260.00 1529.25
+\t (00:28:38) last pick:  1250.00  1525.00
+\i (00:28:39) pick grid 1320.12 1510.95
+\t (00:28:39) last pick:  1325.00  1500.00
+\i (00:28:39) move 
+\t (00:28:39) last pick:  1325.00  1525.00
+\t (00:28:39) Pick new location for the element(s).
+\i (00:28:39) prepopup 1320.12 1510.95
+\i (00:28:40) rotate 
+\t (00:28:40) Spin the element(s).
+\i (00:28:41) iangle 180.000
+\t (00:28:41) last angle:  0.000 Degrees
+\i (00:28:42) pick grid 1322.73 1510.95
+\t (00:28:42) last pick:  1325.00  1500.00
+\i (00:28:42) generaledit 
+\i (00:28:43) pick grid 1785.43 1652.11
+\t (00:28:43) last pick:  1775.00  1650.00
+\i (00:28:44) move 
+\t (00:28:44) last pick:  1782.00  1645.00
+\t (00:28:44) Pick new location for the element(s).
+\i (00:28:45) pick grid 1782.82 1510.95
+\t (00:28:45) last pick:  1775.00  1500.00
+\i (00:28:45) generaledit 
+\i (00:28:47) pick grid 188.22 1265.22
+\t (00:28:47) last pick:  200.00  1275.00
+\i (00:28:47) move 
+\t (00:28:47) last pick:  200.00  1240.00
+\t (00:28:47) Pick new location for the element(s).
+\i (00:28:48) pick grid 266.64 1210.33
+\t (00:28:48) last pick:  275.00  1200.00
+\i (00:28:48) generaledit 
+\i (00:28:49) pick grid 151.62 765.93
+\t (00:28:49) last pick:  150.00  775.00
+\i (00:28:49) move 
+\t (00:28:49) last pick:  200.00  740.00
+\t (00:28:49) Pick new location for the element(s).
+\i (00:28:50) pick grid 535.89 731.95
+\t (00:28:50) last pick:  525.00  725.00
+\i (00:28:50) generaledit 
+\i (00:28:52) pick grid 1939.66 522.82
+\t (00:28:52) last pick:  1950.00  525.00
+\i (00:28:52) move 
+\t (00:28:52) last pick:  1900.00  560.00
+\t (00:28:52) Pick new location for the element(s).
+\i (00:28:53) prepopup 1939.66 522.82
+\i (00:28:54) rotate 
+\t (00:28:54) Spin the element(s).
+\i (00:28:54) iangle 180.000
+\t (00:28:54) last angle:  0.000 Degrees
+\i (00:28:56) pick grid 1707.01 786.84
+\t (00:28:56) last pick:  1700.00  775.00
+\i (00:28:56) generaledit 
+\i (00:28:57) pick grid 1469.12 1280.91
+\t (00:28:57) last pick:  1475.00  1275.00
+\i (00:28:57) move 
+\t (00:28:57) last pick:  1500.00  1240.00
+\t (00:28:57) Pick new location for the element(s).
+\i (00:28:59) pick grid 1586.76 1249.54
+\t (00:28:59) last pick:  1575.00  1250.00
+\i (00:28:59) generaledit 
+\i (00:29:00) pick grid 1403.77 389.50
+\t (00:29:00) last pick:  1400.00  400.00
+\i (00:29:01) prepopup 1403.77 389.50
+\i (00:29:02) pick grid 1424.68 360.75
+\t (00:29:02) last pick:  1425.00  350.00
+\i (00:29:02) pick grid 1435.14 386.89
+\t (00:29:02) last pick:  1425.00  375.00
+\i (00:29:02) move 
+\t (00:29:02) last pick:  1400.00  400.00
+\t (00:29:02) Pick new location for the element(s).
+\i (00:29:03) prepopup 1471.74 436.55
+\i (00:29:04) rotate 
+\t (00:29:04) Spin the element(s).
+\i (00:29:05) iangle 90.000
+\t (00:29:05) last angle:  0.000 Degrees
+\i (00:29:06) pick grid 1388.09 433.94
+\t (00:29:06) last pick:  1400.00  425.00
+\i (00:29:06) generaledit 
+\i (00:29:07) pick grid 690.12 376.43
+\t (00:29:07) last pick:  700.00  375.00
+\i (00:29:07) move 
+\t (00:29:07) last pick:  700.00  300.00
+\t (00:29:07) Pick new location for the element(s).
+\i (00:29:07) prepopup 674.44 494.06
+\i (00:29:08) rotate 
+\t (00:29:08) Spin the element(s).
+\i (00:29:10) iangle 270.000
+\t (00:29:10) last angle:  0.000 Degrees
+\i (00:29:12) pick grid 679.67 460.08
+\t (00:29:12) last pick:  675.00  450.00
+\i (00:29:12) generaledit 
+\i (00:29:14) place manual -h 
+\t (00:29:14) Selected item not valid for current operation, ignored: Text "Q2"
+\t (00:29:14) No valid items selected for the current operation, exiting.
+\i (00:29:14) generaledit 
+\i (00:29:15) place manual 
+\t (00:29:15) Selected item not valid for current operation, ignored: Text "Q2"
+\t (00:29:15) No valid items selected for the current operation, exiting.
+\i (00:29:15) generaledit 
+\i (00:29:15) save 
+\i (00:29:16) fillin yes 
+\i (00:29:16) generaledit 
+\i (00:29:20) setwindow form.find
+\i (00:29:20) FORM find symbols YES 
+\i (00:29:21) FORM find groups YES 
+\i (00:29:22) FORM find symbols NO 
+\i (00:29:23) setwindow pcb
+\i (00:29:23) pick grid 214.36 1510.95
+\t (00:29:23) last pick:  225.00  1500.00
+\i (00:29:25) place manual -h 
+\t (00:29:25) Selected item not valid for current operation, ignored: Text "R3"
+\t (00:29:25) No valid items selected for the current operation, exiting.
+\i (00:29:25) generaledit 
+\i (00:29:25) place manual 
+\t (00:29:25) Selected item not valid for current operation, ignored: Text "R3"
+\t (00:29:25) No valid items selected for the current operation, exiting.
+\i (00:29:25) generaledit 
+\i (00:29:26) place manual -h 
+\t (00:29:26) Selected item not valid for current operation, ignored: Text "R3"
+\t (00:29:26) No valid items selected for the current operation, exiting.
+\i (00:29:26) generaledit 
+\i (00:29:30) setwindow form.find
+\i (00:29:30) FORM find symbols YES 
+\i (00:29:31) FORM find all_on  
+\i (00:29:32) FORM find all_off  
+\i (00:29:32) FORM find groups YES 
+\i (00:29:33) FORM find symbols YES 
+\i (00:29:34) FORM find text YES 
+\i (00:29:35) setwindow pcb
+\i (00:29:35) pick grid 216.97 1524.02
+\t (00:29:35) last pick:  225.00  1525.00
+\i (00:29:36) move 
+\t (00:29:36) last pick:  225.00  1500.00
+\t (00:29:36) Pick new location for the element(s).
+\i (00:29:38) place manual -h 
+\t (00:29:38) Selected item not valid for current operation, ignored: Text "R3"
+\t (00:29:38) No valid items selected for the current operation, exiting.
+\i (00:29:38) generaledit 
+\i (00:29:39) place manual -h 
+\t (00:29:39) Selected item not valid for current operation, ignored: Text "R3"
+\t (00:29:39) No valid items selected for the current operation, exiting.
+\i (00:29:39) generaledit 
+\i (00:29:39) place manual 
+\t (00:29:39) Selected item not valid for current operation, ignored: Text "R3"
+\t (00:29:39) No valid items selected for the current operation, exiting.
+\i (00:29:39) generaledit 
+\i (00:29:40) place manual -h 
+\t (00:29:40) Selected item not valid for current operation, ignored: Text "R3"
+\t (00:29:40) No valid items selected for the current operation, exiting.
+\i (00:29:40) generaledit 
+\i (00:29:40) place manual -h 
+\t (00:29:40) Selected item not valid for current operation, ignored: Text "R3"
+\t (00:29:40) No valid items selected for the current operation, exiting.
+\i (00:29:40) generaledit 
+\i (00:29:40) place manual -h 
+\t (00:29:40) Selected item not valid for current operation, ignored: Text "R3"
+\t (00:29:40) No valid items selected for the current operation, exiting.
+\i (00:29:40) generaledit 
+\i (00:29:40) place manual -h 
+\t (00:29:40) Selected item not valid for current operation, ignored: Text "R3"
+\t (00:29:40) No valid items selected for the current operation, exiting.
+\i (00:29:40) generaledit 
+\i (00:29:40) place manual -h 
+\t (00:29:40) Selected item not valid for current operation, ignored: Text "R3"
+\t (00:29:40) No valid items selected for the current operation, exiting.
+\i (00:29:40) generaledit 
+\i (00:29:40) place manual -h 
+\t (00:29:40) Selected item not valid for current operation, ignored: Text "R3"
+\t (00:29:40) No valid items selected for the current operation, exiting.
+\i (00:29:40) generaledit 
+\i (00:29:44) save 
+\i (00:29:45) fillin yes 
+\i (00:29:45) generaledit 
+\i (00:29:48) add text 
+\t (00:29:48) Pick text location.
+\i (00:29:54) pick grid 311.08 1620.74
+\t (00:29:54) last pick:  300.00  1625.00
+\t (00:29:54) Enter text string.
+\i (00:29:55) setwindow pcb
+\i (00:29:55) pick grid 264.02 1529.25
+\t (00:29:55) last pick:  275.00  1525.00
+\t (00:29:55) Enter text string.
+\i (00:29:56) setwindow pcb
+\i (00:29:56) pick grid 227.43 1934.43
+\t (00:29:56) last pick:  225.00  1925.00
+\t (00:29:56) Enter text string.
+\i (00:29:56) setwindow pcb
+\i (00:29:56) pick grid 206.51 1905.68
+\t (00:29:56) last pick:  200.00  1900.00
+\t (00:29:56) Enter text string.
+\i (00:30:01) setwindow form.mini
+\i (00:30:01) FORM mini text_block 7 
+\i (00:30:02) FORM mini class DRAWING FORMAT 
+\i (00:30:04) setwindow pcb
+\i (00:30:04) pick grid 264.02 1853.40
+\t (00:30:04) last pick:  300.00  1900.00
+\t (00:30:04) Enter text string.
+\i (00:30:04) setwindow pcb
+\i (00:30:04) pick grid 235.27 1861.24
+\t (00:30:04) last pick:  200.00  1900.00
+\t (00:30:04) Enter text string.
+\i (00:30:05) setwindow pcb
+\i (00:30:05) pick grid 214.36 1850.78
+\t (00:30:05) last pick:  200.00  1900.00
+\t (00:30:05) Enter text string.
+\i (00:30:05) setwindow pcb
+\i (00:30:05) pick grid 211.74 1835.10
+\t (00:30:05) last pick:  200.00  1800.00
+\t (00:30:05) Enter text string.
+\i (00:30:06) setwindow pcb
+\i (00:30:06) pick grid 211.74 1850.78
+\t (00:30:06) last pick:  200.00  1900.00
+\t (00:30:06) Enter text string.
+\i (00:30:14) setwindow pcb
+\i (00:30:14) place manual 
+\i (00:30:14) setwindow pcb
+\i (00:30:14) pick 200.00 1900.00
+\t (00:30:14) Selected item not valid for current operation, ignored: Text "R3"
+\t (00:30:14) No valid items selected for the current operation, exiting.
+\i (00:30:14) setwindow pcb
+\i (00:30:14) generaledit 
+\i (00:30:15) save 
+\i (00:30:16) fillin yes 
+\i (00:30:16) generaledit 
+\i (00:30:17) pick grid 2548.75 1239.08
+\t (00:30:17) last pick:  2500.00  1200.00
+\i (00:30:21) pick grid 227.43 1510.95
+\t (00:30:21) last pick:  200.00  1500.00
+\i (00:30:23) move 
+\t (00:30:23) last pick:  225.00  1500.00
+\t (00:30:23) Pick new location for the element(s).
+\i (00:30:24) pick grid 175.14 1503.11
+\t (00:30:24) last pick:  200.00  1500.00
+\i (00:30:24) generaledit 
+\i (00:30:25) pick grid 679.67 1492.65
+\t (00:30:25) last pick:  700.00  1500.00
+\i (00:30:26) move 
+\t (00:30:26) last pick:  675.00  1500.00
+\t (00:30:26) Pick new location for the element(s).
+\i (00:30:26) pick grid 679.67 1492.65
+\t (00:30:26) last pick:  700.00  1500.00
+\i (00:30:26) generaledit 
+\i (00:30:27) pick grid 993.36 1505.72
+\t (00:30:27) last pick:  1000.00  1500.00
+\i (00:30:27) move 
+\t (00:30:27) last pick:  975.00  1500.00
+\t (00:30:27) Pick new location for the element(s).
+\i (00:30:30) pick grid 951.53 1510.95
+\t (00:30:30) last pick:  1000.00  1500.00
+\i (00:30:30) generaledit 
+\i (00:30:30) pick grid 1126.68 1490.04
+\t (00:30:30) last pick:  1100.00  1500.00
+\i (00:30:31) move 
+\t (00:30:31) last pick:  1125.00  1500.00
+\t (00:30:31) Pick new location for the element(s).
+\i (00:30:31) pick grid 1126.68 1490.04
+\t (00:30:31) last pick:  1100.00  1500.00
+\i (00:30:31) generaledit 
+\i (00:30:32) pick grid 1304.44 1508.34
+\t (00:30:32) last pick:  1300.00  1500.00
+\i (00:30:32) move 
+\t (00:30:32) last pick:  1325.00  1500.00
+\t (00:30:32) Pick new location for the element(s).
+\i (00:30:32) pick grid 1304.44 1508.34
+\t (00:30:32) last pick:  1300.00  1500.00
+\i (00:30:32) generaledit 
+\i (00:30:33) pick grid 1774.97 1503.11
+\t (00:30:33) last pick:  1800.00  1500.00
+\i (00:30:33) move 
+\t (00:30:33) last pick:  1775.00  1500.00
+\t (00:30:33) Pick new location for the element(s).
+\i (00:30:34) pick grid 1649.50 1487.42
+\t (00:30:34) last pick:  1600.00  1500.00
+\i (00:30:34) generaledit 
+\i (00:30:35) pick grid 1560.62 1260.00
+\t (00:30:35) last pick:  1600.00  1300.00
+\i (00:30:35) move 
+\t (00:30:35) last pick:  1575.00  1250.00
+\t (00:30:35) Pick new location for the element(s).
+\i (00:30:36) pick grid 1510.95 1249.54
+\t (00:30:36) last pick:  1500.00  1200.00
+\i (00:30:36) generaledit 
+\i (00:30:36) pick grid 1693.94 797.30
+\t (00:30:36) last pick:  1700.00  800.00
+\i (00:30:37) move 
+\t (00:30:37) last pick:  1700.00  775.00
+\t (00:30:37) Pick new location for the element(s).
+\i (00:30:37) pick grid 1691.32 849.58
+\t (00:30:37) last pick:  1700.00  800.00
+\i (00:30:37) generaledit 
+\i (00:30:38) pick grid 543.73 758.09
+\t (00:30:38) last pick:  500.00  800.00
+\i (00:30:38) move 
+\t (00:30:38) last pick:  525.00  725.00
+\t (00:30:38) Pick new location for the element(s).
+\i (00:30:39) pick grid 548.96 802.53
+\t (00:30:39) last pick:  500.00  800.00
+\i (00:30:39) generaledit 
+\i (00:30:40) pick grid 261.41 1220.78
+\t (00:30:40) last pick:  300.00  1200.00
+\i (00:30:40) move 
+\t (00:30:40) last pick:  275.00  1200.00
+\t (00:30:40) Pick new location for the element(s).
+\i (00:30:41) pick grid 248.34 1207.71
+\t (00:30:41) last pick:  200.00  1200.00
+\i (00:30:41) generaledit 
+\i (00:30:42) pick grid 708.42 475.77
+\t (00:30:42) last pick:  700.00  500.00
+\i (00:30:42) move 
+\t (00:30:42) last pick:  675.00  450.00
+\t (00:30:42) Pick new location for the element(s).
+\i (00:30:43) pick grid 779.00 548.96
+\t (00:30:43) last pick:  800.00  500.00
+\i (00:30:43) generaledit 
+\i (00:30:44) pick grid 1427.30 457.47
+\t (00:30:44) last pick:  1400.00  500.00
+\i (00:30:44) move 
+\t (00:30:44) last pick:  1400.00  425.00
+\t (00:30:44) Pick new location for the element(s).
+\i (00:30:45) pick grid 1427.30 449.63
+\t (00:30:45) last pick:  1400.00  400.00
+\i (00:30:45) generaledit 
+\i (00:30:46) save 
+\i (00:30:47) fillin yes 
+\i (00:30:47) generaledit 
+\i (00:30:50) zoom out 1 
+\i (00:30:50) setwindow pcb
+\i (00:30:50) zoom out 1312.28 596.01
+\i (00:30:50) trapsize 2614
+\i (00:30:51) zoom in 1 
+\i (00:30:51) setwindow pcb
+\i (00:30:51) zoom in 1526.63 826.06
+\i (00:30:51) trapsize 1307
+\i (00:30:52) zoom out 1 
+\i (00:30:52) setwindow pcb
+\i (00:30:52) zoom out 1236.47 802.53
+\i (00:30:52) trapsize 2614
+\i (00:30:53) zoom in 1 
+\i (00:30:53) setwindow pcb
+\i (00:30:53) zoom in 546.35 342.45
+\i (00:30:53) trapsize 1307
+\i (00:34:59) exit 
+\t (00:35:00)     Journal end - Tue Nov 01 14:40:58 2016
