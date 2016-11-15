@@ -1,0 +1,27 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : B8.brd                                        )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Tue Nov 08 13:23:15 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+         Placed symbol:  U1 / LF356_DIP8_3_LF356 / DIP8_3 at (3558.00 3442.00)
+         Placed symbol:  U2 / LF356_DIP8_3_LF356 / DIP8_3 at (3558.00 3034.00)
+         Placed symbol:  J2 / CON3_JUMPER3_CON3 / JUMPER3 at (3558.00 2626.00)
+         Placed symbol:  J1 / CON2_JUMPER2_CON2 / JUMPER2 at (3558.00 2518.00)
+         Placed symbol:  R1 / R_RES400_2.7K / RES400 at (3581.00 2013.50)
+         Placed symbol:  R3 / R_RES400_20K / RES400 at (3581.00 1512.50)
+         Placed symbol:  R2 / R_RES400_10K / RES400 at (3581.00 1011.50)
+         Placed symbol:  C1 / CAP NP_CAPCK05_0.01UF / CAPCK05 at (3558.00 807.00)
+
+
+Placed 8 of 8 applicable (8 total) symbols.
+
+-----------------------------------------------------------------------
+

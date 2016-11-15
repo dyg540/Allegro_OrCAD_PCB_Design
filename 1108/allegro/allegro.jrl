@@ -1,0 +1,2560 @@
+\t (00:00:40) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:40)     Journal start - Tue Nov 08 13:51:40 2016
+\t (00:00:40)         Host=510-17-PC User=510-00 Pid=224 CPUs=4
+\t (00:00:40) 
+\t (00:01:52) Opening existing design...
+\d (00:01:52) Database opened: C:/A_2012041067/1108/allegro/B8.brd
+\i (00:01:52) trapsize 12418
+\i (00:01:52) trapsize 12152
+\i (00:01:52) trapsize 12463
+\i (00:01:52) trapsize 10559
+\i (00:01:52) trapsize 14230
+\i (00:01:52) generaledit 
+\i (00:02:03) board outline 
+   (00:02:03) Loading floor.cxt 
+   (00:02:03) Loading fputil.cxt 
+   (00:02:03) Loading axlcore.cxt 
+\i (00:02:07) setwindow form.fpbdoutline
+\i (00:02:07) FORM fpbdoutline fpboclearance '100.00 MIL' 
+\i (00:02:10) setwindow pcb
+\i (00:02:10) pick 0 0 
+\t (00:02:10) last pick:  0.00  0.00
+\i (00:02:14) pick 2400 1100 
+\t (00:02:14) last pick:  2400.00  1100.00
+\i (00:02:16) setwindow form.fpbdoutline
+\i (00:02:16) FORM fpbdoutline done  
+\i (00:02:16) setwindow pcb
+\i (00:02:16) generaledit 
+\i (00:02:18) zoom fit 
+\i (00:02:18) trapsize 749
+\i (00:02:20) grid toggle 
+\i (00:02:20) generaledit 
+\i (00:02:24) prmed 
+\i (00:02:25) setwindow form.prmedit
+\i (00:02:25) FORM prmedit design  
+\i (00:02:27) FORM prmedit lock_direction 45 
+\i (00:02:28) FORM prmedit apply  
+\i (00:02:28) FORM prmedit done  
+\i (00:02:28) setwindow pcb
+\i (00:02:28) generaledit 
+\i (00:02:29) save 
+\i (00:02:30) fillin yes 
+\i (00:02:30) generaledit 
+\i (00:02:31) color192 
+\i (00:02:31) setwindow cvf.dialog
+\i (00:02:31) cvf layer_mode
+\i (00:02:31) setwindow pcb
+\i (00:02:31) generaledit 
+\i (00:02:32) setwindow cvf.dialog
+\i (00:02:32) cvf layers_visible board_geometry/all_row TRUE
+\i (00:02:32) cvf layers_visible board_geometry/all_row FALSE
+\i (00:02:34) cvf layers_visible board_geometry/outline TRUE
+\i (00:02:36) cvf layers_visible board_geometry/silkscreen_top TRUE
+\i (00:02:37) cvf apply
+\i (00:02:38) cvf layer_tree_item 'Package Geometry'
+\i (00:02:39) cvf layers_visible package_geometry/all_row TRUE
+\i (00:02:39) cvf layers_visible package_geometry/all_row FALSE
+\i (00:02:41) cvf layers_visible package_geometry/silkscreen_top TRUE
+\i (00:02:41) cvf apply
+\i (00:02:42) cvf layer_tree_item 'Components'
+\i (00:02:43) cvf layers_visible components components/all_row TRUE
+\i (00:02:43) cvf layers_visible components components/all_row FALSE
+\i (00:02:44) cvf layers_visible components comp_value/silkscreen_top TRUE
+\i (00:02:46) cvf layers_visible components ref_des/silkscreen_top TRUE
+\i (00:02:48) cvf apply
+\i (00:02:49) cvf okay
+\i (00:02:53) setwindow pcb
+\i (00:02:53) zoom out 1 
+\i (00:02:53) setwindow pcb
+\i (00:02:53) zoom out 298.12 494.37
+\i (00:02:53) trapsize 1498
+\i (00:02:56) quickplace 
+\i (00:02:57) setwindow form.quickplc
+\i (00:02:57) FORM quickplc top_edge NO 
+\i (00:02:57) FORM quickplc right_edge YES 
+\i (00:02:58) FORM quickplc place  
+\e (00:02:58) Component(s) could not be placed.  See logfile for errors.
+\i (00:02:59) FORM quickplc done  
+\i (00:02:59) setwindow pcb
+\i (00:02:59) generaledit 
+\i (00:03:03) pick grid 3017.15 1027.69
+\t (00:03:03) last pick:  3000.00  1000.00
+\i (00:03:05) move 
+\t (00:03:05) Cannot edit Pin "R2.2". Symbol or drawing must have UNFIXED_PINS property.
+\t (00:03:05) No valid items selected for the current operation, exiting.
+\i (00:03:05) generaledit 
+\i (00:03:06) pick grid 3041.12 1009.71
+\t (00:03:06) last pick:  3000.00  1000.00
+\i (00:03:07) pick grid 3041.12 985.74
+\t (00:03:07) last pick:  3000.00  1000.00
+\i (00:03:08) pick grid 3029.13 1030.68
+\t (00:03:08) last pick:  3000.00  1000.00
+\i (00:03:09) move 
+\t (00:03:09) Cannot edit Pin "R2.2". Symbol or drawing must have UNFIXED_PINS property.
+\t (00:03:09) No valid items selected for the current operation, exiting.
+\i (00:03:09) generaledit 
+\i (00:03:10) pick grid 2903.29 907.84
+\t (00:03:10) last pick:  2900.00  900.00
+\i (00:03:11) pick grid 2903.29 994.73
+\t (00:03:11) last pick:  2900.00  1000.00
+\i (00:03:12) pick grid 2921.27 976.75
+\t (00:03:12) last pick:  2900.00  1000.00
+\i (00:03:14) pick grid 3038.12 1045.66
+\t (00:03:14) last pick:  3000.00  1000.00
+\i (00:03:16) move 
+\t (00:03:16) Cannot edit Pin "R2.2". Symbol or drawing must have UNFIXED_PINS property.
+\t (00:03:16) No valid items selected for the current operation, exiting.
+\i (00:03:16) generaledit 
+\i (00:03:19) pick grid 2903.29 997.73
+\t (00:03:19) last pick:  2900.00  1000.00
+\i (00:03:21) drag_start grid 2882.32 1039.67
+\i (00:03:21) move 
+\t (00:03:21) last pick:  2854.00  985.00
+\t (00:03:21) Pick new location for the element(s).
+\i (00:03:21) drag_stop grid 2732.51 1027.69
+\i (00:03:21) generaledit 
+\i (00:03:21) pick grid 2732.51 1027.69
+\t (00:03:21) last pick:  2700.00  1000.00
+\i (00:03:24) undo 
+\i (00:03:24) trapsize 1498
+\i (00:03:24) generaledit 
+\i (00:03:25) pick grid 3352.72 1081.62
+\t (00:03:25) last pick:  3400.00  1100.00
+\i (00:03:29) move 
+\t (00:03:29) Select element(s) to move.
+\i (00:03:31) pick grid 2927.26 242.69
+\t (00:03:31) last pick:  2900.00  200.00
+\t (00:03:31) last pick:  2889.00  144.50
+\t (00:03:31) Moving R3 / R_RES400_20K / RES400.
+\t (00:03:31) Pick new location for the element(s).
+\i (00:03:52) prepopup 1180.49 440.44
+\i (00:03:53) rotate 
+\t (00:03:53) Spin the element(s).
+\i (00:03:56) iangle 90.000
+\t (00:03:56) last angle:  90.000 Degrees
+\i (00:04:03) pick grid 847.92 859.90
+\t (00:04:03) last pick:  800.00  900.00
+\i (00:04:06) pick grid 2759.48 1030.68
+\t (00:04:06) last pick:  2800.00  1000.00
+\t (00:04:06) last pick:  2458.00  1042.00
+\t (00:04:06) Moving U1 / LF356_DIP8_3_LF356 / DIP8_3.
+\t (00:04:06) Pick new location for the element(s).
+\i (00:04:07) prepopup 1468.13 665.15
+\i (00:04:09) rotate 
+\t (00:04:09) Spin the element(s).
+\i (00:04:11) iangle -90.000
+\t (00:04:11) last angle:  270.000 Degrees
+\i (00:04:18) pick grid 746.05 680.13
+\t (00:04:18) last pick:  700.00  700.00
+\e (00:04:18) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:04:24) pick grid 850.91 707.10
+\t (00:04:24) last pick:  900.00  700.00
+\e (00:04:24) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:04:25) pick grid 871.89 704.10
+\t (00:04:25) last pick:  900.00  700.00
+\e (00:04:25) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:04:25) pick grid dbl 871.89 704.10
+\t (00:04:25) last pick:  900.00  700.00
+\e (00:04:25) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:04:26) prepopup 901.85 728.07
+\i (00:04:28) done 
+\i (00:04:28) generaledit 
+\i (00:04:29) pick grid 2471.84 1045.66
+\t (00:04:29) last pick:  2500.00  1000.00
+\i (00:04:30) move 
+\t (00:04:30) Cannot edit Pin "U1.1". Symbol or drawing must have UNFIXED_PINS property.
+\t (00:04:30) No valid items selected for the current operation, exiting.
+\i (00:04:30) generaledit 
+\i (00:04:31) pick grid 2624.65 1069.63
+\t (00:04:31) last pick:  2600.00  1100.00
+\i (00:04:33) pick grid 2654.61 1024.69
+\t (00:04:33) last pick:  2700.00  1000.00
+\i (00:04:35) move 
+\t (00:04:35) Select element(s) to move.
+\i (00:04:36) pick grid 2621.65 1063.64
+\t (00:04:36) last pick:  2600.00  1100.00
+\t (00:04:36) last pick:  2458.00  1042.00
+\t (00:04:36) Moving U1 / LF356_DIP8_3_LF356 / DIP8_3.
+\t (00:04:36) Pick new location for the element(s).
+\i (00:04:37) prepopup 1210.45 683.13
+\i (00:04:38) rotate 
+\t (00:04:38) Spin the element(s).
+\i (00:04:40) iangle -90.000
+\t (00:04:40) last angle:  270.000 Degrees
+\i (00:04:44) pick grid 850.91 710.09
+\t (00:04:44) last pick:  900.00  700.00
+\e (00:04:44) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:04:45) pick grid 874.88 749.04
+\t (00:04:45) last pick:  900.00  700.00
+\e (00:04:45) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:04:45) pick grid dbl 862.90 713.09
+\t (00:04:45) last pick:  900.00  700.00
+\e (00:04:45) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:04:47) prepopup 877.88 698.11
+\i (00:04:49) done 
+\i (00:04:49) generaledit 
+\i (00:04:51) pick grid 3044.11 1009.71
+\t (00:04:51) last pick:  3000.00  1000.00
+\i (00:04:52) pick grid 988.74 1905.57
+\t (00:04:52) last pick:  1000.00  1900.00
+\i (00:04:53) move 
+\t (00:04:53) Select element(s) to move.
+\i (00:04:55) pick grid 3032.13 404.48
+\t (00:04:55) last pick:  3000.00  400.00
+\t (00:04:55) last pick:  2997.00  441.00
+\t (00:04:55) Moving C1 / CAP NP_CAPCK05_0.01UF / CAPCK05.
+\t (00:04:55) Pick new location for the element(s).
+\i (00:04:58) prepopup 1773.73 533.32
+\i (00:04:59) rotate 
+\t (00:04:59) Spin the element(s).
+\i (00:05:01) iangle -360.000
+\t (00:05:01) last angle:  0.000 Degrees
+\i (00:05:06) pick grid 2076.35 650.17
+\t (00:05:06) last pick:  2100.00  700.00
+\i (00:05:09) pick grid 3050.11 719.08
+\t (00:05:09) last pick:  3100.00  700.00
+\t (00:05:09) last pick:  3020.00  645.50
+\t (00:05:09) Moving R2 / R_RES400_10K / RES400.
+\t (00:05:09) Pick new location for the element(s).
+\i (00:05:17) prepopup 1516.06 353.55
+\i (00:05:18) rotate 
+\t (00:05:18) Spin the element(s).
+\i (00:05:20) iangle -90.000
+\t (00:05:20) last angle:  270.000 Degrees
+\i (00:05:23) pick grid 1348.28 877.88
+\t (00:05:23) last pick:  1300.00  900.00
+\i (00:05:27) pick grid 2918.27 713.09
+\t (00:05:27) last pick:  2900.00  700.00
+\t (00:05:27) last pick:  2889.00  645.50
+\t (00:05:27) Moving R1 / R_RES400_2.7K / RES400.
+\t (00:05:27) Pick new location for the element(s).
+\i (00:05:30) prepopup 1264.39 332.58
+\i (00:05:30) rotate 
+\t (00:05:30) Spin the element(s).
+\i (00:05:32) iangle 270.000
+\t (00:05:32) last angle:  270.000 Degrees
+\i (00:05:35) pick grid 461.41 251.68
+\t (00:05:35) last pick:  500.00  300.00
+\i (00:05:38) pick grid 835.93 296.62
+\t (00:05:38) last pick:  800.00  300.00
+\t (00:05:38) last pick:  500.00  300.00
+\t (00:05:38) Moving R1 / R_RES400_2.7K / RES400.
+\t (00:05:38) Pick new location for the element(s).
+\i (00:05:39) pick grid 449.43 254.67
+\t (00:05:39) last pick:  400.00  300.00
+\i (00:05:42) pick grid 749.04 290.63
+\t (00:05:42) last pick:  700.00  300.00
+\t (00:05:42) last pick:  400.00  300.00
+\t (00:05:42) Moving R1 / R_RES400_2.7K / RES400.
+\t (00:05:42) Pick new location for the element(s).
+\i (00:05:43) pick grid 443.43 224.71
+\t (00:05:43) last pick:  400.00  200.00
+\i (00:05:44) pick grid 2576.71 188.76
+\t (00:05:44) last pick:  2600.00  200.00
+\t (00:05:44) last pick:  2458.00  226.00
+\t (00:05:44) Moving J2 / CON3_JUMPER3_CON3 / JUMPER3.
+\t (00:05:44) Pick new location for the element(s).
+\i (00:05:45) prepopup 620.21 476.39
+\i (00:05:46) rotate 
+\t (00:05:46) Spin the element(s).
+\i (00:05:48) iangle -90.000
+\t (00:05:48) last angle:  270.000 Degrees
+\i (00:05:50) pick grid 206.74 647.17
+\t (00:05:50) last pick:  200.00  600.00
+\i (00:05:53) pick grid 2711.54 629.20
+\t (00:05:53) last pick:  2700.00  600.00
+\t (00:05:53) last pick:  2458.00  634.00
+\t (00:05:53) Moving U2 / LF356_DIP8_3_LF356 / DIP8_3.
+\t (00:05:53) Pick new location for the element(s).
+\i (00:05:54) prepopup 1312.32 662.15
+\i (00:05:55) rotate 
+\t (00:05:55) Spin the element(s).
+\i (00:05:57) iangle -90.000
+\t (00:05:57) last angle:  270.000 Degrees
+\i (00:06:04) pick grid 1650.89 665.15
+\t (00:06:04) last pick:  1700.00  700.00
+\e (00:06:04) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:06) pick grid 1641.90 656.16
+\t (00:06:06) last pick:  1600.00  700.00
+\e (00:06:06) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:06) pick grid dbl 1575.99 680.13
+\t (00:06:06) last pick:  1600.00  700.00
+\e (00:06:06) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:06) pick grid 1575.99 680.13
+\t (00:06:06) last pick:  1600.00  700.00
+\e (00:06:06) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:06) pick grid dbl 1575.99 680.13
+\t (00:06:06) last pick:  1600.00  700.00
+\e (00:06:06) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:06) prepopup 1575.99 680.13
+\i (00:06:07) done 
+\i (00:06:07) generaledit 
+\i (00:06:10) move 
+\t (00:06:10) Select element(s) to move.
+\i (00:06:12) pick grid 2627.64 278.64
+\t (00:06:12) last pick:  2600.00  300.00
+\t (00:06:12) last pick:  2458.00  634.00
+\t (00:06:12) Moving U2 / LF356_DIP8_3_LF356 / DIP8_3.
+\t (00:06:12) Pick new location for the element(s).
+\i (00:06:13) prepopup 1456.14 641.18
+\i (00:06:14) rotate 
+\t (00:06:14) Spin the element(s).
+\i (00:06:15) iangle -90.000
+\t (00:06:15) last angle:  270.000 Degrees
+\i (00:06:16) pick grid 1650.89 647.17
+\t (00:06:16) last pick:  1700.00  600.00
+\e (00:06:16) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:17) pick grid 1558.01 641.18
+\t (00:06:17) last pick:  1600.00  600.00
+\e (00:06:17) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:17) pick grid dbl 1593.96 641.18
+\t (00:06:17) last pick:  1600.00  600.00
+\e (00:06:17) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:18) prepopup 1656.88 728.07
+\i (00:06:20) done 
+\i (00:06:20) generaledit 
+\i (00:06:23) move 
+\t (00:06:23) Select element(s) to move.
+\i (00:06:24) pick grid 2591.69 1069.63
+\t (00:06:24) last pick:  2600.00  1100.00
+\t (00:06:24) last pick:  2458.00  1042.00
+\t (00:06:24) Moving U1 / LF356_DIP8_3_LF356 / DIP8_3.
+\t (00:06:24) Pick new location for the element(s).
+\i (00:06:26) pick grid 1447.15 638.19
+\t (00:06:26) last pick:  1400.00  600.00
+\i (00:06:27) prepopup 1507.08 635.19
+\i (00:06:28) pick grid 1453.14 635.19
+\t (00:06:28) last pick:  1500.00  600.00
+\t (00:06:28) last pick:  1400.00  600.00
+\t (00:06:28) Moving U1 / LF356_DIP8_3_LF356 / DIP8_3.
+\t (00:06:28) Pick new location for the element(s).
+\i (00:06:29) prepopup 1435.17 641.18
+\i (00:06:30) rotate 
+\t (00:06:30) Spin the element(s).
+\i (00:06:32) iangle -90.000
+\t (00:06:32) last angle:  270.000 Degrees
+\i (00:06:34) pick grid 1638.91 650.17
+\t (00:06:34) last pick:  1600.00  700.00
+\e (00:06:34) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:35) pick grid 1620.93 644.18
+\t (00:06:35) last pick:  1600.00  600.00
+\e (00:06:35) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:36) pick grid 1653.89 620.21
+\t (00:06:36) last pick:  1700.00  600.00
+\e (00:06:36) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:36) pick grid 1444.16 611.22
+\t (00:06:36) last pick:  1400.00  600.00
+\e (00:06:36) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:37) pick grid 1249.40 665.15
+\t (00:06:37) last pick:  1200.00  700.00
+\e (00:06:37) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:37) pick grid 1558.01 665.15
+\t (00:06:37) last pick:  1600.00  700.00
+\e (00:06:37) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:37) pick grid 1674.86 647.17
+\t (00:06:37) last pick:  1700.00  600.00
+\e (00:06:37) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:38) pick grid 1719.80 644.18
+\t (00:06:38) last pick:  1700.00  600.00
+\e (00:06:38) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:38) pick grid 1549.02 656.16
+\t (00:06:38) last pick:  1500.00  700.00
+\e (00:06:38) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:38) pick grid 1755.76 665.15
+\t (00:06:38) last pick:  1800.00  700.00
+\e (00:06:38) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:41) pick grid 1351.27 614.22
+\t (00:06:41) last pick:  1400.00  600.00
+\e (00:06:41) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:42) pick grid 1396.22 650.17
+\t (00:06:42) last pick:  1400.00  700.00
+\e (00:06:42) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:43) pick grid 829.94 650.17
+\t (00:06:43) last pick:  800.00  700.00
+\e (00:06:43) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:44) pick grid 850.91 674.14
+\t (00:06:44) last pick:  900.00  700.00
+\e (00:06:44) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:44) pick grid 934.81 674.14
+\t (00:06:44) last pick:  900.00  700.00
+\e (00:06:44) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:44) pick grid dbl 946.79 674.14
+\t (00:06:44) last pick:  900.00  700.00
+\e (00:06:44) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:45) pick grid 946.79 674.14
+\t (00:06:45) last pick:  900.00  700.00
+\e (00:06:45) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:45) pick grid dbl 946.79 674.14
+\t (00:06:45) last pick:  900.00  700.00
+\e (00:06:45) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:45) pick grid 946.79 674.14
+\t (00:06:45) last pick:  900.00  700.00
+\e (00:06:45) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:45) pick grid dbl 946.79 674.14
+\t (00:06:45) last pick:  900.00  700.00
+\e (00:06:45) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:45) pick grid 1060.65 692.12
+\t (00:06:45) last pick:  1100.00  700.00
+\e (00:06:45) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:45) pick grid dbl 1135.55 692.12
+\t (00:06:45) last pick:  1100.00  700.00
+\e (00:06:45) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:46) pick grid 1135.55 692.12
+\t (00:06:46) last pick:  1100.00  700.00
+\e (00:06:46) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:46) pick grid dbl 1135.55 692.12
+\t (00:06:46) last pick:  1100.00  700.00
+\e (00:06:46) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:54) pick grid 847.92 674.14
+\t (00:06:54) last pick:  800.00  700.00
+\e (00:06:54) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:54) pick grid 749.04 677.14
+\t (00:06:54) last pick:  700.00  700.00
+\e (00:06:54) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:55) pick grid 725.07 677.14
+\t (00:06:55) last pick:  700.00  700.00
+\e (00:06:55) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:55) pick grid dbl 725.07 677.14
+\t (00:06:55) last pick:  700.00  700.00
+\e (00:06:55) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:55) pick grid 725.07 677.14
+\t (00:06:55) last pick:  700.00  700.00
+\e (00:06:55) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:57) pick grid 749.04 668.15
+\t (00:06:57) last pick:  700.00  700.00
+\e (00:06:57) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:06:57) prepopup 719.08 668.15
+\i (00:06:59) rotate 
+\t (00:06:59) Spin the element(s).
+\i (00:07:00) iangle 0.000
+\t (00:07:00) last angle:  0.000 Degrees
+\i (00:07:01) pick grid 554.29 701.10
+\t (00:07:01) last pick:  600.00  700.00
+\i (00:07:04) pick grid 2510.79 686.12
+\t (00:07:04) last pick:  2500.00  700.00
+\t (00:07:04) last pick:  2458.00  634.00
+\t (00:07:04) Moving U2 / LF356_DIP8_3_LF356 / DIP8_3.
+\t (00:07:04) Pick new location for the element(s).
+\i (00:07:06) pick grid 1405.21 650.17
+\t (00:07:06) last pick:  1400.00  700.00
+\i (00:07:11) pick grid 874.88 419.46
+\t (00:07:11) last pick:  900.00  400.00
+\t (00:07:11) last pick:  600.00  700.00
+\t (00:07:11) Moving U1 / LF356_DIP8_3_LF356 / DIP8_3.
+\t (00:07:11) Pick new location for the element(s).
+\i (00:07:12) pick grid 1956.50 500.36
+\t (00:07:12) last pick:  2000.00  500.00
+\i (00:07:13) pick grid 1662.88 668.15
+\t (00:07:13) last pick:  1700.00  700.00
+\t (00:07:13) last pick:  1400.00  700.00
+\t (00:07:13) Moving U2 / LF356_DIP8_3_LF356 / DIP8_3.
+\t (00:07:13) Pick new location for the element(s).
+\i (00:07:16) pick grid 656.16 722.08
+\t (00:07:16) last pick:  700.00  700.00
+\i (00:07:18) pick grid 2094.33 545.30
+\t (00:07:18) last pick:  2100.00  500.00
+\t (00:07:18) last pick:  2000.00  500.00
+\t (00:07:18) Moving U1 / LF356_DIP8_3_LF356 / DIP8_3.
+\t (00:07:18) Pick new location for the element(s).
+\i (00:07:21) pick grid 1348.28 671.14
+\t (00:07:21) last pick:  1300.00  700.00
+\i (00:07:29) pick grid 925.82 758.03
+\t (00:07:29) last pick:  900.00  800.00
+\t (00:07:29) last pick:  700.00  700.00
+\t (00:07:29) Moving U2 / LF356_DIP8_3_LF356 / DIP8_3.
+\t (00:07:29) Pick new location for the element(s).
+\i (00:07:30) pick grid 1851.64 545.30
+\t (00:07:30) last pick:  1900.00  500.00
+\i (00:07:31) pick grid 1489.10 746.05
+\t (00:07:31) last pick:  1500.00  700.00
+\t (00:07:31) last pick:  1300.00  700.00
+\t (00:07:31) Moving U1 / LF356_DIP8_3_LF356 / DIP8_3.
+\t (00:07:31) Pick new location for the element(s).
+\i (00:07:33) pick grid 847.92 710.09
+\t (00:07:33) last pick:  800.00  700.00
+\i (00:07:34) pick grid 2076.35 527.33
+\t (00:07:34) last pick:  2100.00  500.00
+\t (00:07:34) last pick:  1900.00  500.00
+\t (00:07:34) Moving U2 / LF356_DIP8_3_LF356 / DIP8_3.
+\t (00:07:34) Pick new location for the element(s).
+\i (00:07:35) pick grid 1447.15 689.12
+\t (00:07:35) last pick:  1400.00  700.00
+\i (00:07:39) pick grid 719.08 239.69
+\t (00:07:39) last pick:  700.00  200.00
+\t (00:07:39) last pick:  400.00  200.00
+\t (00:07:39) Moving R1 / R_RES400_2.7K / RES400.
+\t (00:07:39) Pick new location for the element(s).
+\i (00:07:42) pick grid 1048.66 248.68
+\t (00:07:42) last pick:  1000.00  200.00
+\i (00:07:44) pick grid 2118.29 785.00
+\t (00:07:44) last pick:  2100.00  800.00
+\t (00:07:44) last pick:  2100.00  700.00
+\t (00:07:44) Moving C1 / CAP NP_CAPCK05_0.01UF / CAPCK05.
+\t (00:07:44) Pick new location for the element(s).
+\i (00:07:50) pick grid 2151.25 527.33
+\t (00:07:50) last pick:  2200.00  500.00
+\i (00:07:54) pick grid 1665.87 401.49
+\t (00:07:54) last pick:  1700.00  400.00
+\t (00:07:54) last pick:  1400.00  700.00
+\t (00:07:54) Moving U2 / LF356_DIP8_3_LF356 / DIP8_3.
+\t (00:07:54) Pick new location for the element(s).
+\i (00:08:01) pick grid 1650.89 719.08
+\t (00:08:01) last pick:  1700.00  700.00
+\i (00:08:02) pick grid 1695.83 886.87
+\t (00:08:02) last pick:  1700.00  900.00
+\t (00:08:02) last pick:  1300.00  900.00
+\t (00:08:02) Moving R2 / R_RES400_10K / RES400.
+\t (00:08:02) Pick new location for the element(s).
+\i (00:08:09) pick grid 1752.76 886.87
+\t (00:08:09) last pick:  1800.00  900.00
+\i (00:08:10) pick grid 1740.78 734.06
+\t (00:08:10) last pick:  1700.00  700.00
+\t (00:08:10) last pick:  1700.00  700.00
+\t (00:08:10) Moving U2 / LF356_DIP8_3_LF356 / DIP8_3.
+\t (00:08:10) Pick new location for the element(s).
+\i (00:08:11) pick grid 1549.02 731.07
+\t (00:08:11) last pick:  1500.00  700.00
+\i (00:08:14) pick grid 2142.26 889.86
+\t (00:08:14) last pick:  2100.00  900.00
+\t (00:08:14) last pick:  1800.00  900.00
+\t (00:08:14) Moving R2 / R_RES400_10K / RES400.
+\t (00:08:14) Pick new location for the element(s).
+\i (00:08:15) pick grid 1845.64 907.84
+\t (00:08:15) last pick:  1800.00  900.00
+\i (00:08:19) pick grid 817.96 907.84
+\t (00:08:19) last pick:  800.00  900.00
+\t (00:08:19) last pick:  800.00  900.00
+\t (00:08:19) Moving R3 / R_RES400_20K / RES400.
+\t (00:08:19) Pick new location for the element(s).
+\i (00:08:20) prepopup 931.81 898.85
+\i (00:08:21) rotate 
+\t (00:08:21) Spin the element(s).
+\i (00:08:22) iangle 180.000
+\t (00:08:22) last angle:  270.000 Degrees
+\i (00:08:26) pick grid 755.04 946.79
+\t (00:08:26) last pick:  800.00  900.00
+\i (00:08:31) pick grid 1399.21 191.76
+\t (00:08:31) last pick:  1400.00  200.00
+\t (00:08:31) last pick:  1000.00  200.00
+\t (00:08:31) Moving R1 / R_RES400_2.7K / RES400.
+\t (00:08:31) Pick new location for the element(s).
+\i (00:08:33) pick grid 1147.53 185.76
+\t (00:08:33) last pick:  1100.00  200.00
+\i (00:08:38) pick grid 200.74 407.48
+\t (00:08:38) last pick:  200.00  400.00
+\t (00:08:38) last pick:  200.00  600.00
+\t (00:08:38) Moving J2 / CON3_JUMPER3_CON3 / JUMPER3.
+\t (00:08:38) Pick new location for the element(s).
+\i (00:08:46) pick grid 248.68 581.26
+\t (00:08:46) last pick:  200.00  600.00
+\i (00:08:48) pick grid 835.93 419.46
+\t (00:08:48) last pick:  800.00  400.00
+\t (00:08:48) last pick:  800.00  700.00
+\t (00:08:48) Moving U1 / LF356_DIP8_3_LF356 / DIP8_3.
+\t (00:08:48) Pick new location for the element(s).
+\i (00:08:50) pick grid 494.37 650.17
+\t (00:08:50) last pick:  500.00  700.00
+\i (00:09:03) pick grid 1372.25 248.68
+\t (00:09:03) last pick:  1400.00  200.00
+\t (00:09:03) last pick:  1100.00  200.00
+\t (00:09:03) Moving R1 / R_RES400_2.7K / RES400.
+\t (00:09:03) Pick new location for the element(s).
+\i (00:09:05) pick grid 958.78 203.74
+\t (00:09:05) last pick:  1000.00  200.00
+\i (00:09:15) prepopup 755.04 389.50
+\i (00:09:17) pick grid 623.20 461.41
+\t (00:09:17) last pick:  600.00  500.00
+\i (00:09:17) pick grid 665.15 350.55
+\t (00:09:17) last pick:  700.00  400.00
+\t (00:09:17) last pick:  500.00  700.00
+\t (00:09:17) Moving U1 / LF356_DIP8_3_LF356 / DIP8_3.
+\t (00:09:17) Pick new location for the element(s).
+\i (00:09:18) prepopup 632.19 623.20
+\i (00:09:19) rotate 
+\t (00:09:19) Spin the element(s).
+\i (00:09:21) iangle -180.000
+\t (00:09:21) last angle:  180.000 Degrees
+\i (00:09:24) pick grid 820.95 449.43
+\t (00:09:24) last pick:  800.00  400.00
+\e (00:09:24) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:09:25) pick grid 761.03 428.45
+\t (00:09:25) last pick:  800.00  400.00
+\e (00:09:25) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:09:25) prepopup 817.96 410.48
+\i (00:09:26) rotate 
+\t (00:09:26) Spin the element(s).
+\i (00:09:27) iangle 0.000
+\t (00:09:27) last angle:  0.000 Degrees
+\i (00:09:32) pick grid 548.30 698.11
+\t (00:09:32) last pick:  500.00  700.00
+\i (00:09:36) pick grid 1402.21 188.76
+\t (00:09:36) last pick:  1400.00  200.00
+\t (00:09:36) last pick:  1000.00  200.00
+\t (00:09:36) Moving R1 / R_RES400_2.7K / RES400.
+\t (00:09:36) Pick new location for the element(s).
+\i (00:09:39) pick grid 952.78 368.53
+\t (00:09:39) last pick:  1000.00  400.00
+\i (00:09:41) pick grid 1201.47 871.89
+\t (00:09:41) last pick:  1200.00  900.00
+\t (00:09:41) last pick:  800.00  900.00
+\t (00:09:41) Moving R3 / R_RES400_20K / RES400.
+\t (00:09:41) Pick new location for the element(s).
+\i (00:09:44) pick grid 548.30 197.75
+\t (00:09:44) last pick:  500.00  200.00
+\i (00:09:46) pick grid 1411.20 389.50
+\t (00:09:46) last pick:  1400.00  400.00
+\t (00:09:46) last pick:  1000.00  400.00
+\t (00:09:46) Moving R1 / R_RES400_2.7K / RES400.
+\t (00:09:46) Pick new location for the element(s).
+\i (00:09:47) pick grid 1144.54 203.74
+\t (00:09:47) last pick:  1100.00  200.00
+\i (00:09:52) pick grid 1800.70 904.84
+\t (00:09:52) last pick:  1800.00  900.00
+\t (00:09:52) last pick:  1800.00  900.00
+\t (00:09:52) Moving R2 / R_RES400_10K / RES400.
+\t (00:09:52) Pick new location for the element(s).
+\i (00:09:53) pick grid 1048.66 895.86
+\t (00:09:53) last pick:  1000.00  900.00
+\i (00:09:59) prepopup 2199.19 506.35
+\i (00:10:00) pick grid 2160.24 485.38
+\t (00:10:00) last pick:  2200.00  500.00
+\t (00:10:00) last pick:  2200.00  500.00
+\t (00:10:00) Moving C1 / CAP NP_CAPCK05_0.01UF / CAPCK05.
+\t (00:10:00) Pick new location for the element(s).
+\i (00:10:00) prepopup 2124.29 506.35
+\i (00:10:02) rotate 
+\t (00:10:02) Spin the element(s).
+\i (00:10:03) iangle 0.000
+\t (00:10:03) last angle:  0.000 Degrees
+\i (00:10:04) prepopup 2103.31 545.30
+\i (00:10:05) rotate 
+\t (00:10:05) Spin the element(s).
+\i (00:10:06) iangle 180.000
+\t (00:10:06) last angle:  180.000 Degrees
+\i (00:10:08) pick grid 2091.33 647.17
+\t (00:10:08) last pick:  2100.00  600.00
+\i (00:10:16) pick grid 838.93 197.75
+\t (00:10:16) last pick:  800.00  200.00
+\t (00:10:16) last pick:  500.00  200.00
+\t (00:10:16) Moving R3 / R_RES400_20K / RES400.
+\t (00:10:16) Pick new location for the element(s).
+\i (00:10:19) pick grid 248.68 170.78
+\t (00:10:19) last pick:  200.00  200.00
+\i (00:10:22) pick grid 590.25 179.77
+\t (00:10:22) last pick:  600.00  200.00
+\t (00:10:22) last pick:  200.00  200.00
+\t (00:10:22) Moving R3 / R_RES400_20K / RES400.
+\t (00:10:22) Pick new location for the element(s).
+\i (00:10:25) pick grid 548.30 203.74
+\t (00:10:25) last pick:  500.00  200.00
+\i (00:10:32) pick grid 200.74 401.49
+\t (00:10:32) last pick:  200.00  400.00
+\t (00:10:32) last pick:  200.00  600.00
+\t (00:10:32) Moving J2 / CON3_JUMPER3_CON3 / JUMPER3.
+\t (00:10:32) Pick new location for the element(s).
+\i (00:10:33) prepopup 215.72 581.26
+\i (00:10:34) rotate 
+\t (00:10:34) Spin the element(s).
+\i (00:10:36) iangle -180.000
+\t (00:10:36) last angle:  90.000 Degrees
+\i (00:10:39) pick grid 152.80 311.60
+\t (00:10:39) last pick:  200.00  300.00
+\i (00:10:49) pick grid 524.33 209.73
+\t (00:10:49) last pick:  500.00  200.00
+\t (00:10:49) last pick:  500.00  200.00
+\t (00:10:49) Moving R3 / R_RES400_20K / RES400.
+\t (00:10:49) Pick new location for the element(s).
+\i (00:10:49) pick grid 449.43 215.72
+\t (00:10:49) last pick:  400.00  200.00
+\i (00:10:53) pick grid 416.47 215.72
+\t (00:10:53) last pick:  400.00  200.00
+\t (00:10:53) last pick:  400.00  200.00
+\t (00:10:53) Moving R3 / R_RES400_20K / RES400.
+\t (00:10:53) Pick new location for the element(s).
+\i (00:10:54) pick grid 548.30 209.73
+\t (00:10:54) last pick:  500.00  200.00
+\i (00:11:02) pick grid 1408.20 910.84
+\t (00:11:02) last pick:  1400.00  900.00
+\t (00:11:02) last pick:  1000.00  900.00
+\t (00:11:02) Moving R2 / R_RES400_10K / RES400.
+\t (00:11:02) Pick new location for the element(s).
+\i (00:11:03) pick grid 1447.15 937.80
+\t (00:11:03) last pick:  1400.00  900.00
+\i (00:11:08) add text 
+\t (00:11:08) Pick text location.
+\i (00:11:13) setwindow form.mini
+\i (00:11:13) FORM mini class DRAWING FORMAT 
+\i (00:11:24) FORM mini text_block 7 
+\i (00:11:25) setwindow pcb
+\i (00:11:25) pick grid 215.72 871.89
+\t (00:11:25) last pick:  200.00  900.00
+\t (00:11:25) Enter text string.
+\i (00:11:31) setwindow pcb
+\i (00:11:31) place manual -h 
+\i (00:11:31) setwindow pcb
+\i (00:11:31) pick 200.00 900.00
+\i (00:11:31) setwindow pcb
+\i (00:11:31) save 
+\i (00:11:32) fillin yes 
+\i (00:11:32) generaledit 
+\i (00:11:36) xhilite 
+\i (00:11:36) xrefdes U2 
+\i (00:11:36) xname_flush 
+\i (00:11:36) trapsize 579
+\t (00:11:36) Symbol "U2" highlighted.
+\i (00:11:36) done 
+\i (00:11:36) generaledit 
+\i (00:11:43) xdehilite 
+\i (00:11:43) xrefdes U2 
+\i (00:11:43) xname_flush 
+\t (00:11:43) Symbol "U2" dehighlighted.
+\i (00:11:43) done 
+\i (00:11:43) generaledit 
+\i (00:11:44) xhilite 
+\i (00:11:44) xrefdes U1 
+\i (00:11:44) xname_flush 
+\i (00:11:44) trapsize 579
+\t (00:11:44) Symbol "U1" highlighted.
+\i (00:11:44) done 
+\i (00:11:44) generaledit 
+\i (00:11:49) xdehilite 
+\i (00:11:49) xrefdes U1 
+\i (00:11:49) xname_flush 
+\t (00:11:49) Symbol "U1" dehighlighted.
+\i (00:11:49) done 
+\i (00:11:49) generaledit 
+\w (00:11:52) Save Pending
+\i (00:11:53) zoom fit 
+\i (00:11:53) trapsize 749
+\i (00:12:01) move 
+\t (00:12:01) Select element(s) to move.
+\i (00:12:05) setwindow form.find
+\i (00:12:05) FORM find all_off  
+\i (00:12:07) FORM find text YES 
+\i (00:12:10) setwindow pcb
+\i (00:12:10) pick grid 1664.37 817.96
+\t (00:12:10) last pick:  1700.00  800.00
+\t (00:12:10) last pick:  1645.00  818.00
+\t (00:12:10) Pick new location for the element(s).
+\i (00:12:11) prepopup 1689.84 853.91
+\i (00:12:12) rotate 
+\t (00:12:12) Spin the element(s).
+\i (00:12:13) iangle 90.000
+\t (00:12:13) last angle:  0.000 Degrees
+\i (00:12:15) pick grid 1448.65 846.42
+\t (00:12:15) last pick:  1400.00  800.00
+\i (00:12:15) pick grid 1608.95 798.48
+\t (00:12:15) last pick:  1600.00  800.00
+\t (00:12:16) last pick:  1592.00  801.00
+\t (00:12:16) Pick new location for the element(s).
+\i (00:12:16) prepopup 1580.48 835.93
+\i (00:12:17) rotate 
+\t (00:12:17) Spin the element(s).
+\i (00:12:18) iangle 90.000
+\t (00:12:18) last angle:  0.000 Degrees
+\i (00:12:19) pick grid 1616.44 853.91
+\t (00:12:19) last pick:  1600.00  900.00
+\i (00:12:22) pick grid 1925.04 674.14
+\t (00:12:22) last pick:  1900.00  700.00
+\t (00:12:22) last pick:  1896.00  643.00
+\t (00:12:22) Pick new location for the element(s).
+\i (00:12:23) pick grid 1925.04 674.14
+\t (00:12:23) last pick:  1900.00  700.00
+\i (00:12:24) pick grid 924.32 645.68
+\t (00:12:24) last pick:  900.00  600.00
+\t (00:12:24) last pick:  896.00  643.00
+\t (00:12:24) Pick new location for the element(s).
+\i (00:12:27) pick grid 440.44 729.57
+\t (00:12:27) last pick:  400.00  700.00
+\i (00:12:28) pick grid 1904.07 735.56
+\t (00:12:28) last pick:  1900.00  700.00
+\t (00:12:28) last pick:  1900.00  700.00
+\t (00:12:28) Pick new location for the element(s).
+\i (00:12:30) pick grid 1445.65 738.56
+\t (00:12:30) last pick:  1400.00  700.00
+\i (00:12:31) pick grid 2020.92 425.46
+\t (00:12:31) last pick:  2000.00  400.00
+\t (00:12:31) last pick:  1990.00  474.00
+\t (00:12:31) Pick new location for the element(s).
+\i (00:12:32) prepopup 2020.92 425.46
+\i (00:12:33) rotate 
+\t (00:12:33) Spin the element(s).
+\i (00:12:34) iangle 180.000
+\t (00:12:34) last angle:  0.000 Degrees
+\i (00:12:35) pick grid 2074.85 650.17
+\t (00:12:35) last pick:  2100.00  700.00
+\i (00:12:37) pick grid 1992.46 492.87
+\t (00:12:37) last pick:  2000.00  500.00
+\t (00:12:37) last pick:  1967.00  532.00
+\t (00:12:37) Pick new location for the element(s).
+\i (00:12:37) prepopup 1990.96 356.54
+\i (00:12:39) rotate 
+\t (00:12:39) Spin the element(s).
+\i (00:12:40) iangle 180.000
+\t (00:12:40) last angle:  0.000 Degrees
+\i (00:12:41) pick grid 2106.31 349.05
+\t (00:12:41) last pick:  2100.00  300.00
+\i (00:12:42) pick grid 1963.99 504.86
+\t (00:12:42) last pick:  2000.00  500.00
+\t (00:12:42) last pick:  1918.00  502.00
+\t (00:12:42) Pick new location for the element(s).
+\i (00:12:43) prepopup 1649.39 512.35
+\i (00:12:44) rotate 
+\t (00:12:44) Spin the element(s).
+\i (00:12:45) iangle 90.000
+\t (00:12:45) last angle:  90.000 Degrees
+\i (00:12:46) pick grid 1650.89 519.84
+\t (00:12:46) last pick:  1700.00  500.00
+\i (00:12:47) pick grid 937.80 515.34
+\t (00:12:47) last pick:  900.00  500.00
+\t (00:12:47) last pick:  918.00  502.00
+\t (00:12:47) Pick new location for the element(s).
+\i (00:12:48) prepopup 964.77 440.44
+\i (00:12:49) rotate 
+\t (00:12:49) Spin the element(s).
+\i (00:12:49) iangle 90.000
+\t (00:12:49) last angle:  90.000 Degrees
+\i (00:12:51) pick grid 650.17 533.32
+\t (00:12:51) last pick:  700.00  500.00
+\i (00:12:52) pick grid 762.53 134.83
+\t (00:12:52) last pick:  800.00  100.00
+\t (00:12:52) last pick:  745.00  118.00
+\t (00:12:52) Pick new location for the element(s).
+\i (00:12:53) prepopup 779.01 263.66
+\i (00:12:54) rotate 
+\t (00:12:54) Spin the element(s).
+\i (00:12:55) iangle 90.000
+\t (00:12:55) last angle:  0.000 Degrees
+\i (00:12:59) pick grid 432.95 248.68
+\t (00:12:59) last pick:  400.00  200.00
+\i (00:13:00) pick grid 1363.26 128.84
+\t (00:13:00) last pick:  1400.00  100.00
+\t (00:13:00) last pick:  1345.00  118.00
+\t (00:13:00) Pick new location for the element(s).
+\i (00:13:00) prepopup 1581.98 167.79
+\i (00:13:01) rotate 
+\t (00:13:01) Spin the element(s).
+\i (00:13:02) iangle 90.000
+\t (00:13:02) last angle:  0.000 Degrees
+\i (00:13:04) pick grid 1649.39 214.23
+\t (00:13:04) last pick:  1600.00  200.00
+\i (00:13:05) pick grid 1300.34 101.87
+\t (00:13:05) last pick:  1300.00  100.00
+\t (00:13:05) last pick:  1292.00  101.00
+\t (00:13:05) Pick new location for the element(s).
+\i (00:13:05) prepopup 1325.81 209.73
+\i (00:13:06) rotate 
+\t (00:13:06) Spin the element(s).
+\i (00:13:08) iangle 90.000
+\t (00:13:08) last angle:  0.000 Degrees
+\i (00:13:08) pick grid 1300.34 200.74
+\t (00:13:08) last pick:  1300.00  200.00
+\i (00:13:09) pick grid 707.10 113.85
+\t (00:13:09) last pick:  700.00  100.00
+\t (00:13:09) last pick:  692.00  101.00
+\t (00:13:09) Pick new location for the element(s).
+\i (00:13:10) prepopup 743.05 181.27
+\i (00:13:10) rotate 
+\t (00:13:10) Spin the element(s).
+\i (00:13:11) iangle 90.000
+\t (00:13:11) last angle:  0.000 Degrees
+\i (00:13:12) pick grid 699.61 200.74
+\t (00:13:12) last pick:  700.00  200.00
+\i (00:13:13) pick grid 137.82 274.15
+\t (00:13:13) last pick:  100.00  300.00
+\t (00:13:13) last pick:  141.00  280.00
+\t (00:13:13) Pick new location for the element(s).
+\i (00:13:14) prepopup 212.73 599.23
+\i (00:13:15) rotate 
+\t (00:13:15) Spin the element(s).
+\i (00:13:17) iangle -90.000
+\t (00:13:17) last angle:  0.000 Degrees
+\i (00:13:18) pick grid 229.21 647.17
+\t (00:13:18) last pick:  200.00  600.00
+\i (00:13:20) place manual -h 
+\i (00:13:21) save 
+\i (00:13:22) fillin yes 
+\i (00:13:22) generaledit 
+\i (00:13:30) add connect 
+\t (00:13:30) Pick first element.
+\i (00:13:35) setwindow form.mini
+\i (00:13:35) FORM mini alt_subcolor color 1 
+\i (00:13:46) FORM mini acon_line_width 25.00 
+\i (00:13:55) setwindow pcb
+\i (00:13:55) pick grid 500.36 611.22
+\t (00:13:55) last pick:  500.00  600.00
+\t (00:13:55) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:13:55) last pick:  500.00  600.00
+\i (00:14:08) pick grid 762.53 862.90
+\t (00:14:08) last pick:  775.00  875.00
+\t (00:14:08) No DRC errors detected.
+\i (00:14:14) pick grid 785.00 886.87
+\t (00:14:14) last pick:  775.00  875.00
+\w (00:14:14) WARNING(SPMHAC-22): The pick was ignored.  It is the same as the previous pick.
+\i (00:14:15) mouse_pos 1363.26 894.36
+\i (00:14:16) mouse_pos 1336.29 880.88
+\i (00:14:17) pick grid 1336.29 880.88
+\t (00:14:17) last pick:  1325.00  875.00
+\t (00:14:17) No DRC errors detected.
+\i (00:14:18) mouse_pos 1363.26 894.36
+\i (00:14:18) mouse_pos 1336.29 897.35
+\i (00:14:20) pick grid 1312.32 895.86
+\t (00:14:20) last pick:  1300.00  900.00
+\t (00:14:20) No DRC errors detected.
+\t (00:14:20) last pick:  1300.00  875.00
+\i (00:14:22) pick grid 1262.89 876.38
+\t (00:14:22) last pick:  1275.00  875.00
+\t (00:14:22) No DRC errors detected.
+\i (00:14:23) pick grid 1280.86 889.86
+\t (00:14:23) last pick:  1275.00  900.00
+\t (00:14:23) No DRC errors detected.
+\i (00:14:23) mouse_pos 1363.26 903.35
+\i (00:14:24) pick grid 1363.26 903.35
+\t (00:14:24) last pick:  1375.00  900.00
+\t (00:14:24) No DRC errors detected.
+\t (00:14:24) Pick first element.
+\i (00:14:27) pick grid 212.73 497.36
+\t (00:14:27) last pick:  225.00  500.00
+\t (00:14:27) Pick first element.
+\t (00:14:27) last pick:  200.00  500.00
+\t (00:14:27) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:14:27) last pick:  200.00  500.00
+\i (00:14:27) mouse_pos 465.91 501.86
+\i (00:14:27) pick grid 489.87 501.86
+\t (00:14:27) last pick:  500.00  500.00
+\t (00:14:27) No DRC errors detected.
+\t (00:14:27) Pick first element.
+\i (00:14:28) pick grid 191.76 405.98
+\t (00:14:28) last pick:  200.00  400.00
+\t (00:14:28) Pick first element.
+\t (00:14:28) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:14:28) last pick:  200.00  400.00
+\i (00:14:28) mouse_pos 467.40 395.49
+\i (00:14:29) pick grid 489.87 395.49
+\t (00:14:29) last pick:  500.00  400.00
+\t (00:14:29) No DRC errors detected.
+\t (00:14:29) Pick first element.
+\i (00:14:31) pick grid 894.36 194.75
+\t (00:14:31) last pick:  900.00  200.00
+\t (00:14:31) Pick first element.
+\t (00:14:31) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:14:31) last pick:  900.00  200.00
+\i (00:14:31) mouse_pos 1065.14 193.25
+\i (00:14:31) pick grid 1087.61 193.25
+\t (00:14:31) last pick:  1100.00  200.00
+\t (00:14:31) No DRC errors detected.
+\t (00:14:31) Pick first element.
+\i (00:14:33) pick grid 1808.19 498.86
+\t (00:14:33) last pick:  1800.00  500.00
+\t (00:14:33) Pick first element.
+\t (00:14:33) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:14:33) last pick:  1800.00  500.00
+\i (00:14:33) mouse_pos 2064.36 501.86
+\i (00:14:34) pick grid 2089.83 500.36
+\t (00:14:34) last pick:  2100.00  500.00
+\t (00:14:34) No DRC errors detected.
+\t (00:14:34) Pick first element.
+\i (00:14:43) pick grid 2085.34 588.75
+\t (00:14:43) last pick:  2075.00  600.00
+\t (00:14:43) Pick first element.
+\t (00:14:43) last pick:  2100.00  600.00
+\t (00:14:43) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:14:43) last pick:  2100.00  600.00
+\i (00:14:46) pick grid 1863.62 790.99
+\t (00:14:46) last pick:  1875.00  800.00
+\t (00:14:46) No DRC errors detected.
+\i (00:14:46) mouse_pos 1883.10 789.49
+\i (00:14:46) mouse_pos 1857.63 789.49
+\i (00:14:47) mouse_pos 1887.59 802.97
+\i (00:14:48) pick grid 1913.06 771.51
+\t (00:14:48) last pick:  1925.00  775.00
+\t (00:14:48) No DRC errors detected.
+\t (00:14:48) last pick:  1924.99  775.01
+\i (00:14:51) mouse_pos 837.43 519.84
+\i (00:14:52) pick grid 811.96 512.35
+\t (00:14:52) last pick:  800.00  500.00
+\t (00:14:52) No DRC errors detected.
+\t (00:14:52) Pick first element.
+\i (00:14:55) pick grid 521.33 398.49
+\t (00:14:55) last pick:  525.00  400.00
+\t (00:14:55) Pick first element.
+\t (00:14:55) last pick:  500.00  400.00
+\t (00:14:55) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:14:55) last pick:  500.00  400.00
+\i (00:14:58) pick grid 614.22 311.60
+\t (00:14:58) last pick:  625.00  300.00
+\t (00:14:58) No DRC errors detected.
+\i (00:14:58) mouse_pos 615.71 311.60
+\i (00:14:58) mouse_pos 644.18 311.60
+\i (00:14:59) mouse_pos 1463.63 391.00
+\i (00:15:00) pick grid 1463.63 391.00
+\t (00:15:00) last pick:  1475.00  400.00
+\t (00:15:00) No DRC errors detected.
+\t (00:15:00) Pick first element.
+\i (00:16:23) pick grid 1264.39 764.02
+\t (00:16:23) last pick:  1275.00  775.00
+\t (00:16:23) Pick first element.
+\t (00:16:23) last pick:  1275.00  775.01
+\t (00:16:23) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:16:23) last pick:  1275.00  775.01
+\i (00:16:23) pick grid dbl 1264.39 764.02
+\t (00:16:23) last pick:  1275.00  775.00
+\t (00:16:23) VIA used for drill.
+\t (00:16:23) No DRC errors detected.
+\i (00:16:24) delete 
+\i (00:16:25) pick grid 1304.83 767.02
+\t (00:16:25) last pick:  1300.00  775.00
+\t (00:16:25) Connect Line "N00280, Etch/Top"
+\i (00:16:25) pick grid dbl 1304.83 767.02
+\t (00:16:25) last pick:  1300.00  775.00
+\i (00:16:25) delete 
+\i (00:16:25) pick grid 1199.97 782.00
+\t (00:16:25) last pick:  1200.00  775.00
+\t (00:16:25) Connect Line "N00280, Etch/Top"
+\i (00:16:25) pick grid dbl 1199.97 782.00
+\t (00:16:25) last pick:  1200.00  775.00
+\i (00:16:26) pick grid 1271.88 765.52
+\t (00:16:26) last pick:  1275.00  775.00
+\t (00:16:26) Via "Not On A Net, Via, (1275.00 775.01)"
+\i (00:16:26) pick grid dbl 1271.88 765.52
+\t (00:16:26) last pick:  1275.00  775.00
+\i (00:16:28) place manual -h 
+\i (00:16:29) save 
+\i (00:16:30) fillin yes 
+\i (00:16:30) generaledit 
+\i (00:16:32) place manual -h 
+\i (00:16:34) pick grid 1961.00 492.87
+\t (00:16:34) last pick:  2000.00  500.00
+\i (00:16:35) pick grid dbl 1961.00 492.87
+\t (00:16:35) last pick:  2000.00  500.00
+\i (00:16:35) pick grid 1961.00 492.87
+\t (00:16:35) last pick:  2000.00  500.00
+\i (00:16:35) delete 
+\i (00:16:36) pick grid 1961.00 492.87
+\t (00:16:36) last pick:  1950.00  500.00
+\t (00:16:36) Connect Line "N00387, Etch/Top"
+\i (00:16:36) pick grid dbl 1961.00 492.87
+\t (00:16:36) last pick:  1950.00  500.00
+\i (00:16:39) pick grid 1165.51 868.89
+\t (00:16:39) last pick:  1175.00  875.00
+\t (00:16:39) Connect Line "N00404, Etch/Top"
+\i (00:16:39) pick grid dbl 1165.51 868.89
+\t (00:16:39) last pick:  1175.00  875.00
+\i (00:16:40) pick grid 373.02 498.86
+\t (00:16:40) last pick:  375.00  500.00
+\t (00:16:40) Connect Line "Gnd, Etch/Top"
+\i (00:16:40) pick grid dbl 373.02 498.86
+\t (00:16:40) last pick:  375.00  500.00
+\i (00:16:41) pick grid 359.54 408.98
+\t (00:16:41) last pick:  350.00  400.00
+\t (00:16:41) Connect Line "-12V, Etch/Top"
+\i (00:16:41) pick grid dbl 359.54 408.98
+\t (00:16:41) last pick:  350.00  400.00
+\i (00:16:42) pick grid 1217.94 293.63
+\t (00:16:42) last pick:  1225.00  300.00
+\t (00:16:42) Connect Line "-12V, Etch/Top"
+\i (00:16:42) pick grid dbl 1217.94 293.63
+\t (00:16:42) last pick:  1225.00  300.00
+\i (00:16:43) save 
+\i (00:16:44) fillin yes 
+\i (00:16:44) generaledit 
+\i (00:16:50) place manual -h 
+\i (00:16:53) pick grid 2100.32 600.73
+\t (00:16:53) last pick:  2100.00  600.00
+\t (00:16:53) Moving C1 / CAP NP_CAPCK05_0.01UF / CAPCK05.
+\t (00:16:53) last pick:  2100.00  600.00
+\i (00:16:54) prepopup 1162.52 876.38
+\i (00:16:56) rotate 
+\t (00:16:56) Spin the element(s).
+\i (00:16:57) iangle 90.000
+\t (00:16:57) last angle:  270.000 Degrees
+\i (00:17:00) pick grid 1150.53 873.38
+\t (00:17:00) last pick:  1200.00  900.00
+\i (00:17:01) pick grid 1821.67 900.35
+\t (00:17:01) last pick:  1800.00  900.00
+\t (00:17:01) Moving R2 / R_RES400_10K / RES400.
+\t (00:17:01) last pick:  1400.00  900.00
+\i (00:17:02) prepopup 1875.60 879.38
+\i (00:17:03) rotate 
+\t (00:17:03) Spin the element(s).
+\i (00:17:04) iangle -90.000
+\t (00:17:04) last angle:  180.000 Degrees
+\i (00:17:06) prepopup 2023.92 861.40
+\i (00:17:07) rotate 
+\t (00:17:07) Spin the element(s).
+\i (00:17:11) iangle 90.000
+\t (00:17:11) last angle:  0.000 Degrees
+\i (00:17:12) prepopup 2131.78 662.15
+\i (00:17:13) rotate 
+\t (00:17:13) Spin the element(s).
+\i (00:17:16) iangle 90.000
+\t (00:17:16) last angle:  0.000 Degrees
+\i (00:17:17) prepopup 2124.29 793.99
+\i (00:17:19) rotate 
+\t (00:17:19) Spin the element(s).
+\i (00:17:21) iangle -270.000
+\t (00:17:21) last angle:  0.000 Degrees
+\i (00:17:23) prepopup 2020.92 293.63
+\i (00:17:24) rotate 
+\t (00:17:24) Spin the element(s).
+\i (00:17:26) iangle 90.000
+\t (00:17:26) last angle:  0.000 Degrees
+\i (00:17:28) prepopup 2034.40 696.61
+\i (00:17:29) rotate 
+\t (00:17:29) Spin the element(s).
+\i (00:17:30) iangle 90.000
+\t (00:17:30) last angle:  0.000 Degrees
+\i (00:17:32) pick grid 2080.84 248.68
+\t (00:17:32) last pick:  2100.00  200.00
+\e (00:17:32) ERROR(SPMHA1-150): Symbol does not fit into the drawing ... reposition the symbol.
+\i (00:17:34) pick grid 1808.19 907.84
+\t (00:17:34) last pick:  1800.00  900.00
+\t (00:17:34) Moving R2 / R_RES400_10K / RES400.
+\t (00:17:34) last pick:  1400.00  900.00
+\i (00:17:35) prepopup 1815.68 814.96
+\i (00:17:37) rotate 
+\t (00:17:37) Spin the element(s).
+\i (00:17:39) iangle 90.000
+\t (00:17:39) last angle:  0.000 Degrees
+\i (00:17:46) prepopup 605.23 758.03
+\i (00:17:47) rotate 
+\t (00:17:47) Spin the element(s).
+\i (00:17:48) iangle 0.000
+\t (00:17:48) last angle:  270.000 Degrees
+\i (00:17:51) pick grid 1977.47 650.17
+\t (00:17:51) last pick:  2000.00  700.00
+\i (00:17:53) pick grid 1984.97 701.10
+\t (00:17:53) last pick:  2000.00  700.00
+\t (00:17:53) Moving R2 / R_RES400_10K / RES400.
+\t (00:17:53) last pick:  2000.00  700.00
+\i (00:17:54) pick grid 1847.14 837.43
+\t (00:17:54) last pick:  1800.00  800.00
+\i (00:17:57) pick grid 1315.32 891.36
+\t (00:17:57) last pick:  1300.00  900.00
+\t (00:17:57) Moving C1 / CAP NP_CAPCK05_0.01UF / CAPCK05.
+\t (00:17:57) last pick:  1200.00  900.00
+\i (00:18:03) pick grid 1117.57 349.05
+\t (00:18:03) last pick:  1100.00  300.00
+\i (00:18:04) pick grid 1014.20 194.75
+\t (00:18:04) last pick:  1000.00  200.00
+\i (00:18:04) pick grid dbl 1014.20 194.75
+\t (00:18:04) last pick:  1000.00  200.00
+\i (00:18:05) delete 
+\i (00:18:05) pick grid 1014.20 194.75
+\t (00:18:05) last pick:  1025.00  200.00
+\t (00:18:05) Connect Line "N00280, Etch/Top"
+\i (00:18:05) pick grid dbl 1014.20 194.75
+\t (00:18:05) last pick:  1025.00  200.00
+\i (00:18:07) place manual -h 
+\i (00:18:08) save 
+\i (00:18:08) fillin yes 
+\i (00:18:08) generaledit 
+\i (00:18:09) place manual -h 
+\i (00:18:11) pick grid 1104.09 170.78
+\t (00:18:11) last pick:  1100.00  200.00
+\t (00:18:11) Moving R1 / R_RES400_2.7K / RES400.
+\t (00:18:11) last pick:  1100.00  200.00
+\i (00:18:12) pick grid 1552.02 170.78
+\t (00:18:12) last pick:  1600.00  200.00
+\i (00:18:13) pick grid 1211.95 290.63
+\t (00:18:13) last pick:  1200.00  300.00
+\t (00:18:13) Moving C1 / CAP NP_CAPCK05_0.01UF / CAPCK05.
+\t (00:18:13) last pick:  1100.00  300.00
+\i (00:18:14) pick grid 1149.03 212.73
+\t (00:18:14) last pick:  1100.00  200.00
+\e (00:18:14) ERROR(SPMHA1-150): Symbol does not fit into the drawing ... reposition the symbol.
+\i (00:18:16) pick grid 1207.46 286.13
+\t (00:18:16) last pick:  1200.00  300.00
+\t (00:18:16) Moving C1 / CAP NP_CAPCK05_0.01UF / CAPCK05.
+\t (00:18:16) last pick:  1100.00  300.00
+\i (00:18:17) prepopup 1114.58 284.64
+\i (00:18:18) rotate 
+\t (00:18:18) Spin the element(s).
+\i (00:18:18) iangle 90.000
+\t (00:18:18) last angle:  0.000 Degrees
+\i (00:18:19) pick grid 1096.60 248.68
+\t (00:18:19) last pick:  1100.00  200.00
+\i (00:18:24) pick grid 1616.44 179.77
+\t (00:18:24) last pick:  1600.00  200.00
+\t (00:18:24) Moving R1 / R_RES400_2.7K / RES400.
+\t (00:18:24) last pick:  1600.00  200.00
+\i (00:18:24) prepopup 1814.18 181.27
+\i (00:18:25) rotate 
+\t (00:18:25) Spin the element(s).
+\i (00:18:26) iangle 90.000
+\t (00:18:26) last angle:  0.000 Degrees
+\i (00:18:28) pick grid 2095.82 151.31
+\t (00:18:28) last pick:  2100.00  200.00
+\i (00:18:30) pick grid 1788.72 802.97
+\t (00:18:30) last pick:  1800.00  800.00
+\t (00:18:30) Moving R2 / R_RES400_10K / RES400.
+\t (00:18:30) last pick:  1800.00  800.00
+\i (00:18:31) pick grid 1361.76 865.89
+\t (00:18:31) last pick:  1400.00  900.00
+\i (00:18:49) pick grid 2094.33 220.22
+\t (00:18:49) last pick:  2100.00  200.00
+\t (00:18:49) Moving R1 / R_RES400_2.7K / RES400.
+\t (00:18:49) last pick:  2100.00  200.00
+\i (00:18:51) pick grid 1349.78 224.71
+\t (00:18:51) last pick:  1300.00  200.00
+\i (00:18:52) pick grid 1823.17 398.49
+\t (00:18:52) last pick:  1800.00  400.00
+\t (00:18:52) Moving U2 / LF356_DIP8_3_LF356 / DIP8_3.
+\t (00:18:52) last pick:  1500.00  700.00
+\i (00:18:53) pick grid 1863.62 651.67
+\t (00:18:53) last pick:  1900.00  700.00
+\i (00:18:54) pick grid 1303.34 205.24
+\t (00:18:54) last pick:  1300.00  200.00
+\t (00:18:54) Moving R1 / R_RES400_2.7K / RES400.
+\t (00:18:54) last pick:  1300.00  200.00
+\i (00:18:55) pick grid 1553.52 190.26
+\t (00:18:55) last pick:  1600.00  200.00
+\i (00:19:00) pick grid 1604.45 200.74
+\t (00:19:00) last pick:  1600.00  200.00
+\t (00:19:00) Moving R1 / R_RES400_2.7K / RES400.
+\t (00:19:00) last pick:  1600.00  200.00
+\i (00:19:00) prepopup 1604.45 200.74
+\i (00:19:01) rotate 
+\t (00:19:01) Spin the element(s).
+\i (00:19:05) iangle 270.000
+\t (00:19:05) last angle:  270.000 Degrees
+\i (00:19:07) pick grid 1450.15 214.23
+\t (00:19:07) last pick:  1500.00  200.00
+\i (00:19:08) pick grid 1493.59 211.23
+\t (00:19:08) last pick:  1500.00  200.00
+\t (00:19:08) Moving R1 / R_RES400_2.7K / RES400.
+\t (00:19:08) last pick:  1500.00  200.00
+\i (00:19:09) pick grid 1348.28 211.23
+\t (00:19:09) last pick:  1300.00  200.00
+\i (00:19:10) pick grid 1878.60 392.50
+\t (00:19:10) last pick:  1900.00  400.00
+\t (00:19:10) Moving U2 / LF356_DIP8_3_LF356 / DIP8_3.
+\t (00:19:10) last pick:  1900.00  700.00
+\i (00:19:12) pick grid 1749.77 671.14
+\t (00:19:12) last pick:  1700.00  700.00
+\i (00:19:14) pick grid 1817.18 895.86
+\t (00:19:14) last pick:  1800.00  900.00
+\t (00:19:14) Moving R2 / R_RES400_10K / RES400.
+\t (00:19:14) last pick:  1400.00  900.00
+\i (00:19:15) pick grid 1649.39 885.37
+\t (00:19:15) last pick:  1600.00  900.00
+\i (00:19:34) move 
+\t (00:19:35) Select element(s) to move.
+\i (00:19:39) pick grid 1123.57 61.42
+\t (00:19:39) last pick:  1125.00  50.00
+\t (00:19:39) last pick:  1100.00  100.00
+\t (00:19:39) Pick new location for the element(s).
+\i (00:19:40) prepopup 1099.60 115.35
+\i (00:19:40) rotate 
+\t (00:19:40) Spin the element(s).
+\i (00:19:42) iangle -180.000
+\t (00:19:42) last angle:  0.000 Degrees
+\i (00:19:43) pick grid 1090.61 373.02
+\t (00:19:43) last pick:  1100.00  375.00
+\i (00:19:44) pick grid 1226.93 473.40
+\t (00:19:44) last pick:  1225.00  475.00
+\t (00:19:44) last pick:  1100.00  500.00
+\t (00:19:44) Pick new location for the element(s).
+\i (00:19:44) prepopup 1312.32 383.51
+\i (00:19:45) rotate 
+\t (00:19:45) Spin the element(s).
+\i (00:19:46) iangle -180.000
+\t (00:19:46) last angle:  0.000 Degrees
+\i (00:19:49) pick grid 1315.32 368.53
+\t (00:19:49) last pick:  1325.00  375.00
+\i (00:19:51) pick grid 1140.04 383.51
+\t (00:19:51) last pick:  1150.00  375.00
+\t (00:19:51) last pick:  1100.00  375.00
+\t (00:19:51) Pick new location for the element(s).
+\i (00:19:52) pick grid 1012.71 379.02
+\t (00:19:52) last pick:  1025.00  375.00
+\i (00:19:53) pick grid 1201.47 388.00
+\t (00:19:53) last pick:  1200.00  400.00
+\t (00:19:53) last pick:  1325.00  375.00
+\t (00:19:53) Pick new location for the element(s).
+\i (00:19:54) pick grid 1238.92 373.02
+\t (00:19:54) last pick:  1250.00  375.00
+\i (00:19:56) place manual -h 
+\i (00:19:58) save 
+\i (00:19:59) fillin yes 
+\i (00:19:59) generaledit 
+\i (00:20:00) add connect 
+\t (00:20:00) Pick first element.
+\i (00:20:08) setwindow form.mini
+\i (00:20:08) FORM mini active_subclass TOP 
+\t (00:20:08) Pick first element.
+\i (00:20:09) FORM mini alt_subclass BOTTOM 
+\t (00:20:09) Pick first element.
+\i (00:20:11) setwindow pcb
+\i (00:20:11) add connect 
+\t (00:20:11) Pick first element.
+\i (00:20:13) pick grid 793.99 708.60
+\t (00:20:13) last pick:  800.00  700.00
+\t (00:20:13) last pick:  800.00  700.00
+\i (00:20:21) prepopup 804.47 693.61
+\i (00:20:22) oops 
+\t (00:20:22) last pick:  800.00  700.00
+\t (00:20:22) Pick first element.
+\i (00:20:26) pick grid 507.85 602.23
+\t (00:20:26) last pick:  500.00  600.00
+\t (00:20:26) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:20:26) last pick:  500.00  600.00
+\i (00:20:31) pick grid 843.42 862.90
+\t (00:20:31) last pick:  850.00  875.00
+\t (00:20:31) No DRC errors detected.
+\i (00:20:32) mouse_pos 1555.01 888.37
+\i (00:20:33) mouse_pos 1537.04 880.88
+\i (00:20:34) pick grid 1513.07 867.39
+\t (00:20:34) last pick:  1525.00  875.00
+\t (00:20:34) No DRC errors detected.
+\i (00:20:35) mouse_pos 1561.01 888.37
+\i (00:20:35) mouse_pos 1537.04 897.35
+\i (00:20:36) pick grid 1537.04 897.35
+\t (00:20:36) last pick:  1525.00  900.00
+\t (00:20:36) No DRC errors detected.
+\i (00:20:37) pick grid 1538.54 901.85
+\t (00:20:37) last pick:  1550.00  900.00
+\t (00:20:37) No DRC errors detected.
+\i (00:20:37) mouse_pos 1561.01 901.85
+\i (00:20:38) pick grid 1587.97 898.85
+\t (00:20:38) last pick:  1600.00  900.00
+\t (00:20:38) No DRC errors detected.
+\t (00:20:38) Pick first element.
+\i (00:20:42) pick grid 1977.47 606.73
+\t (00:20:42) last pick:  1975.00  600.00
+\t (00:20:42) Pick first element.
+\t (00:20:42) last pick:  2000.00  600.00
+\t (00:20:42) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:20:42) last pick:  2000.00  600.00
+\i (00:20:44) pick grid 1788.72 777.51
+\t (00:20:44) last pick:  1800.00  775.00
+\t (00:20:44) No DRC errors detected.
+\i (00:20:44) mouse_pos 1806.69 768.52
+\i (00:20:44) mouse_pos 1785.72 768.52
+\i (00:20:46) pick grid 936.30 726.57
+\t (00:20:46) last pick:  925.00  725.00
+\t (00:20:46) No DRC errors detected.
+\i (00:20:46) mouse_pos 828.44 636.69
+\i (00:20:47) pick grid 808.97 611.22
+\t (00:20:47) last pick:  800.00  600.00
+\t (00:20:47) No DRC errors detected.
+\t (00:20:47) Pick first element.
+\i (00:20:49) pick grid 907.84 191.76
+\t (00:20:49) last pick:  900.00  200.00
+\t (00:20:49) Pick first element.
+\t (00:20:49) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:20:49) last pick:  900.00  200.00
+\i (00:20:49) mouse_pos 1065.14 190.26
+\i (00:20:50) pick grid 1087.61 190.26
+\t (00:20:50) last pick:  1100.00  200.00
+\t (00:20:50) No DRC errors detected.
+\t (00:20:50) Pick first element.
+\i (00:20:50) pick grid 1098.10 196.25
+\t (00:20:50) last pick:  1100.00  200.00
+\t (00:20:50) Pick first element.
+\t (00:20:50) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:20:50) last pick:  1100.00  200.00
+\i (00:20:50) mouse_pos 1264.39 203.74
+\i (00:20:51) pick grid 1289.85 203.74
+\t (00:20:51) last pick:  1300.00  200.00
+\t (00:20:51) No DRC errors detected.
+\t (00:20:51) Pick first element.
+\i (00:20:52) pick grid 221.72 389.50
+\t (00:20:52) last pick:  225.00  400.00
+\t (00:20:52) Pick first element.
+\t (00:20:52) last pick:  200.00  400.00
+\t (00:20:52) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:20:52) last pick:  200.00  400.00
+\i (00:20:53) mouse_pos 462.91 388.00
+\i (00:20:53) pick grid 488.38 388.00
+\t (00:20:53) last pick:  500.00  400.00
+\t (00:20:53) No DRC errors detected.
+\t (00:20:53) Pick first element.
+\i (00:20:54) pick grid 206.74 495.87
+\t (00:20:54) last pick:  200.00  500.00
+\t (00:20:54) Pick first element.
+\t (00:20:54) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:20:54) last pick:  200.00  500.00
+\i (00:20:54) mouse_pos 462.91 494.37
+\i (00:20:55) pick grid 489.87 492.87
+\t (00:20:55) last pick:  500.00  500.00
+\t (00:20:55) No DRC errors detected.
+\t (00:20:55) Pick first element.
+\i (00:21:02) pick grid 510.85 398.49
+\t (00:21:02) last pick:  500.00  400.00
+\t (00:21:02) Pick first element.
+\t (00:21:02) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:21:02) last pick:  500.00  400.00
+\i (00:21:06) pick grid 612.72 302.61
+\t (00:21:06) last pick:  625.00  300.00
+\t (00:21:06) No DRC errors detected.
+\i (00:21:10) pick grid 963.27 323.59
+\t (00:21:10) last pick:  975.00  325.00
+\t (00:21:10) No DRC errors detected.
+\i (00:21:11) pick grid 1038.17 391.00
+\t (00:21:11) last pick:  1050.00  400.00
+\t (00:21:11) No DRC errors detected.
+\i (00:21:12) mouse_pos 1665.87 388.00
+\i (00:21:13) pick grid 1713.81 394.00
+\t (00:21:13) last pick:  1725.00  400.00
+\t (00:21:13) No DRC errors detected.
+\t (00:21:13) Pick first element.
+\i (00:21:16) pick grid 1107.09 295.12
+\t (00:21:16) last pick:  1100.00  300.00
+\t (00:21:16) Pick first element.
+\t (00:21:16) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:21:16) last pick:  1100.00  300.00
+\i (00:21:17) pick grid 1811.19 292.13
+\t (00:21:17) last pick:  1800.00  300.00
+\t (00:21:17) No DRC errors detected.
+\i (00:21:18) mouse_pos 1958.00 464.41
+\i (00:21:19) pick grid 1987.96 482.38
+\t (00:21:19) last pick:  2000.00  475.00
+\t (00:21:19) No DRC errors detected.
+\t (00:21:19) Pick first element.
+\i (00:21:23) pick grid 525.83 488.38
+\t (00:21:23) last pick:  525.00  500.00
+\t (00:21:23) Pick first element.
+\t (00:21:23) last pick:  500.00  500.00
+\t (00:21:23) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:21:23) last pick:  500.00  500.00
+\i (00:21:27) pick grid 536.32 482.38
+\t (00:21:27) last pick:  525.00  475.00
+\t (00:21:27) No DRC errors detected.
+\i (00:21:28) mouse_pos 510.85 498.86
+\i (00:21:28) prepopup 513.84 498.86
+\i (00:21:29) oops 
+\t (00:21:29) last pick:  500.00  500.00
+\i (00:21:32) prepopup 507.85 509.35
+\i (00:21:32) oops 
+\t (00:21:32) last pick:  500.00  500.00
+\t (00:21:32) Pick first element.
+\i (00:21:34) pick grid 1319.81 388.00
+\t (00:21:34) last pick:  1325.00  400.00
+\t (00:21:34) last pick:  1325.00  400.00
+\i (00:21:34) pick grid dbl 1319.81 388.00
+\t (00:21:34) last pick:  1325.00  400.00
+\t (00:21:34) VIA used for drill.
+\t (00:21:34) No DRC errors detected.
+\i (00:21:35) delete 
+\i (00:21:36) pick grid 1319.81 388.00
+\t (00:21:36) last pick:  1325.00  400.00
+\t (00:21:36) Connect Line "-12V, Etch/Top"
+\i (00:21:36) pick grid dbl 1319.81 388.00
+\t (00:21:36) last pick:  1325.00  400.00
+\t (00:21:36) Symbol "C1"
+\i (00:21:37) pick grid 1423.18 389.50
+\t (00:21:37) last pick:  1425.00  400.00
+\t (00:21:37) Connect Line "-12V, Etch/Top"
+\i (00:21:37) pick grid dbl 1423.18 389.50
+\t (00:21:37) last pick:  1425.00  400.00
+\i (00:21:38) add connect 
+\t (00:21:38) Pick first element.
+\i (00:21:42) setwindow form.mini
+\i (00:21:42) FORM mini active_subclass TOP 
+\t (00:21:42) Pick first element.
+\i (00:21:43) FORM mini alt_subclass BOTTOM 
+\t (00:21:43) Pick first element.
+\i (00:21:44) setwindow pcb
+\i (00:21:44) pick grid 519.84 383.51
+\t (00:21:44) last pick:  525.00  375.00
+\t (00:21:44) last pick:  500.00  400.00
+\t (00:21:44) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:21:44) last pick:  500.00  400.00
+\i (00:21:46) pick grid 612.72 268.16
+\t (00:21:46) last pick:  625.00  275.00
+\t (00:21:46) No DRC errors detected.
+\i (00:21:49) prepopup 871.89 293.63
+\i (00:21:50) pick grid 852.41 287.63
+\t (00:21:50) last pick:  850.00  300.00
+\t (00:21:50) No DRC errors detected.
+\i (00:21:51) oops 
+\t (00:21:51) last pick:  625.00  275.00
+\i (00:21:52) pick grid 837.43 275.65
+\t (00:21:52) last pick:  825.00  275.00
+\t (00:21:52) No DRC errors detected.
+\i (00:21:52) pick grid dbl 813.46 268.16
+\t (00:21:52) last pick:  825.00  275.00
+\t (00:21:52) VIA used for drill.
+\t (00:21:52) No DRC errors detected.
+\i (00:21:53) oops 
+\t (00:21:53) last pick:  825.00  275.00
+\i (00:21:55) prepopup 759.53 268.16
+\i (00:21:57) cancel 
+\i (00:21:57) generaledit 
+\i (00:21:59) pick grid 1313.82 313.10
+\t (00:21:59) last pick:  1325.00  325.00
+\i (00:21:59) pick grid dbl 1313.82 313.10
+\t (00:21:59) last pick:  1325.00  325.00
+\i (00:21:59) delete 
+\i (00:21:59) generaledit 
+\i (00:22:00) pick grid 1802.20 295.12
+\t (00:22:00) last pick:  1800.00  300.00
+\i (00:22:00) pick grid dbl 1802.20 295.12
+\t (00:22:00) last pick:  1800.00  300.00
+\i (00:22:00) delete 
+\i (00:22:00) generaledit 
+\i (00:22:00) pick grid 1321.31 394.00
+\t (00:22:00) last pick:  1325.00  400.00
+\i (00:22:00) pick grid dbl 1321.31 394.00
+\t (00:22:00) last pick:  1325.00  400.00
+\i (00:22:01) delete 
+\i (00:22:01) generaledit 
+\i (00:22:02) add connect 
+\t (00:22:02) Pick first element.
+\i (00:22:02) add connect 
+\t (00:22:02) Pick first element.
+\i (00:22:05) setwindow form.mini
+\i (00:22:05) FORM mini active_subclass TOP 
+\t (00:22:05) Pick first element.
+\i (00:22:05) FORM mini alt_subclass BOTTOM 
+\t (00:22:05) Pick first element.
+\i (00:22:14) setwindow pcb
+\i (00:22:14) pick grid 512.35 386.51
+\t (00:22:14) last pick:  500.00  375.00
+\t (00:22:14) last pick:  500.00  400.00
+\t (00:22:14) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:22:14) last pick:  500.00  400.00
+\i (00:22:17) pick grid 612.72 271.15
+\t (00:22:17) last pick:  625.00  275.00
+\t (00:22:17) No DRC errors detected.
+\i (00:22:19) mouse_pos 1662.88 361.04
+\i (00:22:20) pick grid 1664.37 362.54
+\t (00:22:20) last pick:  1675.00  375.00
+\t (00:22:20) No DRC errors detected.
+\t (00:22:20) Pick first element.
+\i (00:22:23) pick grid 513.84 497.36
+\t (00:22:23) last pick:  525.00  500.00
+\t (00:22:23) Pick first element.
+\t (00:22:23) last pick:  500.00  500.00
+\t (00:22:23) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:22:23) last pick:  500.00  500.00
+\i (00:22:24) pick grid 669.64 337.07
+\t (00:22:24) last pick:  675.00  325.00
+\t (00:22:24) No DRC errors detected.
+\i (00:22:26) mouse_pos 1671.87 564.78
+\i (00:22:27) pick grid 1688.34 590.25
+\t (00:22:27) last pick:  1700.00  600.00
+\t (00:22:27) No DRC errors detected.
+\t (00:22:27) Pick first element.
+\i (00:23:09) pick grid 388.00 495.87
+\t (00:23:09) last pick:  400.00  500.00
+\t (00:23:09) Pick first element.
+\t (00:23:09) last pick:  400.00  500.00
+\i (00:23:09) pick grid dbl 388.00 495.87
+\t (00:23:09) last pick:  400.00  500.00
+\t (00:23:09) VIA used for drill.
+\t (00:23:09) No DRC errors detected.
+\i (00:23:10) delete 
+\i (00:23:11) pick grid 382.01 491.37
+\t (00:23:11) last pick:  375.00  500.00
+\t (00:23:11) Connect Line "Gnd, Etch/Top"
+\i (00:23:11) pick grid dbl 382.01 491.37
+\t (00:23:11) last pick:  375.00  500.00
+\t (00:23:11) Connect Line "Gnd, Etch/Top"
+\i (00:23:11) pick grid 413.47 498.86
+\t (00:23:11) last pick:  425.00  500.00
+\t (00:23:11) Via "Not On A Net, Via, (400.00 500.00)"
+\i (00:23:11) pick grid dbl 413.47 498.86
+\t (00:23:11) last pick:  425.00  500.00
+\i (00:23:12) pick grid 350.55 407.48
+\t (00:23:12) last pick:  350.00  400.00
+\t (00:23:12) Connect Line "-12V, Etch/Top"
+\i (00:23:12) pick grid dbl 350.55 407.48
+\t (00:23:12) last pick:  350.00  400.00
+\i (00:23:14) move 
+\t (00:23:14) Select element(s) to move.
+\i (00:23:15) place manual -h 
+\i (00:23:15) move 
+\t (00:23:15) Select element(s) to move.
+\i (00:23:17) place manual -h 
+\i (00:23:18) pick grid 205.24 485.38
+\t (00:23:18) last pick:  200.00  500.00
+\t (00:23:18) Moving J2 / CON3_JUMPER3_CON3 / JUMPER3.
+\t (00:23:18) last pick:  200.00  300.00
+\i (00:23:18) pick grid dbl 205.24 485.38
+\t (00:23:18) last pick:  200.00  500.00
+\i (00:23:20) pick grid 203.74 512.35
+\t (00:23:20) last pick:  200.00  500.00
+\t (00:23:20) Moving J2 / CON3_JUMPER3_CON3 / JUMPER3.
+\t (00:23:20) last pick:  200.00  500.00
+\w (00:23:22) Save Pending
+\i (00:23:22) pick grid 251.68 314.60
+\t (00:23:22) last pick:  300.00  300.00
+\i (00:23:35) prepopup 311.60 320.59
+\i (00:23:37) pick grid 289.13 311.60
+\t (00:23:37) last pick:  300.00  300.00
+\t (00:23:37) Moving J2 / CON3_JUMPER3_CON3 / JUMPER3.
+\t (00:23:37) last pick:  300.00  300.00
+\i (00:23:38) prepopup 295.12 301.12
+\i (00:23:39) rotate 
+\t (00:23:39) Spin the element(s).
+\i (00:23:41) iangle 180.000
+\t (00:23:41) last angle:  270.000 Degrees
+\i (00:24:02) prepopup 308.61 539.31
+\i (00:24:03) rotate 
+\t (00:24:03) Spin the element(s).
+\i (00:24:04) iangle 0.000
+\t (00:24:04) last angle:  90.000 Degrees
+\i (00:24:06) prepopup 293.63 540.81
+\i (00:24:06) rotate 
+\t (00:24:06) Spin the element(s).
+\i (00:24:08) iangle -360.000
+\t (00:24:08) last angle:  90.000 Degrees
+\i (00:24:09) prepopup 281.64 545.30
+\i (00:24:10) rotate 
+\t (00:24:10) Spin the element(s).
+\i (00:24:12) iangle 180.000
+\t (00:24:12) last angle:  270.000 Degrees
+\i (00:24:15) pick grid 250.18 296.62
+\t (00:24:15) last pick:  300.00  300.00
+\e (00:24:15) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:24:22) pick grid 319.09 301.12
+\t (00:24:22) last pick:  300.00  300.00
+\t (00:24:22) Moving J2 / CON3_JUMPER3_CON3 / JUMPER3.
+\t (00:24:22) last pick:  300.00  300.00
+\i (00:24:23) pick grid 350.55 301.12
+\t (00:24:23) last pick:  400.00  300.00
+\i (00:24:39) pick grid 420.96 316.10
+\t (00:24:39) last pick:  400.00  300.00
+\t (00:24:39) Moving J2 / CON3_JUMPER3_CON3 / JUMPER3.
+\t (00:24:39) last pick:  400.00  300.00
+\i (00:24:40) pick grid 245.69 319.09
+\t (00:24:40) last pick:  200.00  300.00
+\i (00:24:44) pick grid 1014.20 202.24
+\t (00:24:44) last pick:  1000.00  200.00
+\i (00:24:44) pick grid dbl 1014.20 202.24
+\t (00:24:44) last pick:  1000.00  200.00
+\i (00:24:44) delete 
+\i (00:24:45) pick grid 1014.20 202.24
+\t (00:24:45) last pick:  1025.00  200.00
+\t (00:24:45) Connect Line "N00280, Etch/Top"
+\i (00:24:45) pick grid dbl 1014.20 202.24
+\t (00:24:45) last pick:  1025.00  200.00
+\i (00:24:47) place manual -h 
+\i (00:24:48) pick grid 518.34 194.75
+\t (00:24:48) last pick:  500.00  200.00
+\t (00:24:48) Moving R3 / R_RES400_20K / RES400.
+\t (00:24:48) last pick:  500.00  200.00
+\i (00:24:48) prepopup 398.49 271.15
+\i (00:24:50) rotate 
+\t (00:24:50) Spin the element(s).
+\i (00:24:51) iangle -90.000
+\t (00:24:51) last angle:  180.000 Degrees
+\i (00:24:57) pick grid 350.55 590.25
+\t (00:24:57) last pick:  400.00  600.00
+\i (00:25:11) add connect 
+\t (00:25:11) Pick first element.
+\i (00:25:14) setwindow form.mini
+\i (00:25:14) FORM mini active_subclass TOP 
+\t (00:25:14) Pick first element.
+\i (00:25:16) FORM mini alt_subclass BOTTOM 
+\t (00:25:16) Pick first element.
+\i (00:25:17) setwindow pcb
+\i (00:25:17) pick grid 405.98 584.25
+\t (00:25:17) last pick:  400.00  575.00
+\t (00:25:17) last pick:  400.00  600.00
+\t (00:25:17) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:25:17) last pick:  400.00  600.00
+\i (00:25:17) mouse_pos 470.40 584.25
+\i (00:25:18) pick grid 512.35 591.74
+\t (00:25:18) last pick:  500.00  600.00
+\t (00:25:18) No DRC errors detected.
+\t (00:25:18) Pick first element.
+\i (00:25:19) pick grid 193.25 516.84
+\t (00:25:19) last pick:  200.00  525.00
+\t (00:25:19) Pick first element.
+\t (00:25:19) last pick:  200.00  500.00
+\t (00:25:19) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:25:19) last pick:  200.00  500.00
+\i (00:25:20) mouse_pos 464.41 515.34
+\i (00:25:20) pick grid 489.87 512.35
+\t (00:25:20) last pick:  500.00  500.00
+\t (00:25:20) No DRC errors detected.
+\t (00:25:20) Pick first element.
+\i (00:25:21) pick grid 202.24 395.49
+\t (00:25:21) last pick:  200.00  400.00
+\t (00:25:21) Pick first element.
+\t (00:25:21) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:25:21) last pick:  200.00  400.00
+\i (00:25:21) mouse_pos 462.91 395.49
+\i (00:25:22) pick grid 488.38 396.99
+\t (00:25:22) last pick:  500.00  400.00
+\t (00:25:22) No DRC errors detected.
+\t (00:25:22) Pick first element.
+\i (00:25:33) setwindow form.mini
+\i (00:25:33) FORM mini active_subclass BOTTOM 
+\t (00:25:33) Pick first element.
+\t (00:25:33) Pick first element.
+\i (00:25:34) FORM mini alt_subclass TOP 
+\t (00:25:34) Pick first element.
+\i (00:25:38) setwindow pcb
+\i (00:25:38) pick grid 208.23 298.12
+\t (00:25:38) last pick:  200.00  300.00
+\t (00:25:38) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:25:38) last pick:  200.00  300.00
+\i (00:25:42) mouse_pos 762.53 573.77
+\i (00:25:43) pick grid 793.99 588.75
+\t (00:25:43) last pick:  800.00  600.00
+\t (00:25:43) No DRC errors detected.
+\t (00:25:43) Pick first element.
+\i (00:25:44) pick grid 417.97 206.74
+\t (00:25:44) last pick:  425.00  200.00
+\t (00:25:44) Pick first element.
+\t (00:25:44) last pick:  400.00  200.00
+\t (00:25:44) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:25:44) last pick:  400.00  200.00
+\i (00:25:45) mouse_pos 762.53 458.41
+\i (00:25:46) pick grid 787.99 476.39
+\t (00:25:46) last pick:  800.00  475.00
+\t (00:25:46) No DRC errors detected.
+\t (00:25:46) Pick first element.
+\i (00:25:47) pick grid 817.96 488.38
+\t (00:25:47) last pick:  825.00  500.00
+\t (00:25:47) Pick first element.
+\t (00:25:47) last pick:  800.00  500.00
+\t (00:25:47) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:25:47) last pick:  800.00  500.00
+\i (00:25:50) pick grid 1087.61 464.41
+\t (00:25:50) last pick:  1100.00  475.00
+\t (00:25:50) No DRC errors detected.
+\i (00:25:51) pick grid 1113.08 206.74
+\t (00:25:51) last pick:  1125.00  200.00
+\t (00:25:51) No DRC errors detected.
+\i (00:25:52) mouse_pos 1264.39 193.25
+\i (00:25:52) pick grid 1288.35 193.25
+\t (00:25:52) last pick:  1300.00  200.00
+\t (00:25:52) No DRC errors detected.
+\t (00:25:52) Pick first element.
+\i (00:25:54) pick grid 1709.32 494.37
+\t (00:25:54) last pick:  1700.00  500.00
+\t (00:25:54) Pick first element.
+\t (00:25:54) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:25:54) last pick:  1700.00  500.00
+\i (00:25:54) pick grid 1776.73 411.97
+\t (00:25:54) last pick:  1775.00  400.00
+\t (00:25:54) No DRC errors detected.
+\i (00:25:55) mouse_pos 1778.23 408.98
+\i (00:25:55) mouse_pos 1778.23 383.51
+\i (00:25:55) mouse_pos 1734.78 217.22
+\i (00:25:56) pick grid 1725.80 211.23
+\t (00:25:56) last pick:  1725.00  200.00
+\t (00:25:56) No DRC errors detected.
+\t (00:25:56) Pick first element.
+\i (00:25:57) pick grid 2008.93 886.87
+\t (00:25:57) last pick:  2000.00  875.00
+\t (00:25:57) Pick first element.
+\t (00:25:57) last pick:  2000.00  900.00
+\t (00:25:57) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:25:57) last pick:  2000.00  900.00
+\i (00:25:59) pick grid 2080.84 787.99
+\t (00:25:59) last pick:  2075.00  800.00
+\t (00:25:59) No DRC errors detected.
+\i (00:25:59) mouse_pos 2077.85 807.47
+\i (00:25:59) mouse_pos 2077.85 776.01
+\i (00:26:00) pick grid 2080.84 536.32
+\t (00:26:00) last pick:  2075.00  525.00
+\t (00:26:00) No DRC errors detected.
+\i (00:26:00) mouse_pos 2038.90 512.35
+\i (00:26:01) pick grid 2011.93 504.86
+\t (00:26:01) last pick:  2000.00  500.00
+\t (00:26:01) No DRC errors detected.
+\t (00:26:01) Pick first element.
+\i (00:26:01) pick grid 2065.86 537.81
+\t (00:26:01) last pick:  2075.00  550.00
+\t (00:26:01) Pick first element.
+\t (00:26:01) last pick:  2075.00  550.00
+\i (00:26:02) mouse_pos 2065.86 537.81
+\i (00:26:02) pick grid dbl 2065.86 537.81
+\t (00:26:02) last pick:  2075.00  550.00
+\t (00:26:02) VIA used for drill.
+\t (00:26:02) No DRC errors detected.
+\i (00:26:02) delete 
+\i (00:26:03) pick grid 2068.86 543.81
+\t (00:26:03) last pick:  2075.00  550.00
+\t (00:26:03) Via "N00387, Via, (2075.00 550.00)"
+\i (00:26:03) pick grid dbl 2068.86 543.81
+\t (00:26:03) last pick:  2075.00  550.00
+\t (00:26:03) Connect Line "N00387, Etch/Bottom"
+\i (00:26:04) pick grid 2073.35 555.79
+\t (00:26:04) last pick:  2075.00  550.00
+\i (00:26:04) pick grid dbl 2073.35 555.79
+\t (00:26:04) last pick:  2075.00  550.00
+\i (00:26:08) add connect 
+\t (00:26:08) Pick first element.
+\i (00:26:11) setwindow form.mini
+\i (00:26:11) FORM mini active_subclass BOTTOM 
+\t (00:26:11) Pick first element.
+\i (00:26:12) FORM mini alt_subclass TOP 
+\t (00:26:12) Pick first element.
+\i (00:26:13) setwindow pcb
+\i (00:26:13) pick grid 2008.93 900.35
+\t (00:26:13) last pick:  2000.00  900.00
+\t (00:26:13) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:26:13) last pick:  2000.00  900.00
+\i (00:26:14) pick grid 2094.33 787.99
+\t (00:26:14) last pick:  2100.00  800.00
+\t (00:26:14) No DRC errors detected.
+\i (00:26:16) pick grid 2094.33 539.31
+\t (00:26:16) last pick:  2100.00  550.00
+\t (00:26:16) No DRC errors detected.
+\i (00:26:16) mouse_pos 2037.40 524.33
+\i (00:26:17) mouse_pos 2062.87 533.32
+\i (00:26:18) pick grid 2098.82 588.75
+\t (00:26:18) last pick:  2100.00  600.00
+\t (00:26:18) No DRC errors detected.
+\i (00:26:18) mouse_pos 2037.40 524.33
+\i (00:26:19) pick grid 2011.93 506.35
+\t (00:26:19) last pick:  2000.00  500.00
+\t (00:26:19) No DRC errors detected.
+\t (00:26:19) Pick first element.
+\i (00:26:21) place manual -h 
+\i (00:26:21) save 
+\i (00:26:22) fillin yes 
+\i (00:26:22) generaledit 
+\i (00:26:23) place manual -h 
+\i (00:26:29) move 
+\t (00:26:29) Select element(s) to move.
+\i (00:26:30) pick grid 401.49 684.63
+\t (00:26:30) last pick:  400.00  675.00
+\t (00:26:30) last pick:  400.00  700.00
+\t (00:26:30) Pick new location for the element(s).
+\i (00:26:31) prepopup 325.08 644.18
+\i (00:26:32) rotate 
+\t (00:26:32) Spin the element(s).
+\i (00:26:33) iangle 90.000
+\t (00:26:33) last angle:  0.000 Degrees
+\i (00:26:39) pick grid 322.09 163.29
+\t (00:26:39) last pick:  325.00  175.00
+\i (00:26:46) pick grid 1616.44 816.46
+\t (00:26:46) last pick:  1625.00  825.00
+\t (00:26:46) last pick:  1600.00  800.00
+\t (00:26:46) Pick new location for the element(s).
+\i (00:26:47) pick grid 2086.84 927.32
+\t (00:26:47) last pick:  2075.00  925.00
+\i (00:26:49) pick grid 410.48 716.09
+\t (00:26:49) last pick:  400.00  725.00
+\t (00:26:49) last pick:  400.00  700.00
+\t (00:26:49) Pick new location for the element(s).
+\i (00:26:51) pick grid 587.25 773.01
+\t (00:26:51) last pick:  575.00  775.00
+\i (00:26:53) pick grid 1614.94 711.59
+\t (00:26:53) last pick:  1625.00  700.00
+\t (00:26:53) last pick:  1600.00  700.00
+\t (00:26:53) Pick new location for the element(s).
+\i (00:26:54) pick grid 1604.45 636.69
+\t (00:26:54) last pick:  1600.00  625.00
+\i (00:26:57) place manual -h 
+\i (00:26:58) save 
+\i (00:26:59) fillin yes 
+\i (00:26:59) generaledit 
+\i (00:28:38) zoom out 1 
+\i (00:28:38) setwindow pcb
+\i (00:28:38) zoom out 1914.56 140.82
+\i (00:28:38) trapsize 1498
+\i (00:28:38) zoom out 1 
+\i (00:28:38) setwindow pcb
+\i (00:28:38) zoom out 3793.16 269.66
+\i (00:28:38) trapsize 2996
+\i (00:28:39) zoom in 1 
+\i (00:28:39) setwindow pcb
+\i (00:28:39) zoom in 2966.21 515.34
+\i (00:28:39) trapsize 1498
+\i (00:28:40) zoom in 1 
+\i (00:28:40) setwindow pcb
+\i (00:28:40) zoom in 1764.75 437.44
+\i (00:28:40) trapsize 749
+\i (00:28:40) zoom out 1 
+\i (00:28:40) setwindow pcb
+\i (00:28:40) zoom out 1764.75 437.45
+\i (00:28:40) trapsize 1498
+\i (00:28:42) zoom fit 
+\i (00:28:42) trapsize 749
+\i (00:29:00) quickplace 
+\i (00:29:02) setwindow form.quickplc
+\i (00:29:02) FORM quickplc place  
+\i (00:29:03) FORM quickplc done  
+\i (00:29:03) setwindow pcb
+\i (00:29:03) generaledit 
+\i (00:29:03) zoom out 1 
+\i (00:29:03) setwindow pcb
+\i (00:29:03) zoom out 1492.09 268.16
+\i (00:29:03) trapsize 1498
+\i (00:29:05) zoom in 1 
+\i (00:29:05) setwindow pcb
+\i (00:29:05) zoom in 2483.83 362.54
+\i (00:29:05) trapsize 749
+\i (00:29:07) zoom out 1 
+\i (00:29:07) setwindow pcb
+\i (00:29:07) zoom out 1995.46 537.81
+\i (00:29:07) trapsize 1498
+\i (00:29:10) move 
+\t (00:29:10) Select element(s) to move.
+\i (00:29:11) place manual -h 
+\i (00:29:12) zoom in 1 
+\i (00:29:12) setwindow pcb
+\i (00:29:12) zoom in 1620.93 542.31
+\i (00:29:12) trapsize 749
+\i (00:29:13) pick grid 2564.73 828.45
+\t (00:29:13) last pick:  2600.00  800.00
+\t (00:29:13) Moving J1 / CON2_JUMPER2_CON2 / JUMPER2.
+\t (00:29:13) last pick:  2458.00  834.00
+\i (00:29:17) zoom out 1 
+\i (00:29:17) setwindow pcb
+\i (00:29:17) zoom out 2146.77 440.44
+\i (00:29:17) trapsize 1498
+\i (00:29:19) prepopup 2076.35 377.53
+\i (00:29:21) rotate 
+\t (00:29:21) Spin the element(s).
+\i (00:29:22) iangle -90.000
+\t (00:29:22) last angle:  270.000 Degrees
+\i (00:29:32) pick grid 2157.25 242.70
+\t (00:29:32) last pick:  2200.00  200.00
+\e (00:29:32) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:29:35) zoom out 1 
+\i (00:29:35) setwindow pcb
+\i (00:29:35) zoom out 2109.31 212.74
+\i (00:29:35) trapsize 2996
+\i (00:29:36) zoom in 1 
+\i (00:29:36) setwindow pcb
+\i (00:29:36) zoom in 2067.36 23.97
+\i (00:29:36) trapsize 1498
+\i (00:29:38) pick grid 2558.73 817.96
+\t (00:29:38) last pick:  2600.00  800.00
+\t (00:29:38) Moving J1 / CON2_JUMPER2_CON2 / JUMPER2.
+\t (00:29:38) last pick:  2458.00  834.00
+\i (00:29:38) prepopup 2133.28 254.68
+\i (00:29:39) rotate 
+\t (00:29:39) Spin the element(s).
+\i (00:29:40) iangle -90.000
+\t (00:29:40) last angle:  270.000 Degrees
+\i (00:29:42) pick grid 2151.25 308.61
+\t (00:29:42) last pick:  2200.00  300.00
+\e (00:29:42) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:29:43) pick grid 2534.76 805.98
+\t (00:29:43) last pick:  2500.00  800.00
+\t (00:29:43) Moving J1 / CON2_JUMPER2_CON2 / JUMPER2.
+\t (00:29:43) last pick:  2458.00  834.00
+\i (00:29:45) pick grid 2130.28 248.69
+\t (00:29:45) last pick:  2100.00  200.00
+\i (00:29:46) prepopup 2172.23 188.76
+\i (00:29:48) pick grid 2124.29 194.76
+\t (00:29:48) last pick:  2100.00  200.00
+\t (00:29:48) Moving J1 / CON2_JUMPER2_CON2 / JUMPER2.
+\t (00:29:48) last pick:  2100.00  200.00
+\i (00:29:48) prepopup 2103.31 200.75
+\i (00:29:49) rotate 
+\t (00:29:49) Spin the element(s).
+\i (00:29:50) iangle 90.000
+\t (00:29:50) last angle:  90.000 Degrees
+\i (00:29:50) pick grid 2151.25 182.77
+\t (00:29:50) last pick:  2200.00  200.00
+\i (00:29:53) pick grid 2223.16 290.63
+\t (00:29:53) last pick:  2200.00  300.00
+\t (00:29:53) Moving J1 / CON2_JUMPER2_CON2 / JUMPER2.
+\t (00:29:53) last pick:  2200.00  200.00
+\i (00:29:53) prepopup 2172.23 218.73
+\i (00:29:54) rotate 
+\t (00:29:54) Spin the element(s).
+\i (00:29:55) iangle 180.000
+\t (00:29:55) last angle:  270.000 Degrees
+\i (00:29:56) pick grid 2211.18 251.68
+\t (00:29:56) last pick:  2200.00  300.00
+\e (00:29:56) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:29:57) pick grid 2205.18 317.60
+\t (00:29:57) last pick:  2200.00  300.00
+\t (00:29:57) Moving J1 / CON2_JUMPER2_CON2 / JUMPER2.
+\t (00:29:57) last pick:  2200.00  200.00
+\i (00:29:57) prepopup 2178.22 251.68
+\i (00:29:58) rotate 
+\t (00:29:58) Spin the element(s).
+\i (00:29:59) iangle 180.000
+\t (00:29:59) last angle:  270.000 Degrees
+\i (00:30:01) pick grid 2169.23 251.68
+\t (00:30:01) last pick:  2200.00  300.00
+\e (00:30:01) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:30:05) pick grid 2450.87 943.80
+\t (00:30:05) last pick:  2500.00  900.00
+\t (00:30:05) Moving C1 / CAP NP_CAPCK05_0.01UF / CAPCK05.
+\t (00:30:05) last pick:  2458.00  942.00
+\i (00:30:17) pick grid 1851.64 170.79
+\t (00:30:17) last pick:  1900.00  200.00
+\i (00:30:21) pick grid 1917.55 173.78
+\t (00:30:21) last pick:  1900.00  200.00
+\t (00:30:21) Moving C1 / CAP NP_CAPCK05_0.01UF / CAPCK05.
+\t (00:30:21) last pick:  1900.00  200.00
+\i (00:30:22) prepopup 1935.53 185.77
+\i (00:30:22) rotate 
+\t (00:30:22) Spin the element(s).
+\i (00:30:23) iangle -90.000
+\t (00:30:23) last angle:  270.000 Degrees
+\i (00:30:24) pick grid 1950.51 200.75
+\t (00:30:24) last pick:  2000.00  200.00
+\e (00:30:24) ERROR(SPMHA1-150): Symbol does not fit into the drawing ... reposition the symbol.
+\i (00:30:25) pick grid 1908.56 197.75
+\t (00:30:25) last pick:  1900.00  200.00
+\t (00:30:25) Moving C1 / CAP NP_CAPCK05_0.01UF / CAPCK05.
+\t (00:30:25) last pick:  1900.00  200.00
+\i (00:30:26) prepopup 1920.55 200.75
+\i (00:30:27) rotate 
+\t (00:30:27) Spin the element(s).
+\i (00:30:30) iangle 0.000
+\t (00:30:30) last angle:  0.000 Degrees
+\i (00:30:31) prepopup 1911.56 209.74
+\i (00:30:31) rotate 
+\t (00:30:31) Spin the element(s).
+\i (00:30:33) iangle -90.000
+\t (00:30:33) last angle:  270.000 Degrees
+\i (00:30:34) pick grid 1851.64 203.75
+\t (00:30:34) last pick:  1900.00  200.00
+\e (00:30:34) ERROR(SPMHA1-150): Symbol does not fit into the drawing ... reposition the symbol.
+\i (00:30:39) zoom fit 
+\i (00:30:39) trapsize 749
+\i (00:30:44) add connect 
+\t (00:30:44) Pick first element.
+\i (00:30:45) pick grid 1734.78 780.50
+\t (00:30:45) last pick:  1725.00  775.00
+\t (00:30:45) last pick:  1725.00  775.00
+\i (00:30:45) pick grid dbl 1734.78 780.50
+\t (00:30:45) last pick:  1725.00  775.00
+\t (00:30:45) VIA used for drill.
+\t (00:30:45) No DRC errors detected.
+\i (00:30:46) delete 
+\i (00:30:46) pick grid 1764.75 774.51
+\t (00:30:46) last pick:  1775.00  775.00
+\t (00:30:46) Connect Line "+12V, Etch/Top"
+\i (00:30:46) pick grid dbl 1764.75 774.51
+\t (00:30:46) last pick:  1775.00  775.00
+\i (00:30:47) pick grid 1725.80 767.02
+\t (00:30:47) last pick:  1725.00  775.00
+\t (00:30:47) Via "+12V, Via, (1725.00 775.00)"
+\i (00:30:47) pick grid dbl 1725.80 767.02
+\t (00:30:47) last pick:  1725.00  775.00
+\t (00:30:47) Connect Line "+12V, Etch/Top"
+\i (00:30:48) pick grid 1719.80 774.51
+\t (00:30:48) last pick:  1725.00  775.00
+\i (00:30:48) pick grid dbl 1719.80 774.51
+\t (00:30:48) last pick:  1725.00  775.00
+\i (00:30:49) pick grid 2107.81 636.69
+\t (00:30:49) last pick:  2100.00  625.00
+\t (00:30:49) Connect Line "N00387, Etch/Bottom"
+\i (00:30:49) pick grid dbl 2107.81 636.69
+\t (00:30:49) last pick:  2100.00  625.00
+\i (00:30:58) place manual -h 
+\i (00:30:59) pick grid 1926.54 187.26
+\t (00:30:59) last pick:  1900.00  200.00
+\t (00:30:59) Moving C1 / CAP NP_CAPCK05_0.01UF / CAPCK05.
+\t (00:30:59) last pick:  1900.00  200.00
+\i (00:31:01) pick grid 1348.28 471.90
+\t (00:31:01) last pick:  1300.00  500.00
+\i (00:31:03) pick grid 1313.82 485.38
+\t (00:31:03) last pick:  1300.00  500.00
+\t (00:31:03) Moving C1 / CAP NP_CAPCK05_0.01UF / CAPCK05.
+\t (00:31:03) last pick:  1300.00  500.00
+\i (00:31:04) prepopup 1346.78 477.89
+\i (00:31:05) rotate 
+\t (00:31:05) Spin the element(s).
+\i (00:31:06) iangle -360.000
+\t (00:31:06) last angle:  0.000 Degrees
+\i (00:31:07) prepopup 1301.84 528.82
+\i (00:31:08) rotate 
+\t (00:31:08) Spin the element(s).
+\i (00:31:09) iangle -90.000
+\t (00:31:09) last angle:  270.000 Degrees
+\i (00:31:10) pick grid 1324.31 549.80
+\t (00:31:10) last pick:  1300.00  500.00
+\i (00:31:14) pick grid 1310.83 504.86
+\t (00:31:14) last pick:  1300.00  500.00
+\t (00:31:14) Moving C1 / CAP NP_CAPCK05_0.01UF / CAPCK05.
+\t (00:31:14) last pick:  1300.00  500.00
+\i (00:31:15) pick grid 1315.32 552.79
+\t (00:31:15) last pick:  1300.00  600.00
+\i (00:31:28) pick grid 1303.34 609.72
+\t (00:31:28) last pick:  1300.00  600.00
+\t (00:31:28) Moving C1 / CAP NP_CAPCK05_0.01UF / CAPCK05.
+\t (00:31:28) last pick:  1300.00  600.00
+\i (00:31:28) pick grid 1303.34 549.80
+\t (00:31:28) last pick:  1300.00  500.00
+\i (00:31:30) pick grid 1772.24 296.62
+\t (00:31:30) last pick:  1800.00  300.00
+\i (00:31:30) pick grid dbl 1772.24 296.62
+\t (00:31:30) last pick:  1800.00  300.00
+\i (00:31:30) delete 
+\i (00:31:31) pick grid 1772.24 296.62
+\t (00:31:31) last pick:  1775.00  300.00
+\t (00:31:31) Connect Line "N00276, Etch/Bottom"
+\i (00:31:31) pick grid dbl 1772.24 296.62
+\t (00:31:31) last pick:  1775.00  300.00
+\i (00:31:32) pick grid 1110.08 426.95
+\t (00:31:32) last pick:  1100.00  425.00
+\t (00:31:32) Connect Line "N00280, Etch/Bottom"
+\i (00:31:32) pick grid dbl 1110.08 426.95
+\t (00:31:32) last pick:  1100.00  425.00
+\i (00:31:33) place manual -h 
+\i (00:31:34) pick grid 1312.32 202.24
+\t (00:31:34) last pick:  1300.00  200.00
+\t (00:31:34) Moving R1 / R_RES400_2.7K / RES400.
+\t (00:31:34) last pick:  1300.00  200.00
+\i (00:31:35) pick grid 1340.79 750.54
+\t (00:31:35) last pick:  1300.00  800.00
+\i (00:31:37) pick grid 1295.85 483.88
+\t (00:31:37) last pick:  1300.00  500.00
+\t (00:31:37) Moving C1 / CAP NP_CAPCK05_0.01UF / CAPCK05.
+\t (00:31:37) last pick:  1300.00  500.00
+\i (00:31:38) pick grid 1258.39 470.40
+\t (00:31:38) last pick:  1300.00  500.00
+\i (00:31:42) pick grid 1578.98 480.89
+\t (00:31:42) last pick:  1600.00  500.00
+\i (00:31:42) pick grid dbl 1578.98 480.89
+\t (00:31:42) last pick:  1600.00  500.00
+\i (00:31:43) pick grid 1578.98 480.89
+\t (00:31:43) last pick:  1600.00  500.00
+\i (00:31:43) delete 
+\i (00:31:43) pick grid 1578.98 480.89
+\t (00:31:43) last pick:  1575.00  475.00
+\t (00:31:43) Connect Line "Gnd, Etch/Top"
+\i (00:31:43) pick grid dbl 1578.98 480.89
+\t (00:31:43) last pick:  1575.00  475.00
+\i (00:31:44) pick grid 1611.94 310.10
+\t (00:31:44) last pick:  1600.00  300.00
+\t (00:31:44) Connect Line "-12V, Etch/Top"
+\i (00:31:44) pick grid dbl 1611.94 310.10
+\t (00:31:44) last pick:  1600.00  300.00
+\i (00:31:45) place manual -h 
+\i (00:31:46) pick grid 1689.84 404.48
+\t (00:31:46) last pick:  1700.00  400.00
+\t (00:31:46) Moving U2 / LF356_DIP8_3_LF356 / DIP8_3.
+\t (00:31:46) last pick:  1700.00  700.00
+\i (00:31:48) pick grid 1692.84 551.30
+\t (00:31:48) last pick:  1700.00  600.00
+\i (00:31:52) pick grid 2212.67 203.74
+\t (00:31:52) last pick:  2200.00  200.00
+\t (00:31:52) Moving J1 / CON2_JUMPER2_CON2 / JUMPER2.
+\t (00:31:52) last pick:  2200.00  200.00
+\i (00:31:53) prepopup 1674.86 170.78
+\i (00:31:54) rotate 
+\t (00:31:54) Spin the element(s).
+\i (00:31:55) iangle -90.000
+\t (00:31:55) last angle:  0.000 Degrees
+\i (00:31:57) prepopup 1462.13 211.23
+\i (00:31:57) rotate 
+\t (00:31:57) Spin the element(s).
+\i (00:31:59) iangle 270.000
+\t (00:31:59) last angle:  0.000 Degrees
+\i (00:32:01) prepopup 1517.56 197.75
+\i (00:32:01) rotate 
+\t (00:32:01) Spin the element(s).
+\i (00:32:03) iangle -90.000
+\t (00:32:03) last angle:  0.000 Degrees
+\i (00:32:05) pick grid 1549.02 197.75
+\t (00:32:05) last pick:  1500.00  200.00
+\e (00:32:05) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:32:06) pick grid 2181.21 197.75
+\t (00:32:06) last pick:  2200.00  200.00
+\t (00:32:06) Moving J1 / CON2_JUMPER2_CON2 / JUMPER2.
+\t (00:32:06) last pick:  2200.00  200.00
+\i (00:32:07) pick grid 1547.52 209.73
+\t (00:32:07) last pick:  1500.00  200.00
+\i (00:32:10) pick grid 1489.10 188.76
+\t (00:32:10) last pick:  1500.00  200.00
+\t (00:32:10) Moving J1 / CON2_JUMPER2_CON2 / JUMPER2.
+\t (00:32:10) last pick:  1500.00  200.00
+\i (00:32:10) prepopup 1333.30 178.27
+\i (00:32:11) rotate 
+\t (00:32:11) Spin the element(s).
+\i (00:32:12) iangle -90.000
+\t (00:32:12) last angle:  0.000 Degrees
+\i (00:32:13) pick grid 1348.28 205.24
+\t (00:32:13) last pick:  1300.00  200.00
+\i (00:32:14) pick grid 1385.73 199.25
+\t (00:32:14) last pick:  1400.00  200.00
+\t (00:32:14) Moving J1 / CON2_JUMPER2_CON2 / JUMPER2.
+\t (00:32:14) last pick:  1300.00  200.00
+\i (00:32:15) pick grid 1448.65 196.25
+\t (00:32:15) last pick:  1400.00  200.00
+\i (00:32:17) pick grid 1408.20 489.87
+\t (00:32:17) last pick:  1400.00  500.00
+\t (00:32:17) Moving C1 / CAP NP_CAPCK05_0.01UF / CAPCK05.
+\t (00:32:17) last pick:  1300.00  500.00
+\i (00:32:18) pick grid 1325.81 450.92
+\t (00:32:18) last pick:  1300.00  500.00
+\i (00:32:20) pick grid 1987.96 310.10
+\t (00:32:20) last pick:  2000.00  300.00
+\t (00:32:20) Moving U2 / LF356_DIP8_3_LF356 / DIP8_3.
+\t (00:32:20) last pick:  1700.00  600.00
+\i (00:32:21) pick grid 1748.27 672.64
+\t (00:32:21) last pick:  1700.00  700.00
+\i (00:32:23) pick grid 1999.95 434.45
+\t (00:32:23) last pick:  2000.00  400.00
+\t (00:32:23) Moving U2 / LF356_DIP8_3_LF356 / DIP8_3.
+\t (00:32:23) last pick:  1700.00  700.00
+\i (00:32:25) pick grid 1847.14 699.61
+\t (00:32:25) last pick:  1800.00  700.00
+\i (00:32:27) pick grid 1516.06 880.88
+\t (00:32:27) last pick:  1500.00  900.00
+\i (00:32:27) pick grid dbl 1516.06 880.88
+\t (00:32:27) last pick:  1500.00  900.00
+\i (00:32:27) pick grid 1483.11 876.38
+\t (00:32:27) last pick:  1500.00  900.00
+\i (00:32:27) pick grid dbl 1483.11 876.38
+\t (00:32:27) last pick:  1500.00  900.00
+\i (00:32:28) delete 
+\i (00:32:28) pick grid 1483.11 876.38
+\t (00:32:28) last pick:  1475.00  875.00
+\t (00:32:28) Connect Line "N00404, Etch/Top"
+\i (00:32:28) pick grid dbl 1483.11 876.38
+\t (00:32:28) last pick:  1475.00  875.00
+\i (00:32:30) place manual -h 
+\i (00:32:31) pick grid 2002.94 907.84
+\t (00:32:31) last pick:  2000.00  900.00
+\t (00:32:31) Moving R2 / R_RES400_10K / RES400.
+\t (00:32:31) last pick:  1600.00  900.00
+\i (00:32:32) pick grid 1748.27 940.80
+\t (00:32:32) last pick:  1700.00  900.00
+\i (00:32:40) add connect 
+\t (00:32:40) Pick first element.
+\i (00:32:44) setwindow form.mini
+\i (00:32:44) FORM mini active_subclass TOP 
+\t (00:32:44) Pick first element.
+\i (00:32:45) FORM mini alt_subclass BOTTOM 
+\t (00:32:45) Pick first element.
+\i (00:32:49) setwindow pcb
+\i (00:32:49) pick grid 530.32 608.22
+\t (00:32:49) last pick:  525.00  600.00
+\t (00:32:49) last pick:  500.00  600.00
+\t (00:32:49) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:32:49) last pick:  500.00  600.00
+\i (00:32:51) pick grid 767.02 862.90
+\t (00:32:51) last pick:  775.00  875.00
+\t (00:32:51) No DRC errors detected.
+\i (00:32:53) mouse_pos 1665.87 906.34
+\i (00:32:54) mouse_pos 1637.41 901.85
+\i (00:32:54) pick grid 1611.94 897.35
+\t (00:32:54) last pick:  1600.00  900.00
+\t (00:32:54) No DRC errors detected.
+\i (00:32:55) mouse_pos 1662.88 897.35
+\i (00:32:55) pick grid 1688.34 897.35
+\t (00:32:55) last pick:  1700.00  900.00
+\t (00:32:55) No DRC errors detected.
+\t (00:32:55) Pick first element.
+\i (00:33:04) place manual -h 
+\i (00:33:05) pick grid 1803.70 461.41
+\t (00:33:05) last pick:  1800.00  500.00
+\t (00:33:05) Moving U2 / LF356_DIP8_3_LF356 / DIP8_3.
+\t (00:33:05) last pick:  1800.00  700.00
+\i (00:33:07) pick grid 1806.69 648.67
+\t (00:33:07) last pick:  1800.00  600.00
+\i (00:33:09) add connect 
+\t (00:33:09) Pick first element.
+\i (00:33:11) pick grid 515.34 521.33
+\t (00:33:11) last pick:  525.00  525.00
+\t (00:33:11) last pick:  500.00  500.00
+\t (00:33:11) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:33:11) last pick:  500.00  500.00
+\i (00:33:23) oops 
+\t (00:33:23) last pick:  500.00  500.00
+\t (00:33:23) Pick first element.
+\i (00:33:28) pick grid 516.84 391.00
+\t (00:33:28) last pick:  525.00  400.00
+\t (00:33:28) last pick:  500.00  400.00
+\t (00:33:28) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:33:28) last pick:  500.00  400.00
+\i (00:33:30) pick grid 693.61 287.63
+\t (00:33:30) last pick:  700.00  300.00
+\t (00:33:30) No DRC errors detected.
+\i (00:33:30) mouse_pos 1766.24 289.13
+\i (00:33:31) pick grid 1788.72 281.64
+\t (00:33:31) last pick:  1800.00  275.00
+\t (00:33:31) No DRC errors detected.
+\t (00:33:31) Pick first element.
+\i (00:33:37) pick grid 1214.95 289.13
+\t (00:33:37) last pick:  1225.00  300.00
+\t (00:33:37) Pick first element.
+\t (00:33:37) last pick:  1225.00  300.00
+\i (00:33:37) pick grid dbl 1214.95 289.13
+\t (00:33:37) last pick:  1225.00  300.00
+\t (00:33:37) VIA used for drill.
+\t (00:33:37) No DRC errors detected.
+\i (00:33:37) delete 
+\i (00:33:38) pick grid 1211.95 290.63
+\t (00:33:38) last pick:  1200.00  300.00
+\t (00:33:38) Connect Line "-12V, Etch/Top"
+\i (00:33:38) pick grid dbl 1211.95 290.63
+\t (00:33:38) last pick:  1200.00  300.00
+\t (00:33:38) Connect Line "-12V, Etch/Top"
+\i (00:33:38) pick grid 1229.93 292.13
+\t (00:33:38) last pick:  1225.00  300.00
+\t (00:33:38) Via "Not On A Net, Via, (1225.00 300.00)"
+\i (00:33:38) pick grid dbl 1229.93 292.13
+\t (00:33:38) last pick:  1225.00  300.00
+\i (00:33:41) place manual -h 
+\i (00:33:42) pick grid 1379.74 212.73
+\t (00:33:42) last pick:  1400.00  200.00
+\t (00:33:42) Moving J1 / CON2_JUMPER2_CON2 / JUMPER2.
+\t (00:33:42) last pick:  1400.00  200.00
+\i (00:33:42) pick grid 1378.24 251.68
+\t (00:33:42) last pick:  1400.00  300.00
+\i (00:33:45) add connect 
+\t (00:33:45) Pick first element.
+\i (00:33:51) setwindow form.mini
+\i (00:33:51) FORM mini alt_subcolor 0 
+\i (00:33:52) FORM mini active_subclass TOP 
+\t (00:33:52) Pick first element.
+\i (00:33:58) setwindow pcb
+\i (00:33:58) pick grid 516.84 416.47
+\t (00:33:58) last pick:  525.00  425.00
+\t (00:33:58) last pick:  500.00  400.00
+\t (00:33:58) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:33:58) last pick:  500.00  400.00
+\i (00:34:04) pick grid 738.56 154.30
+\t (00:34:04) last pick:  750.00  150.00
+\t (00:34:04) No DRC errors detected.
+\i (00:34:05) mouse_pos 1761.75 268.16
+\i (00:34:06) pick grid 1788.72 301.12
+\t (00:34:06) last pick:  1800.00  300.00
+\t (00:34:06) No DRC errors detected.
+\t (00:34:06) Pick first element.
+\i (00:34:12) setwindow form.mini
+\i (00:34:12) FORM mini subcolor 1 
+\i (00:34:13) FORM mini alt_subclass BOTTOM 
+\t (00:34:13) Pick first element.
+\i (00:34:17) setwindow pcb
+\i (00:34:17) pick grid 795.48 507.85
+\t (00:34:17) last pick:  800.00  500.00
+\t (00:34:17) Pick first element.
+\t (00:34:17) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:34:17) last pick:  800.00  500.00
+\i (00:34:18) mouse_pos 1264.39 489.87
+\i (00:34:18) pick grid 1288.35 489.87
+\t (00:34:18) last pick:  1300.00  500.00
+\t (00:34:18) No DRC errors detected.
+\t (00:34:18) Pick first element.
+\i (00:34:24) pick grid 1421.68 486.88
+\t (00:34:24) last pick:  1425.00  475.00
+\t (00:34:24) Pick first element.
+\t (00:34:24) last pick:  1400.00  500.00
+\t (00:34:24) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:34:24) last pick:  1400.00  500.00
+\i (00:34:27) pick grid 1611.94 711.59
+\t (00:34:27) last pick:  1600.00  700.00
+\t (00:34:27) No DRC errors detected.
+\i (00:34:28) mouse_pos 2061.37 435.94
+\i (00:34:29) pick grid 2088.33 411.97
+\t (00:34:29) last pick:  2100.00  400.00
+\t (00:34:29) No DRC errors detected.
+\t (00:34:29) Pick first element.
+\i (00:34:35) pick grid 521.33 486.88
+\t (00:34:35) last pick:  525.00  475.00
+\t (00:34:35) Pick first element.
+\t (00:34:35) last pick:  500.00  500.00
+\t (00:34:35) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:34:35) last pick:  500.00  500.00
+\i (00:34:39) pick grid 813.46 208.23
+\t (00:34:39) last pick:  825.00  200.00
+\t (00:34:39) No DRC errors detected.
+\i (00:34:39) mouse_pos 814.96 197.75
+\i (00:34:39) mouse_pos 838.93 196.25
+\i (00:34:40) mouse_pos 1483.11 263.66
+\i (00:34:41) pick grid 1499.59 287.63
+\t (00:34:41) last pick:  1500.00  300.00
+\t (00:34:41) No DRC errors detected.
+\t (00:34:41) Pick first element.
+\i (00:34:43) pick grid 1519.06 307.11
+\t (00:34:43) last pick:  1525.00  300.00
+\t (00:34:43) Pick first element.
+\t (00:34:43) last pick:  1500.00  300.00
+\t (00:34:43) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:34:43) last pick:  1500.00  300.00
+\i (00:34:44) mouse_pos 1763.25 476.39
+\i (00:34:45) pick grid 1763.25 476.39
+\t (00:34:45) last pick:  1775.00  475.00
+\t (00:34:45) No DRC errors detected.
+\t (00:34:45) Pick first element.
+\i (00:34:55) pick grid 1632.91 690.62
+\t (00:34:55) last pick:  1625.00  700.00
+\t (00:34:55) Pick first element.
+\t (00:34:55) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:34:55) last pick:  1625.00  700.00
+\i (00:34:55) pick grid dbl 1632.91 690.62
+\t (00:34:55) last pick:  1625.00  700.00
+\t (00:34:55) VIA used for drill.
+\t (00:34:55) No DRC errors detected.
+\i (00:34:55) delete 
+\i (00:34:56) pick grid 1641.90 696.61
+\t (00:34:56) last pick:  1650.00  700.00
+\t (00:34:56) Connect Line "N00387, Etch/Top"
+\i (00:34:56) pick grid dbl 1641.90 696.61
+\t (00:34:56) last pick:  1650.00  700.00
+\t (00:34:56) Connect Line "N00387, Etch/Top"
+\i (00:34:56) pick grid 1617.93 693.61
+\t (00:34:56) last pick:  1625.00  700.00
+\t (00:34:56) Via "Not On A Net, Via, (1625.00 700.00)"
+\i (00:34:56) pick grid dbl 1617.93 693.61
+\t (00:34:56) last pick:  1625.00  700.00
+\i (00:35:04) add connect 
+\t (00:35:04) Pick first element.
+\i (00:35:06) setwindow form.mini
+\i (00:35:06) FORM mini active_subclass TOP 
+\t (00:35:06) Pick first element.
+\i (00:35:07) FORM mini alt_subclass BOTTOM 
+\t (00:35:07) Pick first element.
+\i (00:35:16) setwindow pcb
+\i (00:35:16) pick grid 823.95 603.73
+\t (00:35:16) last pick:  825.00  600.00
+\t (00:35:16) last pick:  800.00  600.00
+\t (00:35:16) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:35:16) last pick:  800.00  600.00
+\i (00:35:18) pick grid 937.80 714.59
+\t (00:35:18) last pick:  950.00  725.00
+\t (00:35:18) No DRC errors detected.
+\i (00:35:20) pick grid 1965.49 717.58
+\t (00:35:20) last pick:  1975.00  725.00
+\t (00:35:20) No DRC errors detected.
+\i (00:35:22) pick grid 1937.03 716.09
+\t (00:35:22) last pick:  1925.00  725.00
+\t (00:35:22) No DRC errors detected.
+\i (00:35:22) mouse_pos 2062.87 531.82
+\i (00:35:23) mouse_pos 2046.39 566.28
+\i (00:35:24) pick grid 1880.10 713.09
+\t (00:35:24) last pick:  1875.00  725.00
+\t (00:35:24) No DRC errors detected.
+\i (00:35:24) mouse_pos 2065.86 516.84
+\i (00:35:25) pick grid 2083.84 512.35
+\t (00:35:25) last pick:  2075.00  500.00
+\t (00:35:25) No DRC errors detected.
+\t (00:35:25) Pick first element.
+\i (00:35:27) pick grid 1418.69 503.36
+\t (00:35:27) last pick:  1425.00  500.00
+\t (00:35:27) Pick first element.
+\t (00:35:27) last pick:  1400.00  500.00
+\t (00:35:27) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:35:27) last pick:  1400.00  500.00
+\i (00:35:29) pick grid 1586.47 681.63
+\t (00:35:29) last pick:  1575.00  675.00
+\t (00:35:29) No DRC errors detected.
+\i (00:35:32) mouse_pos 2065.86 437.44
+\i (00:35:32) pick grid 2091.33 411.97
+\t (00:35:32) last pick:  2100.00  400.00
+\t (00:35:32) No DRC errors detected.
+\t (00:35:32) Pick first element.
+\i (00:35:38) setwindow form.mini
+\i (00:35:38) FORM mini active_subclass BOTTOM 
+\t (00:35:38) Pick first element.
+\t (00:35:38) Pick first element.
+\i (00:35:39) FORM mini alt_subclass TOP 
+\t (00:35:39) Pick first element.
+\i (00:35:41) setwindow pcb
+\i (00:35:41) pick grid 1701.83 783.50
+\t (00:35:41) last pick:  1700.00  775.00
+\t (00:35:41) last pick:  1700.00  800.00
+\t (00:35:41) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:35:41) last pick:  1700.00  800.00
+\i (00:35:42) mouse_pos 1763.25 405.98
+\i (00:35:42) pick grid 1788.72 395.49
+\t (00:35:42) last pick:  1800.00  400.00
+\t (00:35:42) No DRC errors detected.
+\t (00:35:42) Pick first element.
+\i (00:35:43) pick grid 1291.35 793.99
+\t (00:35:43) last pick:  1300.00  800.00
+\t (00:35:43) Pick first element.
+\t (00:35:43) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:35:43) last pick:  1300.00  800.00
+\i (00:35:43) mouse_pos 1316.82 536.32
+\i (00:35:44) pick grid 1310.83 525.83
+\t (00:35:44) last pick:  1300.00  525.00
+\t (00:35:44) No DRC errors detected.
+\t (00:35:44) Pick first element.
+\i (00:35:45) pick grid 1397.72 494.37
+\t (00:35:45) last pick:  1400.00  500.00
+\t (00:35:45) Pick first element.
+\t (00:35:45) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:35:45) last pick:  1400.00  500.00
+\i (00:35:46) mouse_pos 1406.70 337.07
+\i (00:35:46) pick grid 1400.71 311.60
+\t (00:35:46) last pick:  1400.00  300.00
+\t (00:35:46) No DRC errors detected.
+\t (00:35:46) Pick first element.
+\i (00:35:49) place manual -h 
+\i (00:35:51) save 
+\i (00:35:52) fillin yes 
+\i (00:35:52) generaledit 
+\i (00:35:54) move 
+\t (00:35:54) Select element(s) to move.
+\i (00:35:58) pick grid 1462.13 377.52
+\t (00:35:58) last pick:  1450.00  375.00
+\t (00:35:58) last pick:  1426.00  390.00
+\t (00:35:58) Pick new location for the element(s).
+\i (00:36:04) prepopup 1351.27 579.76
+\i (00:36:05) rotate 
+\t (00:36:05) Spin the element(s).
+\i (00:36:06) iangle 90.000
+\t (00:36:06) last angle:  0.000 Degrees
+\i (00:36:07) pick grid 1235.92 570.77
+\t (00:36:07) last pick:  1225.00  575.00
+\i (00:36:08) pick grid 1355.77 368.53
+\t (00:36:08) last pick:  1350.00  375.00
+\t (00:36:08) last pick:  1368.00  367.00
+\t (00:36:08) Pick new location for the element(s).
+\i (00:36:10) prepopup 1285.36 365.53
+\i (00:36:11) rotate 
+\t (00:36:11) Spin the element(s).
+\i (00:36:12) iangle 90.000
+\t (00:36:12) last angle:  0.000 Degrees
+\i (00:36:15) pick grid 1414.19 564.78
+\t (00:36:15) last pick:  1425.00  575.00
+\i (00:36:17) pick grid 1357.27 367.03
+\t (00:36:17) last pick:  1350.00  375.00
+\t (00:36:17) last pick:  1372.00  355.00
+\t (00:36:17) Pick new location for the element(s).
+\i (00:36:18) pick grid 1309.33 311.60
+\t (00:36:18) last pick:  1300.00  300.00
+\w (00:36:22) Save Pending
+\i (00:36:27) place manual -h 
+\i (00:36:27) save 
+\i (00:36:28) fillin yes 
+\i (00:36:28) generaledit 
+\i (00:36:29) place manual -h 
+\i (00:39:48) add connect 
+\t (00:39:48) Pick first element.
+\i (00:39:50) pick grid 2112.30 904.84
+\t (00:39:50) last pick:  2100.00  900.00
+\t (00:39:50) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:39:50) last pick:  2100.00  900.00
+\i (00:39:53) pick grid 2188.71 804.47
+\t (00:39:53) last pick:  2200.00  800.00
+\t (00:39:53) No DRC errors detected.
+\i (00:39:54) pick grid 2205.18 435.94
+\t (00:39:54) last pick:  2200.00  425.00
+\t (00:39:54) No DRC errors detected.
+\i (00:39:55) mouse_pos 2136.27 405.98
+\i (00:39:55) mouse_pos 2148.26 413.47
+\i (00:39:56) pick grid 2203.69 462.91
+\t (00:39:56) last pick:  2200.00  475.00
+\t (00:39:56) No DRC errors detected.
+\i (00:39:56) mouse_pos 2128.78 429.95
+\i (00:39:57) pick grid 2110.80 425.46
+\t (00:39:57) last pick:  2100.00  425.00
+\t (00:39:57) No DRC errors detected.
+\t (00:39:57) Pick first element.
+\i (00:39:58) save 
+\i (00:39:59) fillin yes 
+\i (00:39:59) generaledit 
+\i (00:40:01) place manual -h 
+\i (00:40:01) save 
+\i (00:40:02) fillin yes 
+\i (00:40:02) generaledit 
+\i (00:44:23) pick grid 1237.42 585.75
+\t (00:44:23) last pick:  1225.00  575.00
+\i (00:44:24) pick grid 1204.46 590.25
+\t (00:44:24) last pick:  1200.00  600.00
+\i (00:44:26) move 
+\t (00:44:26) last pick:  1225.00  575.00
+\t (00:44:26) Pick new location for the element(s).
+\i (00:44:29) pick grid 1192.48 533.32
+\t (00:44:29) last pick:  1200.00  525.00
+\i (00:44:29) generaledit 
+\i (00:44:31) save 
+\i (00:44:32) fillin yes 
+\i (00:44:32) generaledit 
+\i (00:48:36) exit 
+\t (00:48:36)     Journal end - Tue Nov 08 14:39:37 2016
