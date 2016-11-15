@@ -1,0 +1,18 @@
+\t (00:00:00) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:00)     Journal start - Tue Nov 15 14:06:10 2016
+\t (00:00:00)         Host=510-17-PC User=510-00 Pid=6064 CPUs=4
+\t (00:00:00) 
+\t (00:00:02) Opening existing design...
+\d (00:00:02) Database opened: C:/A_2012041067/1115/allegro/LED2.brd
+\i (00:00:02) trapsize 2152
+\i (00:00:02) trapsize 2106
+\i (00:00:02) trapsize 2160
+\i (00:00:02) trapsize 1830
+\i (00:00:02) trapsize 1830
+\i (00:00:03) generaledit 
+\i (00:00:04) open 
+\i (00:00:09) fillin "C:\A_2012041067\1115\led.brd"
+\i (00:00:09) cd "C:\A_2012041067\1115"
+\t (00:00:09) Opening existing design...
+\i (00:00:09) trapsize 2036
+\t (00:00:09)     Journal end - Tue Nov 15 14:06:19 2016
