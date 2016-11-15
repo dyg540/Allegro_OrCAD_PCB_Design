@@ -1,0 +1,46 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : LED.brd                                       )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Tue Nov 15 12:15:17 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+         Placed symbol:  U2 / CD4017B_DIP16_3_CD4017B / DIP16_3 at (2753.00 2702.00)
+         Placed symbol:  U1 / 74LS00_DIP14_3_74LS00 / DIP14_3 at (2758.00 1831.50)
+         Placed symbol:  C2 / CAP_CAP196_470UF / CAP196 at (2818.00 998.50)
+         Placed symbol:  D1 / LED_CAP196_LED / CAP196 at (2818.00 790.50)
+         Placed symbol:  D10 / LED_CAP196_LED / CAP196 at (2818.00 582.50)
+         Placed symbol:  D2 / LED_CAP196_LED / CAP196 at (2818.00 374.50)
+         Placed symbol:  D3 / LED_CAP196_LED / CAP196 at (2818.00 166.50)
+         Placed symbol:  D4 / LED_CAP196_LED / CAP196 at (3226.00 2642.00)
+         Placed symbol:  D5 / LED_CAP196_LED / CAP196 at (3226.00 2434.00)
+         Placed symbol:  D6 / LED_CAP196_LED / CAP196 at (3226.00 2226.00)
+         Placed symbol:  D7 / LED_CAP196_LED / CAP196 at (3226.00 2018.00)
+         Placed symbol:  D8 / LED_CAP196_LED / CAP196 at (3226.00 1810.00)
+         Placed symbol:  D9 / LED_CAP196_LED / CAP196 at (3226.00 1602.00)
+         Placed symbol:  C1 / CAP_CAP196_470UF / CAP196 at (3226.00 1394.00)
+         Placed symbol:  R2 / R_RES400_1K / RES400 at (3189.00 889.50)
+         Placed symbol:  R10 / R_RES400_330 / RES400 at (3189.00 388.50)
+         Placed symbol:  R11 / R_RES400_330 / RES400 at (3417.00 2345.50)
+         Placed symbol:  R12 / R_RES400_330 / RES400 at (3417.00 1844.50)
+         Placed symbol:  R3 / R_RES400_330 / RES400 at (3417.00 1343.50)
+         Placed symbol:  R4 / R_RES400_330 / RES400 at (3417.00 842.50)
+         Placed symbol:  R5 / R_RES400_330 / RES400 at (3417.00 341.50)
+         Placed symbol:  R6 / R_RES400_330 / RES400 at (3548.00 2345.50)
+         Placed symbol:  R7 / R_RES400_330 / RES400 at (3548.00 1844.50)
+         Placed symbol:  R8 / R_RES400_330 / RES400 at (3548.00 1343.50)
+         Placed symbol:  R9 / R_RES400_330 / RES400 at (3548.00 842.50)
+         Placed symbol:  R1 / R_RES400_1K / RES400 at (3548.00 341.50)
+         Placed symbol:  BT1 / BATTERY_JUMPER2_BATTERY / JUMPER2 at (3525.00 237.00)
+
+
+Placed 27 of 27 applicable (27 total) symbols.
+
+-----------------------------------------------------------------------
+
